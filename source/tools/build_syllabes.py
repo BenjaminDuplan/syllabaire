@@ -154,6 +154,7 @@ TTS_MESURE = {
     "hi": "hie",
     "hé": "héh",
     "jan": "jant",
+    "jau": "jaux",
     "jin": "jint",
     "join": "joint",
     "jon": "jont",

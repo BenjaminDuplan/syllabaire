@@ -3637,7 +3637,8 @@
   "consonne": "j",
   "voyelle": "au",
   "texte": "jau",
-  "palier": 3
+  "palier": 3,
+  "tts": "jaux"
  },
  {
   "id": "j-an",
