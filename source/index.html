@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Syllabaire</title>
+<meta name="description" content="Jeu de lecture de syllabes, script et cursive.">
+<meta name="theme-color" content="#FFF4E2">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Syllabaire">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preload" href="fonts/Andika-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/EcritureA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/rewards.css">
+<link rel="stylesheet" href="css/parent.css">
+<link rel="stylesheet" href="css/ecoute.css">
+</head>
+<body>
+<main id="ecran"></main>
+<canvas id="confettis"></canvas>
+<script type="module" src="js/app.js"></script>
+<script>
+  // Hors ligne : le service worker met en cache tout le jeu (généré par tools/build_sw.py).
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+  }
+</script>
+</body>
+</html>

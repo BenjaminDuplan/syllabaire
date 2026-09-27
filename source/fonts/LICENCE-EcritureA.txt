@@ -1,0 +1,52 @@
+Police « Écriture A » (fichier EcritureA-Romain.otf → EcritureA.woff2)
+=======================================================================
+
+Police cursive scolaire mise à disposition de la communauté éducative par le
+ministère de l'Éducation nationale (Direction générale de l'enseignement
+scolaire), publiée en 2013 et diffusée par Éduscol.
+
+Auteurs / titulaires des droits (table « name » de la police, ID 0 et 8) :
+  Copyright (c) 2013 by Malou Verlomme, Laurence Bedoin, Marion Andrews
+  & le Ministère de l'Éducation Nationale. All rights reserved.
+  Modèle « A » conçu par Laurence Bedoin-Collard et Héloïse Tissot ;
+  numérisation Malou Verlomme, Laurence Bedoin, Marion Andrews.
+  « Ecriture is a trademark of Malou Verlomme, Laurence Bedoin, Marion
+  Andrews & le Ministère de l'Éducation Nationale. »
+
+Origine
+-------
+Page officielle (Éduscol) :
+  https://eduscol.education.gouv.fr/6690/polices-de-caracteres-cursives-pour-l-enseignement-de-l-ecriture
+  (anciennes adresses : https://eduscol.education.fr/1486/polices-de-caracteres-cursives-pour-l-enseignement-de-l-ecriture
+   et http://eduscol.education.fr/cid72979/polices-de-caracteres-cursives-pour-l-enseignement-de-l-ecriture.html)
+Archive ZIP officielle (identifiant 260449, 8 fichiers OTF datés du 28/06/2013) :
+  https://eduscol.education.gouv.fr/sites/default/files/document/ecriturea260449zip-76293.zip
+  anciennement http://cache.media.eduscol.education.fr/file/premier_degre/44/9/EcritureA_260449.zip
+Copie effectivement téléchargée le 27/09/2026 (le site Éduscol refuse les
+téléchargements hors navigateur) — capture Internet Archive du 06/10/2013 de
+l'archive originale, SHA-1 e5f9125d57891174dd9077b41f0be2723b95a102 :
+  https://web.archive.org/web/20131006151550id_/http://cache.media.eduscol.education.fr/file/premier_degre/44/9/EcritureA_260449.zip
+Document d'accompagnement (intentions techniques et pédagogiques) :
+  https://eduscol.education.gouv.fr/sites/default/files/document/documentaccompagnementpolicesdecaracterescursivesv2295059pdf-76290.pdf
+
+Droits d'utilisation (texte de la page Éduscol, rubrique « Droits d'utilisation »)
+------------------------------------------------------------------------------------
+« Elles sont disponibles sous licence "Creative Commons - BY - ND" (BY :
+citation obligatoire des titulaires des droits ; ND : pas de modifications
+autorisées hormis celles de l'auteur). Cette licence autorise une utilisation
+pour toute production et diffusion de documents. Ces polices de caractères
+peuvent aussi être exploitées dans le cadre d'une utilisation commerciale sous
+réserve d'une citation des titulaires des droits. »
+
+Licence : Creative Commons Attribution – Pas de modification (CC BY-ND)
+  https://creativecommons.org/licenses/by-nd/4.0/deed.fr
+
+Note sur le fichier EcritureA.woff2
+-----------------------------------
+EcritureA.woff2 est une simple ré-encapsulation (conteneur WOFF2, compression
+Brotli) du fichier officiel EcritureA-Romain.otf, réalisée avec fontTools :
+aucun glyphe, aucune métrique ni aucune table n'ont été modifiés. Les 8 OTF
+d'origine sont conservés tels quels dans le sous-dossier « originaux/ ».
+Attribution à faire figurer dans l'application : « Police Écriture A ©
+2013 Malou Verlomme, Laurence Bedoin, Marion Andrews & ministère de
+l'Éducation nationale – CC BY-ND – eduscol.education.gouv.fr ».

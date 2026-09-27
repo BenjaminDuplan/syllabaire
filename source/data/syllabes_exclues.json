@@ -1,0 +1,3634 @@
+[
+ {
+  "id": "l-oeu",
+  "consonne": "l",
+  "voyelle": "oeu",
+  "texte": "loeu",
+  "palier": 5,
+  "regle": "consonne simple : tout sauf « oeu »"
+ },
+ {
+  "id": "r-oeu",
+  "consonne": "r",
+  "voyelle": "oeu",
+  "texte": "roeu",
+  "palier": 5,
+  "regle": "consonne simple : tout sauf « oeu »"
+ },
+ {
+  "id": "t-oeu",
+  "consonne": "t",
+  "voyelle": "oeu",
+  "texte": "toeu",
+  "palier": 5,
+  "regle": "consonne simple : tout sauf « oeu »"
+ },
+ {
+  "id": "p-oeu",
+  "consonne": "p",
+  "voyelle": "oeu",
+  "texte": "poeu",
+  "palier": 5,
+  "regle": "consonne simple : tout sauf « oeu »"
+ },
+ {
+  "id": "d-oeu",
+  "consonne": "d",
+  "voyelle": "oeu",
+  "texte": "doeu",
+  "palier": 5,
+  "regle": "consonne simple : tout sauf « oeu »"
+ },
+ {
+  "id": "f-oeu",
+  "consonne": "f",
+  "voyelle": "oeu",
+  "texte": "foeu",
+  "palier": 5,
+  "regle": "consonne simple : tout sauf « oeu »"
+ },
+ {
+  "id": "z-y",
+  "consonne": "z",
+  "voyelle": "y",
+  "texte": "zy",
+  "palier": 2,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-ez",
+  "consonne": "z",
+  "voyelle": "ez",
+  "texte": "zez",
+  "palier": 4,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-ecirc",
+  "consonne": "z",
+  "voyelle": "ecirc",
+  "texte": "zê",
+  "palier": 2,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-oi",
+  "consonne": "z",
+  "voyelle": "oi",
+  "texte": "zoi",
+  "palier": 3,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-au",
+  "consonne": "z",
+  "voyelle": "au",
+  "texte": "zau",
+  "palier": 3,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-eau",
+  "consonne": "z",
+  "voyelle": "eau",
+  "texte": "zeau",
+  "palier": 3,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-en",
+  "consonne": "z",
+  "voyelle": "en",
+  "texte": "zen",
+  "palier": 3,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-ai",
+  "consonne": "z",
+  "voyelle": "ai",
+  "texte": "zai",
+  "palier": 4,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-ei",
+  "consonne": "z",
+  "voyelle": "ei",
+  "texte": "zei",
+  "palier": 4,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-ain",
+  "consonne": "z",
+  "voyelle": "ain",
+  "texte": "zain",
+  "palier": 5,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-ein",
+  "consonne": "z",
+  "voyelle": "ein",
+  "texte": "zein",
+  "palier": 5,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-eu",
+  "consonne": "z",
+  "voyelle": "eu",
+  "texte": "zeu",
+  "palier": 5,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-oeu",
+  "consonne": "z",
+  "voyelle": "oeu",
+  "texte": "zoeu",
+  "palier": 5,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-ieu",
+  "consonne": "z",
+  "voyelle": "ieu",
+  "texte": "zieu",
+  "palier": 6,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-elle",
+  "consonne": "z",
+  "voyelle": "elle",
+  "texte": "zelle",
+  "palier": 6,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-enne",
+  "consonne": "z",
+  "voyelle": "enne",
+  "texte": "zenne",
+  "palier": 6,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-erre",
+  "consonne": "z",
+  "voyelle": "erre",
+  "texte": "zerre",
+  "palier": 6,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-esse",
+  "consonne": "z",
+  "voyelle": "esse",
+  "texte": "zesse",
+  "palier": 6,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-ette",
+  "consonne": "z",
+  "voyelle": "ette",
+  "texte": "zette",
+  "palier": 6,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-ill",
+  "consonne": "z",
+  "voyelle": "ill",
+  "texte": "zill",
+  "palier": 6,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-ail",
+  "consonne": "z",
+  "voyelle": "ail",
+  "texte": "zail",
+  "palier": 6,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-eil",
+  "consonne": "z",
+  "voyelle": "eil",
+  "texte": "zeil",
+  "palier": 6,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-euil",
+  "consonne": "z",
+  "voyelle": "euil",
+  "texte": "zeuil",
+  "palier": 6,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "z-ouil",
+  "consonne": "z",
+  "voyelle": "ouil",
+  "texte": "zouil",
+  "palier": 6,
+  "regle": "z : voyelles courantes, zin, zion… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "c-y",
+  "consonne": "c",
+  "voyelle": "y",
+  "texte": "cy",
+  "palier": 3,
+  "regle": "c : c dur (ca, co, cu) et c doux (ce, ci) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "c-ez",
+  "consonne": "c",
+  "voyelle": "ez",
+  "texte": "cez",
+  "palier": 4,
+  "regle": "c : c dur (ca, co, cu) et c doux (ce, ci) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "c-enne",
+  "consonne": "c",
+  "voyelle": "enne",
+  "texte": "cenne",
+  "palier": 6,
+  "regle": "c : c dur (ca, co, cu) et c doux (ce, ci) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "c-erre",
+  "consonne": "c",
+  "voyelle": "erre",
+  "texte": "cerre",
+  "palier": 6,
+  "regle": "c : c dur (ca, co, cu) et c doux (ce, ci) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "c-ill",
+  "consonne": "c",
+  "voyelle": "ill",
+  "texte": "cill",
+  "palier": 6,
+  "regle": "c : c dur (ca, co, cu) et c doux (ce, ci) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "c-ouil",
+  "consonne": "c",
+  "voyelle": "ouil",
+  "texte": "couil",
+  "palier": 6,
+  "regle": "syllabe vulgaire"
+ },
+ {
+  "id": "j-y",
+  "consonne": "j",
+  "voyelle": "y",
+  "texte": "jy",
+  "palier": 3,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-ecirc",
+  "consonne": "j",
+  "voyelle": "ecirc",
+  "texte": "jê",
+  "palier": 3,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-eau",
+  "consonne": "j",
+  "voyelle": "eau",
+  "texte": "jeau",
+  "palier": 3,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-ei",
+  "consonne": "j",
+  "voyelle": "ei",
+  "texte": "jei",
+  "palier": 4,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-ain",
+  "consonne": "j",
+  "voyelle": "ain",
+  "texte": "jain",
+  "palier": 5,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-ein",
+  "consonne": "j",
+  "voyelle": "ein",
+  "texte": "jein",
+  "palier": 5,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-oeu",
+  "consonne": "j",
+  "voyelle": "oeu",
+  "texte": "joeu",
+  "palier": 5,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-ian",
+  "consonne": "j",
+  "voyelle": "ian",
+  "texte": "jian",
+  "palier": 6,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-ion",
+  "consonne": "j",
+  "voyelle": "ion",
+  "texte": "jion",
+  "palier": 6,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-ien",
+  "consonne": "j",
+  "voyelle": "ien",
+  "texte": "jien",
+  "palier": 6,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-ieu",
+  "consonne": "j",
+  "voyelle": "ieu",
+  "texte": "jieu",
+  "palier": 6,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-elle",
+  "consonne": "j",
+  "voyelle": "elle",
+  "texte": "jelle",
+  "palier": 6,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-enne",
+  "consonne": "j",
+  "voyelle": "enne",
+  "texte": "jenne",
+  "palier": 6,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-erre",
+  "consonne": "j",
+  "voyelle": "erre",
+  "texte": "jerre",
+  "palier": 6,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-esse",
+  "consonne": "j",
+  "voyelle": "esse",
+  "texte": "jesse",
+  "palier": 6,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-ill",
+  "consonne": "j",
+  "voyelle": "ill",
+  "texte": "jill",
+  "palier": 6,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-ail",
+  "consonne": "j",
+  "voyelle": "ail",
+  "texte": "jail",
+  "palier": 6,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-eil",
+  "consonne": "j",
+  "voyelle": "eil",
+  "texte": "jeil",
+  "palier": 6,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-euil",
+  "consonne": "j",
+  "voyelle": "euil",
+  "texte": "jeuil",
+  "palier": 6,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "j-ouil",
+  "consonne": "j",
+  "voyelle": "ouil",
+  "texte": "jouil",
+  "palier": 6,
+  "regle": "j : voyelles courantes, finales, ette, oin"
+ },
+ {
+  "id": "ch-y",
+  "consonne": "ch",
+  "voyelle": "y",
+  "texte": "chy",
+  "palier": 3,
+  "regle": "ch : courantes, finales, elle/ette/esse, ien"
+ },
+ {
+  "id": "ch-eau",
+  "consonne": "ch",
+  "voyelle": "eau",
+  "texte": "cheau",
+  "palier": 3,
+  "regle": "ch : courantes, finales, elle/ette/esse, ien"
+ },
+ {
+  "id": "ch-ei",
+  "consonne": "ch",
+  "voyelle": "ei",
+  "texte": "chei",
+  "palier": 4,
+  "regle": "ch : courantes, finales, elle/ette/esse, ien"
+ },
+ {
+  "id": "ch-ain",
+  "consonne": "ch",
+  "voyelle": "ain",
+  "texte": "chain",
+  "palier": 5,
+  "regle": "ch : courantes, finales, elle/ette/esse, ien"
+ },
+ {
+  "id": "ch-ein",
+  "consonne": "ch",
+  "voyelle": "ein",
+  "texte": "chein",
+  "palier": 5,
+  "regle": "ch : courantes, finales, elle/ette/esse, ien"
+ },
+ {
+  "id": "ch-oin",
+  "consonne": "ch",
+  "voyelle": "oin",
+  "texte": "choin",
+  "palier": 5,
+  "regle": "ch : courantes, finales, elle/ette/esse, ien"
+ },
+ {
+  "id": "ch-oeu",
+  "consonne": "ch",
+  "voyelle": "oeu",
+  "texte": "choeu",
+  "palier": 5,
+  "regle": "ch : courantes, finales, elle/ette/esse, ien"
+ },
+ {
+  "id": "ch-ian",
+  "consonne": "ch",
+  "voyelle": "ian",
+  "texte": "chian",
+  "palier": 6,
+  "regle": "ch : courantes, finales, elle/ette/esse, ien"
+ },
+ {
+  "id": "ch-ion",
+  "consonne": "ch",
+  "voyelle": "ion",
+  "texte": "chion",
+  "palier": 6,
+  "regle": "ch : courantes, finales, elle/ette/esse, ien"
+ },
+ {
+  "id": "ch-ieu",
+  "consonne": "ch",
+  "voyelle": "ieu",
+  "texte": "chieu",
+  "palier": 6,
+  "regle": "ch : courantes, finales, elle/ette/esse, ien"
+ },
+ {
+  "id": "ch-enne",
+  "consonne": "ch",
+  "voyelle": "enne",
+  "texte": "chenne",
+  "palier": 6,
+  "regle": "ch : courantes, finales, elle/ette/esse, ien"
+ },
+ {
+  "id": "ch-erre",
+  "consonne": "ch",
+  "voyelle": "erre",
+  "texte": "cherre",
+  "palier": 6,
+  "regle": "ch : courantes, finales, elle/ette/esse, ien"
+ },
+ {
+  "id": "ch-ill",
+  "consonne": "ch",
+  "voyelle": "ill",
+  "texte": "chill",
+  "palier": 6,
+  "regle": "ch : courantes, finales, elle/ette/esse, ien"
+ },
+ {
+  "id": "ch-ail",
+  "consonne": "ch",
+  "voyelle": "ail",
+  "texte": "chail",
+  "palier": 6,
+  "regle": "ch : courantes, finales, elle/ette/esse, ien"
+ },
+ {
+  "id": "ch-eil",
+  "consonne": "ch",
+  "voyelle": "eil",
+  "texte": "cheil",
+  "palier": 6,
+  "regle": "ch : courantes, finales, elle/ette/esse, ien"
+ },
+ {
+  "id": "ch-euil",
+  "consonne": "ch",
+  "voyelle": "euil",
+  "texte": "cheuil",
+  "palier": 6,
+  "regle": "ch : courantes, finales, elle/ette/esse, ien"
+ },
+ {
+  "id": "ch-ouil",
+  "consonne": "ch",
+  "voyelle": "ouil",
+  "texte": "chouil",
+  "palier": 6,
+  "regle": "ch : courantes, finales, elle/ette/esse, ien"
+ },
+ {
+  "id": "h-y",
+  "consonne": "h",
+  "voyelle": "y",
+  "texte": "hy",
+  "palier": 3,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-ez",
+  "consonne": "h",
+  "voyelle": "ez",
+  "texte": "hez",
+  "palier": 4,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-oi",
+  "consonne": "h",
+  "voyelle": "oi",
+  "texte": "hoi",
+  "palier": 3,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-eau",
+  "consonne": "h",
+  "voyelle": "eau",
+  "texte": "heau",
+  "palier": 3,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-en",
+  "consonne": "h",
+  "voyelle": "en",
+  "texte": "hen",
+  "palier": 3,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-ei",
+  "consonne": "h",
+  "voyelle": "ei",
+  "texte": "hei",
+  "palier": 4,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-et",
+  "consonne": "h",
+  "voyelle": "et",
+  "texte": "het",
+  "palier": 4,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-in",
+  "consonne": "h",
+  "voyelle": "in",
+  "texte": "hin",
+  "palier": 4,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-ain",
+  "consonne": "h",
+  "voyelle": "ain",
+  "texte": "hain",
+  "palier": 5,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-oin",
+  "consonne": "h",
+  "voyelle": "oin",
+  "texte": "hoin",
+  "palier": 5,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-oeu",
+  "consonne": "h",
+  "voyelle": "oeu",
+  "texte": "hoeu",
+  "palier": 5,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-ian",
+  "consonne": "h",
+  "voyelle": "ian",
+  "texte": "hian",
+  "palier": 6,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-ion",
+  "consonne": "h",
+  "voyelle": "ion",
+  "texte": "hion",
+  "palier": 6,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-ien",
+  "consonne": "h",
+  "voyelle": "ien",
+  "texte": "hien",
+  "palier": 6,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-ieu",
+  "consonne": "h",
+  "voyelle": "ieu",
+  "texte": "hieu",
+  "palier": 6,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-elle",
+  "consonne": "h",
+  "voyelle": "elle",
+  "texte": "helle",
+  "palier": 6,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-enne",
+  "consonne": "h",
+  "voyelle": "enne",
+  "texte": "henne",
+  "palier": 6,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-erre",
+  "consonne": "h",
+  "voyelle": "erre",
+  "texte": "herre",
+  "palier": 6,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-esse",
+  "consonne": "h",
+  "voyelle": "esse",
+  "texte": "hesse",
+  "palier": 6,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-ette",
+  "consonne": "h",
+  "voyelle": "ette",
+  "texte": "hette",
+  "palier": 6,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-ill",
+  "consonne": "h",
+  "voyelle": "ill",
+  "texte": "hill",
+  "palier": 6,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-ail",
+  "consonne": "h",
+  "voyelle": "ail",
+  "texte": "hail",
+  "palier": 6,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-eil",
+  "consonne": "h",
+  "voyelle": "eil",
+  "texte": "heil",
+  "palier": 6,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-euil",
+  "consonne": "h",
+  "voyelle": "euil",
+  "texte": "heuil",
+  "palier": 6,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "h-ouil",
+  "consonne": "h",
+  "voyelle": "ouil",
+  "texte": "houil",
+  "palier": 6,
+  "regle": "h : voyelles courantes seulement"
+ },
+ {
+  "id": "ccedil-i",
+  "consonne": "ccedil",
+  "voyelle": "i",
+  "texte": "çi",
+  "palier": 3,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-y",
+  "consonne": "ccedil",
+  "voyelle": "y",
+  "texte": "çy",
+  "palier": 3,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-u",
+  "consonne": "ccedil",
+  "voyelle": "u",
+  "texte": "çu",
+  "palier": 3,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-o",
+  "consonne": "ccedil",
+  "voyelle": "o",
+  "texte": "ço",
+  "palier": 3,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-e",
+  "consonne": "ccedil",
+  "voyelle": "e",
+  "texte": "çe",
+  "palier": 3,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-eacute",
+  "consonne": "ccedil",
+  "voyelle": "eacute",
+  "texte": "çé",
+  "palier": 3,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-er",
+  "consonne": "ccedil",
+  "voyelle": "er",
+  "texte": "çer",
+  "palier": 4,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-ez",
+  "consonne": "ccedil",
+  "voyelle": "ez",
+  "texte": "çez",
+  "palier": 4,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-ou",
+  "consonne": "ccedil",
+  "voyelle": "ou",
+  "texte": "çou",
+  "palier": 3,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-egrave",
+  "consonne": "ccedil",
+  "voyelle": "egrave",
+  "texte": "çè",
+  "palier": 3,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-ecirc",
+  "consonne": "ccedil",
+  "voyelle": "ecirc",
+  "texte": "çê",
+  "palier": 3,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-oi",
+  "consonne": "ccedil",
+  "voyelle": "oi",
+  "texte": "çoi",
+  "palier": 3,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-au",
+  "consonne": "ccedil",
+  "voyelle": "au",
+  "texte": "çau",
+  "palier": 3,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-eau",
+  "consonne": "ccedil",
+  "voyelle": "eau",
+  "texte": "çeau",
+  "palier": 3,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-an",
+  "consonne": "ccedil",
+  "voyelle": "an",
+  "texte": "çan",
+  "palier": 3,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-en",
+  "consonne": "ccedil",
+  "voyelle": "en",
+  "texte": "çen",
+  "palier": 3,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-ai",
+  "consonne": "ccedil",
+  "voyelle": "ai",
+  "texte": "çai",
+  "palier": 4,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-ei",
+  "consonne": "ccedil",
+  "voyelle": "ei",
+  "texte": "çei",
+  "palier": 4,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-et",
+  "consonne": "ccedil",
+  "voyelle": "et",
+  "texte": "çet",
+  "palier": 4,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-in",
+  "consonne": "ccedil",
+  "voyelle": "in",
+  "texte": "çin",
+  "palier": 4,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-ain",
+  "consonne": "ccedil",
+  "voyelle": "ain",
+  "texte": "çain",
+  "palier": 5,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-ein",
+  "consonne": "ccedil",
+  "voyelle": "ein",
+  "texte": "çein",
+  "palier": 5,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-oin",
+  "consonne": "ccedil",
+  "voyelle": "oin",
+  "texte": "çoin",
+  "palier": 5,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-eu",
+  "consonne": "ccedil",
+  "voyelle": "eu",
+  "texte": "çeu",
+  "palier": 5,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-oeu",
+  "consonne": "ccedil",
+  "voyelle": "oeu",
+  "texte": "çoeu",
+  "palier": 5,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-ian",
+  "consonne": "ccedil",
+  "voyelle": "ian",
+  "texte": "çian",
+  "palier": 6,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-ion",
+  "consonne": "ccedil",
+  "voyelle": "ion",
+  "texte": "çion",
+  "palier": 6,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-ien",
+  "consonne": "ccedil",
+  "voyelle": "ien",
+  "texte": "çien",
+  "palier": 6,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-ieu",
+  "consonne": "ccedil",
+  "voyelle": "ieu",
+  "texte": "çieu",
+  "palier": 6,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-elle",
+  "consonne": "ccedil",
+  "voyelle": "elle",
+  "texte": "çelle",
+  "palier": 6,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-enne",
+  "consonne": "ccedil",
+  "voyelle": "enne",
+  "texte": "çenne",
+  "palier": 6,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-erre",
+  "consonne": "ccedil",
+  "voyelle": "erre",
+  "texte": "çerre",
+  "palier": 6,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-esse",
+  "consonne": "ccedil",
+  "voyelle": "esse",
+  "texte": "çesse",
+  "palier": 6,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-ette",
+  "consonne": "ccedil",
+  "voyelle": "ette",
+  "texte": "çette",
+  "palier": 6,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-ill",
+  "consonne": "ccedil",
+  "voyelle": "ill",
+  "texte": "çill",
+  "palier": 6,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-ail",
+  "consonne": "ccedil",
+  "voyelle": "ail",
+  "texte": "çail",
+  "palier": 6,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-eil",
+  "consonne": "ccedil",
+  "voyelle": "eil",
+  "texte": "çeil",
+  "palier": 6,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-euil",
+  "consonne": "ccedil",
+  "voyelle": "euil",
+  "texte": "çeuil",
+  "palier": 6,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ccedil-ouil",
+  "consonne": "ccedil",
+  "voyelle": "ouil",
+  "texte": "çouil",
+  "palier": 6,
+  "regle": "ç : seulement « ça » — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-ez",
+  "consonne": "ph",
+  "voyelle": "ez",
+  "texte": "phez",
+  "palier": 4,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-ecirc",
+  "consonne": "ph",
+  "voyelle": "ecirc",
+  "texte": "phê",
+  "palier": 3,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-oi",
+  "consonne": "ph",
+  "voyelle": "oi",
+  "texte": "phoi",
+  "palier": 3,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-au",
+  "consonne": "ph",
+  "voyelle": "au",
+  "texte": "phau",
+  "palier": 3,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-eau",
+  "consonne": "ph",
+  "voyelle": "eau",
+  "texte": "pheau",
+  "palier": 3,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-en",
+  "consonne": "ph",
+  "voyelle": "en",
+  "texte": "phen",
+  "palier": 3,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-ai",
+  "consonne": "ph",
+  "voyelle": "ai",
+  "texte": "phai",
+  "palier": 4,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-ei",
+  "consonne": "ph",
+  "voyelle": "ei",
+  "texte": "phei",
+  "palier": 4,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-et",
+  "consonne": "ph",
+  "voyelle": "et",
+  "texte": "phet",
+  "palier": 4,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-in",
+  "consonne": "ph",
+  "voyelle": "in",
+  "texte": "phin",
+  "palier": 4,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-ain",
+  "consonne": "ph",
+  "voyelle": "ain",
+  "texte": "phain",
+  "palier": 5,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-ein",
+  "consonne": "ph",
+  "voyelle": "ein",
+  "texte": "phein",
+  "palier": 5,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-oin",
+  "consonne": "ph",
+  "voyelle": "oin",
+  "texte": "phoin",
+  "palier": 5,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-eu",
+  "consonne": "ph",
+  "voyelle": "eu",
+  "texte": "pheu",
+  "palier": 5,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-oeu",
+  "consonne": "ph",
+  "voyelle": "oeu",
+  "texte": "phoeu",
+  "palier": 5,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-ian",
+  "consonne": "ph",
+  "voyelle": "ian",
+  "texte": "phian",
+  "palier": 6,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-ion",
+  "consonne": "ph",
+  "voyelle": "ion",
+  "texte": "phion",
+  "palier": 6,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-ien",
+  "consonne": "ph",
+  "voyelle": "ien",
+  "texte": "phien",
+  "palier": 6,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-ieu",
+  "consonne": "ph",
+  "voyelle": "ieu",
+  "texte": "phieu",
+  "palier": 6,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-elle",
+  "consonne": "ph",
+  "voyelle": "elle",
+  "texte": "phelle",
+  "palier": 6,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-enne",
+  "consonne": "ph",
+  "voyelle": "enne",
+  "texte": "phenne",
+  "palier": 6,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-erre",
+  "consonne": "ph",
+  "voyelle": "erre",
+  "texte": "pherre",
+  "palier": 6,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-esse",
+  "consonne": "ph",
+  "voyelle": "esse",
+  "texte": "phesse",
+  "palier": 6,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-ette",
+  "consonne": "ph",
+  "voyelle": "ette",
+  "texte": "phette",
+  "palier": 6,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-ill",
+  "consonne": "ph",
+  "voyelle": "ill",
+  "texte": "phill",
+  "palier": 6,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-ail",
+  "consonne": "ph",
+  "voyelle": "ail",
+  "texte": "phail",
+  "palier": 6,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-eil",
+  "consonne": "ph",
+  "voyelle": "eil",
+  "texte": "pheil",
+  "palier": 6,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-euil",
+  "consonne": "ph",
+  "voyelle": "euil",
+  "texte": "pheuil",
+  "palier": 6,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ph-ouil",
+  "consonne": "ph",
+  "voyelle": "ouil",
+  "texte": "phouil",
+  "palier": 6,
+  "regle": "ph : phare, photo, éléphant… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "g-in",
+  "consonne": "g",
+  "voyelle": "in",
+  "texte": "gin",
+  "palier": 4,
+  "regle": "g : g dur (ga, go) et g doux (ge, gi) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "g-ein",
+  "consonne": "g",
+  "voyelle": "ein",
+  "texte": "gein",
+  "palier": 5,
+  "regle": "g : g dur (ga, go) et g doux (ge, gi) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "g-eu",
+  "consonne": "g",
+  "voyelle": "eu",
+  "texte": "geu",
+  "palier": 5,
+  "regle": "g : g dur (ga, go) et g doux (ge, gi) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "g-oeu",
+  "consonne": "g",
+  "voyelle": "oeu",
+  "texte": "goeu",
+  "palier": 5,
+  "regle": "g : g dur (ga, go) et g doux (ge, gi) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "g-ian",
+  "consonne": "g",
+  "voyelle": "ian",
+  "texte": "gian",
+  "palier": 6,
+  "regle": "g : g dur (ga, go) et g doux (ge, gi) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "g-ieu",
+  "consonne": "g",
+  "voyelle": "ieu",
+  "texte": "gieu",
+  "palier": 6,
+  "regle": "g : g dur (ga, go) et g doux (ge, gi) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "g-elle",
+  "consonne": "g",
+  "voyelle": "elle",
+  "texte": "gelle",
+  "palier": 6,
+  "regle": "g : g dur (ga, go) et g doux (ge, gi) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "g-enne",
+  "consonne": "g",
+  "voyelle": "enne",
+  "texte": "genne",
+  "palier": 6,
+  "regle": "g : g dur (ga, go) et g doux (ge, gi) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "g-erre",
+  "consonne": "g",
+  "voyelle": "erre",
+  "texte": "gerre",
+  "palier": 6,
+  "regle": "g : g dur (ga, go) et g doux (ge, gi) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "g-esse",
+  "consonne": "g",
+  "voyelle": "esse",
+  "texte": "gesse",
+  "palier": 6,
+  "regle": "g : g dur (ga, go) et g doux (ge, gi) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "g-ette",
+  "consonne": "g",
+  "voyelle": "ette",
+  "texte": "gette",
+  "palier": 6,
+  "regle": "g : g dur (ga, go) et g doux (ge, gi) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "g-ill",
+  "consonne": "g",
+  "voyelle": "ill",
+  "texte": "gill",
+  "palier": 6,
+  "regle": "g : g dur (ga, go) et g doux (ge, gi) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "g-eil",
+  "consonne": "g",
+  "voyelle": "eil",
+  "texte": "geil",
+  "palier": 6,
+  "regle": "g : g dur (ga, go) et g doux (ge, gi) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "g-euil",
+  "consonne": "g",
+  "voyelle": "euil",
+  "texte": "geuil",
+  "palier": 6,
+  "regle": "g : g dur (ga, go) et g doux (ge, gi) — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "gu-a",
+  "consonne": "gu",
+  "voyelle": "a",
+  "texte": "gua",
+  "palier": 3,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-u",
+  "consonne": "gu",
+  "voyelle": "u",
+  "texte": "guu",
+  "palier": 3,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-o",
+  "consonne": "gu",
+  "voyelle": "o",
+  "texte": "guo",
+  "palier": 3,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-ou",
+  "consonne": "gu",
+  "voyelle": "ou",
+  "texte": "guou",
+  "palier": 3,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-oi",
+  "consonne": "gu",
+  "voyelle": "oi",
+  "texte": "guoi",
+  "palier": 3,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-au",
+  "consonne": "gu",
+  "voyelle": "au",
+  "texte": "guau",
+  "palier": 3,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-eau",
+  "consonne": "gu",
+  "voyelle": "eau",
+  "texte": "gueau",
+  "palier": 3,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-an",
+  "consonne": "gu",
+  "voyelle": "an",
+  "texte": "guan",
+  "palier": 3,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-ai",
+  "consonne": "gu",
+  "voyelle": "ai",
+  "texte": "guai",
+  "palier": 4,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-on",
+  "consonne": "gu",
+  "voyelle": "on",
+  "texte": "guon",
+  "palier": 4,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-ain",
+  "consonne": "gu",
+  "voyelle": "ain",
+  "texte": "guain",
+  "palier": 5,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-ein",
+  "consonne": "gu",
+  "voyelle": "ein",
+  "texte": "guein",
+  "palier": 5,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-oin",
+  "consonne": "gu",
+  "voyelle": "oin",
+  "texte": "guoin",
+  "palier": 5,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-oeu",
+  "consonne": "gu",
+  "voyelle": "oeu",
+  "texte": "guoeu",
+  "palier": 5,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-ian",
+  "consonne": "gu",
+  "voyelle": "ian",
+  "texte": "guian",
+  "palier": 6,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-ion",
+  "consonne": "gu",
+  "voyelle": "ion",
+  "texte": "guion",
+  "palier": 6,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-ien",
+  "consonne": "gu",
+  "voyelle": "ien",
+  "texte": "guien",
+  "palier": 6,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-ieu",
+  "consonne": "gu",
+  "voyelle": "ieu",
+  "texte": "guieu",
+  "palier": 6,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-elle",
+  "consonne": "gu",
+  "voyelle": "elle",
+  "texte": "guelle",
+  "palier": 6,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-enne",
+  "consonne": "gu",
+  "voyelle": "enne",
+  "texte": "guenne",
+  "palier": 6,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-esse",
+  "consonne": "gu",
+  "voyelle": "esse",
+  "texte": "guesse",
+  "palier": 6,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-ail",
+  "consonne": "gu",
+  "voyelle": "ail",
+  "texte": "guail",
+  "palier": 6,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-eil",
+  "consonne": "gu",
+  "voyelle": "eil",
+  "texte": "gueil",
+  "palier": 6,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-euil",
+  "consonne": "gu",
+  "voyelle": "euil",
+  "texte": "gueuil",
+  "palier": 6,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "gu-ouil",
+  "consonne": "gu",
+  "voyelle": "ouil",
+  "texte": "guouil",
+  "palier": 6,
+  "regle": "gu : seulement devant e, i, y"
+ },
+ {
+  "id": "ge-i",
+  "consonne": "ge",
+  "voyelle": "i",
+  "texte": "gei",
+  "palier": 3,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-y",
+  "consonne": "ge",
+  "voyelle": "y",
+  "texte": "gey",
+  "palier": 3,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-e",
+  "consonne": "ge",
+  "voyelle": "e",
+  "texte": "gee",
+  "palier": 3,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-eacute",
+  "consonne": "ge",
+  "voyelle": "eacute",
+  "texte": "geé",
+  "palier": 3,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-er",
+  "consonne": "ge",
+  "voyelle": "er",
+  "texte": "geer",
+  "palier": 4,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-ez",
+  "consonne": "ge",
+  "voyelle": "ez",
+  "texte": "geez",
+  "palier": 4,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-ou",
+  "consonne": "ge",
+  "voyelle": "ou",
+  "texte": "geou",
+  "palier": 3,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-egrave",
+  "consonne": "ge",
+  "voyelle": "egrave",
+  "texte": "geè",
+  "palier": 3,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-ecirc",
+  "consonne": "ge",
+  "voyelle": "ecirc",
+  "texte": "geê",
+  "palier": 3,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-au",
+  "consonne": "ge",
+  "voyelle": "au",
+  "texte": "geau",
+  "palier": 3,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-eau",
+  "consonne": "ge",
+  "voyelle": "eau",
+  "texte": "geeau",
+  "palier": 3,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-en",
+  "consonne": "ge",
+  "voyelle": "en",
+  "texte": "geen",
+  "palier": 3,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-ei",
+  "consonne": "ge",
+  "voyelle": "ei",
+  "texte": "geei",
+  "palier": 4,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-et",
+  "consonne": "ge",
+  "voyelle": "et",
+  "texte": "geet",
+  "palier": 4,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-in",
+  "consonne": "ge",
+  "voyelle": "in",
+  "texte": "gein",
+  "palier": 4,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-ain",
+  "consonne": "ge",
+  "voyelle": "ain",
+  "texte": "geain",
+  "palier": 5,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-ein",
+  "consonne": "ge",
+  "voyelle": "ein",
+  "texte": "geein",
+  "palier": 5,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-oin",
+  "consonne": "ge",
+  "voyelle": "oin",
+  "texte": "geoin",
+  "palier": 5,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-eu",
+  "consonne": "ge",
+  "voyelle": "eu",
+  "texte": "geeu",
+  "palier": 5,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-oeu",
+  "consonne": "ge",
+  "voyelle": "oeu",
+  "texte": "geoeu",
+  "palier": 5,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-ian",
+  "consonne": "ge",
+  "voyelle": "ian",
+  "texte": "geian",
+  "palier": 6,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-ion",
+  "consonne": "ge",
+  "voyelle": "ion",
+  "texte": "geion",
+  "palier": 6,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-ien",
+  "consonne": "ge",
+  "voyelle": "ien",
+  "texte": "geien",
+  "palier": 6,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-ieu",
+  "consonne": "ge",
+  "voyelle": "ieu",
+  "texte": "geieu",
+  "palier": 6,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-elle",
+  "consonne": "ge",
+  "voyelle": "elle",
+  "texte": "geelle",
+  "palier": 6,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-enne",
+  "consonne": "ge",
+  "voyelle": "enne",
+  "texte": "geenne",
+  "palier": 6,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-erre",
+  "consonne": "ge",
+  "voyelle": "erre",
+  "texte": "geerre",
+  "palier": 6,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-esse",
+  "consonne": "ge",
+  "voyelle": "esse",
+  "texte": "geesse",
+  "palier": 6,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-ette",
+  "consonne": "ge",
+  "voyelle": "ette",
+  "texte": "geette",
+  "palier": 6,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-ill",
+  "consonne": "ge",
+  "voyelle": "ill",
+  "texte": "geill",
+  "palier": 6,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-ail",
+  "consonne": "ge",
+  "voyelle": "ail",
+  "texte": "geail",
+  "palier": 6,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-eil",
+  "consonne": "ge",
+  "voyelle": "eil",
+  "texte": "geeil",
+  "palier": 6,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-euil",
+  "consonne": "ge",
+  "voyelle": "euil",
+  "texte": "geeuil",
+  "palier": 6,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "ge-ouil",
+  "consonne": "ge",
+  "voyelle": "ouil",
+  "texte": "geouil",
+  "palier": 6,
+  "regle": "ge : geon, gea, geoi… — validé par Benjamin le 27/09/2026"
+ },
+ {
+  "id": "br-y",
+  "consonne": "br",
+  "voyelle": "y",
+  "texte": "bry",
+  "palier": 4,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "br-oeu",
+  "consonne": "br",
+  "voyelle": "oeu",
+  "texte": "broeu",
+  "palier": 5,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "br-ian",
+  "consonne": "br",
+  "voyelle": "ian",
+  "texte": "brian",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "br-ion",
+  "consonne": "br",
+  "voyelle": "ion",
+  "texte": "brion",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "br-ien",
+  "consonne": "br",
+  "voyelle": "ien",
+  "texte": "brien",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "br-ieu",
+  "consonne": "br",
+  "voyelle": "ieu",
+  "texte": "brieu",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "cr-y",
+  "consonne": "cr",
+  "voyelle": "y",
+  "texte": "cry",
+  "palier": 4,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "cr-oeu",
+  "consonne": "cr",
+  "voyelle": "oeu",
+  "texte": "croeu",
+  "palier": 5,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "cr-ian",
+  "consonne": "cr",
+  "voyelle": "ian",
+  "texte": "crian",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "cr-ion",
+  "consonne": "cr",
+  "voyelle": "ion",
+  "texte": "crion",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "cr-ien",
+  "consonne": "cr",
+  "voyelle": "ien",
+  "texte": "crien",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "cr-ieu",
+  "consonne": "cr",
+  "voyelle": "ieu",
+  "texte": "crieu",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "dr-y",
+  "consonne": "dr",
+  "voyelle": "y",
+  "texte": "dry",
+  "palier": 4,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "dr-oeu",
+  "consonne": "dr",
+  "voyelle": "oeu",
+  "texte": "droeu",
+  "palier": 5,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "dr-ian",
+  "consonne": "dr",
+  "voyelle": "ian",
+  "texte": "drian",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "dr-ion",
+  "consonne": "dr",
+  "voyelle": "ion",
+  "texte": "drion",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "dr-ien",
+  "consonne": "dr",
+  "voyelle": "ien",
+  "texte": "drien",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "dr-ieu",
+  "consonne": "dr",
+  "voyelle": "ieu",
+  "texte": "drieu",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "fr-y",
+  "consonne": "fr",
+  "voyelle": "y",
+  "texte": "fry",
+  "palier": 4,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "fr-oeu",
+  "consonne": "fr",
+  "voyelle": "oeu",
+  "texte": "froeu",
+  "palier": 5,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "fr-ian",
+  "consonne": "fr",
+  "voyelle": "ian",
+  "texte": "frian",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "fr-ion",
+  "consonne": "fr",
+  "voyelle": "ion",
+  "texte": "frion",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "fr-ien",
+  "consonne": "fr",
+  "voyelle": "ien",
+  "texte": "frien",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "fr-ieu",
+  "consonne": "fr",
+  "voyelle": "ieu",
+  "texte": "frieu",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "gr-y",
+  "consonne": "gr",
+  "voyelle": "y",
+  "texte": "gry",
+  "palier": 4,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "gr-oeu",
+  "consonne": "gr",
+  "voyelle": "oeu",
+  "texte": "groeu",
+  "palier": 5,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "gr-ian",
+  "consonne": "gr",
+  "voyelle": "ian",
+  "texte": "grian",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "gr-ion",
+  "consonne": "gr",
+  "voyelle": "ion",
+  "texte": "grion",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "gr-ien",
+  "consonne": "gr",
+  "voyelle": "ien",
+  "texte": "grien",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "gr-ieu",
+  "consonne": "gr",
+  "voyelle": "ieu",
+  "texte": "grieu",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "pr-y",
+  "consonne": "pr",
+  "voyelle": "y",
+  "texte": "pry",
+  "palier": 4,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "pr-oeu",
+  "consonne": "pr",
+  "voyelle": "oeu",
+  "texte": "proeu",
+  "palier": 5,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "pr-ian",
+  "consonne": "pr",
+  "voyelle": "ian",
+  "texte": "prian",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "pr-ion",
+  "consonne": "pr",
+  "voyelle": "ion",
+  "texte": "prion",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "pr-ien",
+  "consonne": "pr",
+  "voyelle": "ien",
+  "texte": "prien",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "pr-ieu",
+  "consonne": "pr",
+  "voyelle": "ieu",
+  "texte": "prieu",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "tr-y",
+  "consonne": "tr",
+  "voyelle": "y",
+  "texte": "try",
+  "palier": 4,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "tr-oeu",
+  "consonne": "tr",
+  "voyelle": "oeu",
+  "texte": "troeu",
+  "palier": 5,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "tr-ian",
+  "consonne": "tr",
+  "voyelle": "ian",
+  "texte": "trian",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "tr-ion",
+  "consonne": "tr",
+  "voyelle": "ion",
+  "texte": "trion",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "tr-ien",
+  "consonne": "tr",
+  "voyelle": "ien",
+  "texte": "trien",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "tr-ieu",
+  "consonne": "tr",
+  "voyelle": "ieu",
+  "texte": "trieu",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "vr-y",
+  "consonne": "vr",
+  "voyelle": "y",
+  "texte": "vry",
+  "palier": 4,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "vr-oeu",
+  "consonne": "vr",
+  "voyelle": "oeu",
+  "texte": "vroeu",
+  "palier": 5,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "vr-ian",
+  "consonne": "vr",
+  "voyelle": "ian",
+  "texte": "vrian",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "vr-ion",
+  "consonne": "vr",
+  "voyelle": "ion",
+  "texte": "vrion",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "vr-ien",
+  "consonne": "vr",
+  "voyelle": "ien",
+  "texte": "vrien",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "vr-ieu",
+  "consonne": "vr",
+  "voyelle": "ieu",
+  "texte": "vrieu",
+  "palier": 6,
+  "regle": "groupe consonne + r : pas de y, oeu, ian/ion/ien/ieu"
+ },
+ {
+  "id": "bl-y",
+  "consonne": "bl",
+  "voyelle": "y",
+  "texte": "bly",
+  "palier": 5,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "bl-oeu",
+  "consonne": "bl",
+  "voyelle": "oeu",
+  "texte": "bloeu",
+  "palier": 5,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "bl-ian",
+  "consonne": "bl",
+  "voyelle": "ian",
+  "texte": "blian",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "bl-ion",
+  "consonne": "bl",
+  "voyelle": "ion",
+  "texte": "blion",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "bl-ien",
+  "consonne": "bl",
+  "voyelle": "ien",
+  "texte": "blien",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "bl-ieu",
+  "consonne": "bl",
+  "voyelle": "ieu",
+  "texte": "blieu",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "bl-ill",
+  "consonne": "bl",
+  "voyelle": "ill",
+  "texte": "blill",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "bl-ail",
+  "consonne": "bl",
+  "voyelle": "ail",
+  "texte": "blail",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "bl-eil",
+  "consonne": "bl",
+  "voyelle": "eil",
+  "texte": "bleil",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "bl-euil",
+  "consonne": "bl",
+  "voyelle": "euil",
+  "texte": "bleuil",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "bl-ouil",
+  "consonne": "bl",
+  "voyelle": "ouil",
+  "texte": "blouil",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "cl-y",
+  "consonne": "cl",
+  "voyelle": "y",
+  "texte": "cly",
+  "palier": 5,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "cl-oeu",
+  "consonne": "cl",
+  "voyelle": "oeu",
+  "texte": "cloeu",
+  "palier": 5,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "cl-ian",
+  "consonne": "cl",
+  "voyelle": "ian",
+  "texte": "clian",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "cl-ion",
+  "consonne": "cl",
+  "voyelle": "ion",
+  "texte": "clion",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "cl-ien",
+  "consonne": "cl",
+  "voyelle": "ien",
+  "texte": "clien",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "cl-ieu",
+  "consonne": "cl",
+  "voyelle": "ieu",
+  "texte": "clieu",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "cl-ill",
+  "consonne": "cl",
+  "voyelle": "ill",
+  "texte": "clill",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "cl-ail",
+  "consonne": "cl",
+  "voyelle": "ail",
+  "texte": "clail",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "cl-eil",
+  "consonne": "cl",
+  "voyelle": "eil",
+  "texte": "cleil",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "cl-euil",
+  "consonne": "cl",
+  "voyelle": "euil",
+  "texte": "cleuil",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "cl-ouil",
+  "consonne": "cl",
+  "voyelle": "ouil",
+  "texte": "clouil",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "fl-y",
+  "consonne": "fl",
+  "voyelle": "y",
+  "texte": "fly",
+  "palier": 5,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "fl-oeu",
+  "consonne": "fl",
+  "voyelle": "oeu",
+  "texte": "floeu",
+  "palier": 5,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "fl-ian",
+  "consonne": "fl",
+  "voyelle": "ian",
+  "texte": "flian",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "fl-ion",
+  "consonne": "fl",
+  "voyelle": "ion",
+  "texte": "flion",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "fl-ien",
+  "consonne": "fl",
+  "voyelle": "ien",
+  "texte": "flien",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "fl-ieu",
+  "consonne": "fl",
+  "voyelle": "ieu",
+  "texte": "flieu",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "fl-ill",
+  "consonne": "fl",
+  "voyelle": "ill",
+  "texte": "flill",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "fl-ail",
+  "consonne": "fl",
+  "voyelle": "ail",
+  "texte": "flail",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "fl-eil",
+  "consonne": "fl",
+  "voyelle": "eil",
+  "texte": "fleil",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "fl-euil",
+  "consonne": "fl",
+  "voyelle": "euil",
+  "texte": "fleuil",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "fl-ouil",
+  "consonne": "fl",
+  "voyelle": "ouil",
+  "texte": "flouil",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "gl-y",
+  "consonne": "gl",
+  "voyelle": "y",
+  "texte": "gly",
+  "palier": 5,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "gl-oeu",
+  "consonne": "gl",
+  "voyelle": "oeu",
+  "texte": "gloeu",
+  "palier": 5,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "gl-ian",
+  "consonne": "gl",
+  "voyelle": "ian",
+  "texte": "glian",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "gl-ion",
+  "consonne": "gl",
+  "voyelle": "ion",
+  "texte": "glion",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "gl-ien",
+  "consonne": "gl",
+  "voyelle": "ien",
+  "texte": "glien",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "gl-ieu",
+  "consonne": "gl",
+  "voyelle": "ieu",
+  "texte": "glieu",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "gl-ill",
+  "consonne": "gl",
+  "voyelle": "ill",
+  "texte": "glill",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "gl-ail",
+  "consonne": "gl",
+  "voyelle": "ail",
+  "texte": "glail",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "gl-eil",
+  "consonne": "gl",
+  "voyelle": "eil",
+  "texte": "gleil",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "gl-euil",
+  "consonne": "gl",
+  "voyelle": "euil",
+  "texte": "gleuil",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "gl-ouil",
+  "consonne": "gl",
+  "voyelle": "ouil",
+  "texte": "glouil",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "pl-y",
+  "consonne": "pl",
+  "voyelle": "y",
+  "texte": "ply",
+  "palier": 5,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "pl-oeu",
+  "consonne": "pl",
+  "voyelle": "oeu",
+  "texte": "ploeu",
+  "palier": 5,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "pl-ian",
+  "consonne": "pl",
+  "voyelle": "ian",
+  "texte": "plian",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "pl-ion",
+  "consonne": "pl",
+  "voyelle": "ion",
+  "texte": "plion",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "pl-ien",
+  "consonne": "pl",
+  "voyelle": "ien",
+  "texte": "plien",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "pl-ieu",
+  "consonne": "pl",
+  "voyelle": "ieu",
+  "texte": "plieu",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "pl-ill",
+  "consonne": "pl",
+  "voyelle": "ill",
+  "texte": "plill",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "pl-ail",
+  "consonne": "pl",
+  "voyelle": "ail",
+  "texte": "plail",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "pl-eil",
+  "consonne": "pl",
+  "voyelle": "eil",
+  "texte": "pleil",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "pl-euil",
+  "consonne": "pl",
+  "voyelle": "euil",
+  "texte": "pleuil",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "pl-ouil",
+  "consonne": "pl",
+  "voyelle": "ouil",
+  "texte": "plouil",
+  "palier": 6,
+  "regle": "groupe consonne + l : pas de y, oeu, semi-voyelles ni graphies mouillées"
+ },
+ {
+  "id": "k-y",
+  "consonne": "k",
+  "voyelle": "y",
+  "texte": "ky",
+  "palier": 5,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-er",
+  "consonne": "k",
+  "voyelle": "er",
+  "texte": "ker",
+  "palier": 5,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-ez",
+  "consonne": "k",
+  "voyelle": "ez",
+  "texte": "kez",
+  "palier": 5,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-ecirc",
+  "consonne": "k",
+  "voyelle": "ecirc",
+  "texte": "kê",
+  "palier": 5,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-oi",
+  "consonne": "k",
+  "voyelle": "oi",
+  "texte": "koi",
+  "palier": 5,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-au",
+  "consonne": "k",
+  "voyelle": "au",
+  "texte": "kau",
+  "palier": 5,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-eau",
+  "consonne": "k",
+  "voyelle": "eau",
+  "texte": "keau",
+  "palier": 5,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-en",
+  "consonne": "k",
+  "voyelle": "en",
+  "texte": "ken",
+  "palier": 5,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-ai",
+  "consonne": "k",
+  "voyelle": "ai",
+  "texte": "kai",
+  "palier": 5,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-ei",
+  "consonne": "k",
+  "voyelle": "ei",
+  "texte": "kei",
+  "palier": 5,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-et",
+  "consonne": "k",
+  "voyelle": "et",
+  "texte": "ket",
+  "palier": 5,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-in",
+  "consonne": "k",
+  "voyelle": "in",
+  "texte": "kin",
+  "palier": 5,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-ain",
+  "consonne": "k",
+  "voyelle": "ain",
+  "texte": "kain",
+  "palier": 5,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-ein",
+  "consonne": "k",
+  "voyelle": "ein",
+  "texte": "kein",
+  "palier": 5,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-oin",
+  "consonne": "k",
+  "voyelle": "oin",
+  "texte": "koin",
+  "palier": 5,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-eu",
+  "consonne": "k",
+  "voyelle": "eu",
+  "texte": "keu",
+  "palier": 5,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-oeu",
+  "consonne": "k",
+  "voyelle": "oeu",
+  "texte": "koeu",
+  "palier": 5,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-ian",
+  "consonne": "k",
+  "voyelle": "ian",
+  "texte": "kian",
+  "palier": 6,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-ion",
+  "consonne": "k",
+  "voyelle": "ion",
+  "texte": "kion",
+  "palier": 6,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-ien",
+  "consonne": "k",
+  "voyelle": "ien",
+  "texte": "kien",
+  "palier": 6,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-ieu",
+  "consonne": "k",
+  "voyelle": "ieu",
+  "texte": "kieu",
+  "palier": 6,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-elle",
+  "consonne": "k",
+  "voyelle": "elle",
+  "texte": "kelle",
+  "palier": 6,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-enne",
+  "consonne": "k",
+  "voyelle": "enne",
+  "texte": "kenne",
+  "palier": 6,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-erre",
+  "consonne": "k",
+  "voyelle": "erre",
+  "texte": "kerre",
+  "palier": 6,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-esse",
+  "consonne": "k",
+  "voyelle": "esse",
+  "texte": "kesse",
+  "palier": 6,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-ette",
+  "consonne": "k",
+  "voyelle": "ette",
+  "texte": "kette",
+  "palier": 6,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-ill",
+  "consonne": "k",
+  "voyelle": "ill",
+  "texte": "kill",
+  "palier": 6,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-ail",
+  "consonne": "k",
+  "voyelle": "ail",
+  "texte": "kail",
+  "palier": 6,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-eil",
+  "consonne": "k",
+  "voyelle": "eil",
+  "texte": "keil",
+  "palier": 6,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-euil",
+  "consonne": "k",
+  "voyelle": "euil",
+  "texte": "keuil",
+  "palier": 6,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "k-ouil",
+  "consonne": "k",
+  "voyelle": "ouil",
+  "texte": "kouil",
+  "palier": 6,
+  "regle": "k : voyelles courantes seulement"
+ },
+ {
+  "id": "qu-u",
+  "consonne": "qu",
+  "voyelle": "u",
+  "texte": "quu",
+  "palier": 5,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-ou",
+  "consonne": "qu",
+  "voyelle": "ou",
+  "texte": "quou",
+  "palier": 5,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-au",
+  "consonne": "qu",
+  "voyelle": "au",
+  "texte": "quau",
+  "palier": 5,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-eau",
+  "consonne": "qu",
+  "voyelle": "eau",
+  "texte": "queau",
+  "palier": 5,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-ei",
+  "consonne": "qu",
+  "voyelle": "ei",
+  "texte": "quei",
+  "palier": 5,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-on",
+  "consonne": "qu",
+  "voyelle": "on",
+  "texte": "quon",
+  "palier": 5,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-ain",
+  "consonne": "qu",
+  "voyelle": "ain",
+  "texte": "quain",
+  "palier": 5,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-ein",
+  "consonne": "qu",
+  "voyelle": "ein",
+  "texte": "quein",
+  "palier": 5,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-oin",
+  "consonne": "qu",
+  "voyelle": "oin",
+  "texte": "quoin",
+  "palier": 5,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-oeu",
+  "consonne": "qu",
+  "voyelle": "oeu",
+  "texte": "quoeu",
+  "palier": 5,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-ian",
+  "consonne": "qu",
+  "voyelle": "ian",
+  "texte": "quian",
+  "palier": 6,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-ion",
+  "consonne": "qu",
+  "voyelle": "ion",
+  "texte": "quion",
+  "palier": 6,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-ien",
+  "consonne": "qu",
+  "voyelle": "ien",
+  "texte": "quien",
+  "palier": 6,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-ieu",
+  "consonne": "qu",
+  "voyelle": "ieu",
+  "texte": "quieu",
+  "palier": 6,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-enne",
+  "consonne": "qu",
+  "voyelle": "enne",
+  "texte": "quenne",
+  "palier": 6,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-esse",
+  "consonne": "qu",
+  "voyelle": "esse",
+  "texte": "quesse",
+  "palier": 6,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-ail",
+  "consonne": "qu",
+  "voyelle": "ail",
+  "texte": "quail",
+  "palier": 6,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-eil",
+  "consonne": "qu",
+  "voyelle": "eil",
+  "texte": "queil",
+  "palier": 6,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-euil",
+  "consonne": "qu",
+  "voyelle": "euil",
+  "texte": "queuil",
+  "palier": 6,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "qu-ouil",
+  "consonne": "qu",
+  "voyelle": "ouil",
+  "texte": "quouil",
+  "palier": 6,
+  "regle": "qu : usages réels (que, qui, quoi, quand…)"
+ },
+ {
+  "id": "gn-y",
+  "consonne": "gn",
+  "voyelle": "y",
+  "texte": "gny",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-ecirc",
+  "consonne": "gn",
+  "voyelle": "ecirc",
+  "texte": "gnê",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-oi",
+  "consonne": "gn",
+  "voyelle": "oi",
+  "texte": "gnoi",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-au",
+  "consonne": "gn",
+  "voyelle": "au",
+  "texte": "gnau",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-en",
+  "consonne": "gn",
+  "voyelle": "en",
+  "texte": "gnen",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-ei",
+  "consonne": "gn",
+  "voyelle": "ei",
+  "texte": "gnei",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-in",
+  "consonne": "gn",
+  "voyelle": "in",
+  "texte": "gnin",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-ain",
+  "consonne": "gn",
+  "voyelle": "ain",
+  "texte": "gnain",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-ein",
+  "consonne": "gn",
+  "voyelle": "ein",
+  "texte": "gnein",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-oin",
+  "consonne": "gn",
+  "voyelle": "oin",
+  "texte": "gnoin",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-eu",
+  "consonne": "gn",
+  "voyelle": "eu",
+  "texte": "gneu",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-oeu",
+  "consonne": "gn",
+  "voyelle": "oeu",
+  "texte": "gnoeu",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-ian",
+  "consonne": "gn",
+  "voyelle": "ian",
+  "texte": "gnian",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-ion",
+  "consonne": "gn",
+  "voyelle": "ion",
+  "texte": "gnion",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-ien",
+  "consonne": "gn",
+  "voyelle": "ien",
+  "texte": "gnien",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-ieu",
+  "consonne": "gn",
+  "voyelle": "ieu",
+  "texte": "gnieu",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-elle",
+  "consonne": "gn",
+  "voyelle": "elle",
+  "texte": "gnelle",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-enne",
+  "consonne": "gn",
+  "voyelle": "enne",
+  "texte": "gnenne",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-erre",
+  "consonne": "gn",
+  "voyelle": "erre",
+  "texte": "gnerre",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-esse",
+  "consonne": "gn",
+  "voyelle": "esse",
+  "texte": "gnesse",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-ette",
+  "consonne": "gn",
+  "voyelle": "ette",
+  "texte": "gnette",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-ill",
+  "consonne": "gn",
+  "voyelle": "ill",
+  "texte": "gnill",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-ail",
+  "consonne": "gn",
+  "voyelle": "ail",
+  "texte": "gnail",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-eil",
+  "consonne": "gn",
+  "voyelle": "eil",
+  "texte": "gneil",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-euil",
+  "consonne": "gn",
+  "voyelle": "euil",
+  "texte": "gneuil",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "gn-ouil",
+  "consonne": "gn",
+  "voyelle": "ouil",
+  "texte": "gnouil",
+  "palier": 6,
+  "regle": "gn : courantes, agneau, gagner"
+ },
+ {
+  "id": "w-y",
+  "consonne": "w",
+  "voyelle": "y",
+  "texte": "wy",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-u",
+  "consonne": "w",
+  "voyelle": "u",
+  "texte": "wu",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-er",
+  "consonne": "w",
+  "voyelle": "er",
+  "texte": "wer",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-ez",
+  "consonne": "w",
+  "voyelle": "ez",
+  "texte": "wez",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-egrave",
+  "consonne": "w",
+  "voyelle": "egrave",
+  "texte": "wè",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-ecirc",
+  "consonne": "w",
+  "voyelle": "ecirc",
+  "texte": "wê",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-oi",
+  "consonne": "w",
+  "voyelle": "oi",
+  "texte": "woi",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-au",
+  "consonne": "w",
+  "voyelle": "au",
+  "texte": "wau",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-eau",
+  "consonne": "w",
+  "voyelle": "eau",
+  "texte": "weau",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-an",
+  "consonne": "w",
+  "voyelle": "an",
+  "texte": "wan",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-en",
+  "consonne": "w",
+  "voyelle": "en",
+  "texte": "wen",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-ai",
+  "consonne": "w",
+  "voyelle": "ai",
+  "texte": "wai",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-ei",
+  "consonne": "w",
+  "voyelle": "ei",
+  "texte": "wei",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-et",
+  "consonne": "w",
+  "voyelle": "et",
+  "texte": "wet",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-on",
+  "consonne": "w",
+  "voyelle": "on",
+  "texte": "won",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-in",
+  "consonne": "w",
+  "voyelle": "in",
+  "texte": "win",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-ain",
+  "consonne": "w",
+  "voyelle": "ain",
+  "texte": "wain",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-ein",
+  "consonne": "w",
+  "voyelle": "ein",
+  "texte": "wein",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-oin",
+  "consonne": "w",
+  "voyelle": "oin",
+  "texte": "woin",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-eu",
+  "consonne": "w",
+  "voyelle": "eu",
+  "texte": "weu",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-oeu",
+  "consonne": "w",
+  "voyelle": "oeu",
+  "texte": "woeu",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-ian",
+  "consonne": "w",
+  "voyelle": "ian",
+  "texte": "wian",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-ion",
+  "consonne": "w",
+  "voyelle": "ion",
+  "texte": "wion",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-ien",
+  "consonne": "w",
+  "voyelle": "ien",
+  "texte": "wien",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-ieu",
+  "consonne": "w",
+  "voyelle": "ieu",
+  "texte": "wieu",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-elle",
+  "consonne": "w",
+  "voyelle": "elle",
+  "texte": "welle",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-enne",
+  "consonne": "w",
+  "voyelle": "enne",
+  "texte": "wenne",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-erre",
+  "consonne": "w",
+  "voyelle": "erre",
+  "texte": "werre",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-esse",
+  "consonne": "w",
+  "voyelle": "esse",
+  "texte": "wesse",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-ette",
+  "consonne": "w",
+  "voyelle": "ette",
+  "texte": "wette",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-ill",
+  "consonne": "w",
+  "voyelle": "ill",
+  "texte": "will",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-ail",
+  "consonne": "w",
+  "voyelle": "ail",
+  "texte": "wail",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-eil",
+  "consonne": "w",
+  "voyelle": "eil",
+  "texte": "weil",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-euil",
+  "consonne": "w",
+  "voyelle": "euil",
+  "texte": "weuil",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ },
+ {
+  "id": "w-ouil",
+  "consonne": "w",
+  "voyelle": "ouil",
+  "texte": "wouil",
+  "palier": 6,
+  "regle": "w : wagon, kiwi, web…"
+ }
+]

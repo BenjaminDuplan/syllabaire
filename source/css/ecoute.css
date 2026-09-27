@@ -1,0 +1,263 @@
+/* Mode « J'écoute » (lot D) — voir ARCHITECTURE.md §11.
+   Tokens de style.css (lot A) utilisés avec replis, pour rester lisible
+   même si un token manque. Tout est rangé sous .ecoute. */
+
+.ecoute {
+  --e-fond: var(--fond, #fff8ec);
+  --e-encre: var(--encre, #3b3355);
+  --e-carte: var(--carte, #ffffff);
+  --e-accent: var(--accent, #ff9f43);
+  --e-ok: var(--ok, #4cbf6b);
+  --e-presque: var(--presque, #ffb45c);
+  --e-profil: var(--couleur-profil, var(--e-accent));
+  --e-ombre: 0 6px 0 rgba(59, 51, 85, 0.12), 0 12px 24px rgba(59, 51, 85, 0.10);
+  --e-tuile: clamp(160px, 22vw, 250px);
+
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--e-fond); /* repli sans color-mix */
+  padding: max(12px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right))
+           max(16px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+  background:
+    radial-gradient(circle at 12% 18%, color-mix(in srgb, var(--e-profil) 16%, transparent) 0 90px, transparent 91px),
+    radial-gradient(circle at 88% 80%, color-mix(in srgb, var(--e-accent) 14%, transparent) 0 120px, transparent 121px),
+    var(--e-fond);
+  color: var(--e-encre);
+  font-family: "Andika", system-ui, sans-serif;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+}
+.ecoute *, .ecoute *::before, .ecoute *::after { box-sizing: border-box; }
+
+/* ---------- Barre du haut ---------- */
+.ecoute-barre {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 16px;
+}
+
+.ecoute-maison {
+  width: 72px;
+  height: 72px;
+  border: none;
+  border-radius: 22px;
+  background: var(--e-carte);
+  color: var(--e-profil);
+  box-shadow: var(--e-ombre);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform 120ms ease;
+}
+.ecoute-maison svg { width: 40px; height: 40px; }
+.ecoute-maison:active { transform: translateY(3px) scale(0.96); }
+
+.ecoute-progression {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+.ecoute-pastilles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+.ecoute-pastille {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--e-encre) 14%, transparent);
+  transition: background 300ms ease, transform 300ms ease;
+}
+.ecoute-pastille.faite { background: var(--e-profil); }
+.ecoute-pastille.courante {
+  background: var(--e-carte);
+  box-shadow: 0 0 0 4px var(--e-profil);
+  transform: scale(1.15);
+}
+.ecoute-compte {
+  font-size: 22px;
+  font-weight: 700;
+  opacity: 0.75;
+}
+
+.ecoute-score {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 72px;
+  height: 72px;
+  padding: 0 20px 0 14px;
+  border-radius: 36px;
+  background: var(--e-carte);
+  box-shadow: var(--e-ombre);
+  font-size: 34px;
+  font-weight: 700;
+}
+.ecoute-score svg { width: 38px; height: 38px; color: #ffc633; }
+.ecoute-score.gagne { animation: ecoute-rebond 500ms ease; }
+
+/* ---------- Scène : mégaphone + tuiles ---------- */
+.ecoute-scene {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(24px, 5vh, 56px);
+  padding: 16px 0;
+}
+
+.ecoute-megaphone {
+  width: 148px;
+  height: 148px;
+  border: none;
+  border-radius: 50%;
+  background: var(--e-profil);
+  color: #fff;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.25), 0 16px 30px rgba(59, 51, 85, 0.18);
+  box-shadow: 0 8px 0 color-mix(in srgb, var(--e-profil) 70%, #000), 0 16px 30px rgba(59, 51, 85, 0.18);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+.ecoute-megaphone svg { width: 84px; height: 84px; }
+.ecoute-megaphone:active {
+  transform: translateY(6px);
+  box-shadow: 0 2px 0 color-mix(in srgb, var(--e-profil) 70%, #000), 0 6px 14px rgba(59, 51, 85, 0.18);
+}
+.ecoute-megaphone .onde { opacity: 0.55; }
+.ecoute-megaphone.joue { animation: ecoute-battement 900ms ease-in-out infinite; }
+.ecoute-megaphone.joue .onde-1 { animation: ecoute-onde 900ms ease-in-out infinite; }
+.ecoute-megaphone.joue .onde-2 { animation: ecoute-onde 900ms ease-in-out 200ms infinite; }
+
+.ecoute-tuiles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(20px, 3vw, 40px);
+}
+
+/* ---------- Tuiles ----------
+   La structure et le retournement 3D viennent de style.css (lot A).
+   On ne fixe ici que la taille et, par sécurité, le strict nécessaire au
+   retournement pour que l'écran reste juste si style.css évolue. */
+.ecoute .ecoute-tuile {
+  position: relative;
+  width: var(--e-tuile);
+  height: var(--e-tuile);
+  min-width: 160px;
+  min-height: 160px;
+  border-radius: 28px;
+  cursor: pointer;
+  touch-action: manipulation;
+  perspective: 900px;
+  transform-style: preserve-3d;
+  transition: transform 600ms cubic-bezier(.3, 1.3, .5, 1), opacity 400ms ease, filter 400ms ease;
+}
+.ecoute .ecoute-tuile .tuile-face {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 28px;
+  background: var(--e-carte);
+  border: 6px solid var(--couleur, var(--e-accent));
+  box-shadow: 0 8px 0 var(--couleur, var(--e-accent)), 0 14px 28px rgba(59, 51, 85, 0.14);
+  color: var(--e-encre);
+  font-size: calc(var(--e-tuile) * 0.34);
+  line-height: 1;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.ecoute .ecoute-tuile .tuile-face.script { font-family: "Andika", system-ui, sans-serif; }
+.ecoute .ecoute-tuile .tuile-face.cursif { font-family: "EcritureA", "Andika", cursive; font-size: calc(var(--e-tuile) * 0.58); line-height: 1.1; }
+.ecoute .ecoute-tuile .tuile-face.arriere {
+  transform: rotateY(180deg);
+  background: color-mix(in srgb, var(--couleur, var(--e-accent)) 18%, var(--e-carte));
+}
+.ecoute .ecoute-tuile.retournee { transform: rotateY(180deg) scale(1.08); }
+.ecoute .ecoute-tuile:active:not(.retournee) { transform: translateY(4px) scale(0.97); }
+
+.ecoute .ecoute-tuile.entree {
+  animation: ecoute-apparition 420ms cubic-bezier(.3, 1.4, .5, 1) backwards;
+  animation-delay: calc(var(--rang, 0) * 90ms);
+}
+.ecoute .ecoute-tuile.choisie .tuile-face {
+  border-color: var(--e-ok);
+  box-shadow: 0 8px 0 var(--e-ok), 0 0 0 10px color-mix(in srgb, var(--e-ok) 25%, transparent);
+}
+.ecoute .ecoute-tuile.estompee {
+  opacity: 0.25;
+  filter: saturate(0.4);
+  transform: scale(0.92);
+}
+.ecoute .ecoute-tuile.clignote { animation: ecoute-clignote 600ms ease-in-out 3; }
+.ecoute .ecoute-tuile.clignote .tuile-face.avant {
+  border-color: var(--e-ok);
+  box-shadow: 0 8px 0 var(--e-ok), 0 14px 28px rgba(59, 51, 85, 0.14);
+}
+.ecoute .ecoute-tuile.essayee .tuile-face.avant { border-color: var(--e-presque); box-shadow: 0 8px 0 var(--e-presque); }
+.ecoute.verrouillee .ecoute-tuile { pointer-events: none; }
+
+/* ---------- Portrait : tuiles en colonne ---------- */
+@media (orientation: portrait) {
+  .ecoute { --e-tuile: clamp(160px, min(24vh, 30vw), 230px); }
+  .ecoute-tuiles { flex-direction: column; gap: 22px; }
+  .ecoute-scene { gap: 28px; }
+  .ecoute-megaphone { width: 128px; height: 128px; }
+  .ecoute-megaphone svg { width: 72px; height: 72px; }
+}
+
+/* Paysage peu haut (iPad paysage avec barre d'outils) */
+@media (orientation: landscape) and (max-height: 760px) {
+  .ecoute { --e-tuile: clamp(160px, 26vh, 220px); }
+  .ecoute-megaphone { width: 128px; height: 128px; }
+}
+
+/* ---------- Animations ---------- */
+@keyframes ecoute-apparition {
+  from { opacity: 0; transform: translateY(30px) scale(0.7); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes ecoute-clignote {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.1); filter: brightness(1.08); }
+}
+@keyframes ecoute-battement {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.06); }
+}
+@keyframes ecoute-onde {
+  0%, 100% { opacity: 0.35; }
+  50%      { opacity: 1; }
+}
+@keyframes ecoute-rebond {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(1.25); }
+  100% { transform: scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ecoute .ecoute-tuile,
+  .ecoute-megaphone { transition-duration: 1ms; }
+  .ecoute .ecoute-tuile.entree,
+  .ecoute-megaphone.joue,
+  .ecoute-megaphone.joue .onde,
+  .ecoute-score.gagne { animation: none; }
+  .ecoute .ecoute-tuile.clignote { animation-duration: 900ms; }
+}

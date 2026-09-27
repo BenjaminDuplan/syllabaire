@@ -1,0 +1,195 @@
+/* Lot B — ours, récompenses, écran de fin, carte des sons. Voir ARCHITECTURE.md §9.
+   Tokens du contrat (définis par style.css) utilisés avec un repli :
+   --fond, --encre, --carte, --accent, --ok, --presque, --p-<couleur>. */
+
+/* ---------- Ours ---------- */
+svg.ours { display: block; width: 100%; height: 100%; overflow: visible; }
+.ours-grandit { transform-origin: 50% 90%; }
+
+/* ---------- Pluie d'étoiles (Rewards.point) ---------- */
+.rw-pluie { position: fixed; inset: 0; pointer-events: none; z-index: 1000; overflow: hidden; }
+.rw-etoile-vol { position: absolute; will-change: transform, opacity; }
+.rw-etoile-vol svg {
+  display: block; width: 100%; height: 100%;
+  fill: #ffd23f; stroke: #f0a800; stroke-width: 1.4; stroke-linejoin: round;
+  filter: drop-shadow(0 1px 2px rgba(240, 168, 0, .45));
+}
+
+/* ---------- Secousse douce (Rewards.presque) ---------- */
+.rw-presque { animation: rw-halo 420ms ease-out; }
+@keyframes rw-halo {
+  0%   { box-shadow: 0 0 0 0 color-mix(in srgb, var(--presque, #f6a95b) 70%, transparent); }
+  100% { box-shadow: 0 0 0 18px transparent; }
+}
+
+/* ---------- Confettis ---------- */
+#confettis { position: fixed; inset: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 999; }
+
+/* ---------- Boutons ---------- */
+.rw-bouton {
+  -webkit-tap-highlight-color: transparent;
+  display: inline-flex; align-items: center; justify-content: center; gap: .4em;
+  min-height: 80px; min-width: 200px; padding: 0 1.4em;
+  border: none; border-radius: 999px;
+  font: inherit; font-size: 32px; font-weight: 700; line-height: 1;
+  color: var(--encre, #3b2f4a); background: var(--carte, #fff);
+  box-shadow: 0 6px 0 rgba(0, 0, 0, .12), 0 10px 22px rgba(0, 0, 0, .08);
+  cursor: pointer; touch-action: manipulation; user-select: none; -webkit-user-select: none;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+.rw-bouton:active { transform: translateY(4px); box-shadow: 0 2px 0 rgba(0, 0, 0, .12), 0 4px 10px rgba(0, 0, 0, .08); }
+.rw-bouton svg { width: 1em; height: 1em; }
+.rw-bouton-encore { background: var(--profil, var(--accent, #5cc06a)); color: #fff; text-shadow: 0 2px 0 rgba(0, 0, 0, .15); }
+.rw-bouton-rond { min-width: 72px; min-height: 72px; width: 72px; height: 72px; padding: 0; font-size: 34px; }
+
+/* ---------- Pastille d'un son (carte + gains) ---------- */
+.rw-son {
+  -webkit-tap-highlight-color: transparent;
+  position: relative; flex: none;
+  width: 80px; height: 80px; border-radius: 50%;
+  display: inline-flex; flex-direction: column; align-items: center; justify-content: center;
+  padding: 0; border: 4px solid transparent;
+  font-family: "Andika", system-ui, sans-serif; font-size: 30px; font-weight: 700; line-height: 1;
+  color: #6f6a7a; background: #eeebf2; border-color: #dcd7e3;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, .08);
+  cursor: pointer; touch-action: manipulation; user-select: none; -webkit-user-select: none;
+}
+.rw-son-texte { display: block; margin-top: -12px; white-space: nowrap; letter-spacing: -.02em; }
+.rw-son.long3 { font-size: 27px; }
+.rw-son.long4 { font-size: 22px; }
+.rw-son-etoiles { position: absolute; bottom: 7px; left: 0; right: 0; display: flex; justify-content: center; gap: 1px; }
+.rw-son-etoiles .rw-etoile svg { display: block; width: 15px; height: 15px; fill: #fff; stroke: rgba(0, 0, 0, .25); stroke-width: 1.5; }
+.rw-son.niveau-1 { color: #6b3f18; background: radial-gradient(circle at 35% 30%, #f6d2ae, #dc9a62 70%); border-color: #c07a3e; }
+.rw-son.niveau-2 { color: #3d4a5a; background: radial-gradient(circle at 35% 30%, #ffffff, #c3ceda 70%); border-color: #9facbb; }
+.rw-son.niveau-3 { color: #6a4b00; background: radial-gradient(circle at 35% 30%, #fff3b8, #f7c948 65%); border-color: #e0a91a;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, .08), 0 0 14px rgba(247, 201, 72, .6); }
+.rw-son.niveau-1 .rw-son-etoiles svg { fill: #fff3e3; }
+.rw-son.niveau-2 .rw-son-etoiles svg { fill: #ffffff; }
+.rw-son.niveau-3 .rw-son-etoiles svg { fill: #fffbe6; }
+.rw-son.verrou { color: #b2adbb; background: #f1eff4; border-color: #e3e0e8; border-style: dashed; box-shadow: none; }
+.rw-son-cadenas { position: absolute; bottom: 7px; color: #c4bfcc; }
+.rw-son-cadenas svg { display: block; width: 16px; height: 16px; }
+.rw-son.rw-tape { animation: rw-rebond 380ms ease-out; }
+.rw-son.verrou.rw-tape { animation: rw-dandine 380ms ease-in-out; }
+@keyframes rw-rebond { 0% { transform: scale(1); } 35% { transform: scale(1.18); } 65% { transform: scale(.94); } 100% { transform: scale(1); } }
+@keyframes rw-dandine { 0%, 100% { transform: rotate(0); } 30% { transform: rotate(-6deg); } 70% { transform: rotate(6deg); } }
+
+/* ---------- Écran de fin ---------- */
+.rw-fin {
+  box-sizing: border-box;
+  min-height: 100%; min-height: 100dvh;
+  display: flex; flex-direction: column; align-items: center; justify-content: space-between;
+  gap: 16px; padding: 24px 24px calc(28px + env(safe-area-inset-bottom));
+  font-family: "Andika", system-ui, sans-serif; color: var(--encre, #3b2f4a);
+  text-align: center;
+}
+.rw-fin p { margin: 0; }
+.rw-fin-haut { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.rw-fin-titre {
+  font-size: 56px; font-weight: 700; color: var(--profil, #5cc06a);
+  text-shadow: 0 3px 0 rgba(0, 0, 0, .08);
+  animation: rw-pop 600ms cubic-bezier(.3, 1.6, .5, 1) both;
+}
+.rw-fin-score {
+  display: flex; align-items: baseline; gap: .15em;
+  font-size: 110px; font-weight: 700; line-height: 1;
+  animation: rw-pop 700ms 120ms cubic-bezier(.3, 1.6, .5, 1) both;
+}
+.rw-fin-nb { color: var(--encre, #3b2f4a); }
+.rw-fin-sur, .rw-fin-total { color: color-mix(in srgb, var(--encre, #3b2f4a) 45%, transparent); font-size: .7em; }
+.rw-fin-sous { font-size: 24px; opacity: .8; }
+@keyframes rw-pop { 0% { transform: scale(.3); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+
+.rw-fin-milieu { flex: 1; display: flex; align-items: center; justify-content: center; gap: 48px; width: 100%; max-width: 1000px; }
+.rw-fin-ours-bloc { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.rw-fin-ours { width: 240px; height: 240px; }
+.rw-fin-ours-texte { min-height: 1.3em; font-size: 22px; font-weight: 700; }
+.rw-apparait { animation: rw-pop 500ms cubic-bezier(.3, 1.6, .5, 1) both; }
+.rw-jauge { width: 220px; height: 16px; border-radius: 999px; background: rgba(0, 0, 0, .08); overflow: hidden; }
+.rw-jauge span {
+  display: block; height: 100%; border-radius: inherit;
+  background: linear-gradient(90deg, #ffd23f, var(--profil, #5cc06a));
+  animation: rw-remplit 1s 300ms ease-out both;
+}
+@keyframes rw-remplit { from { width: 0; } }
+
+.rw-fin-gains {
+  background: var(--carte, #fff); border-radius: 28px; padding: 18px 22px 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .07); max-width: 520px;
+}
+.rw-fin-gains-titre { font-size: 24px; font-weight: 700; margin-bottom: 12px !important; }
+.rw-fin-gains-liste { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; }
+.rw-gain { display: flex; flex-direction: column; align-items: center; gap: 4px; animation: rw-pop 500ms calc(600ms + var(--i, 0) * 150ms) cubic-bezier(.3, 1.6, .5, 1) both; }
+.rw-gain .rw-son { cursor: default; }
+.rw-gain-nom { font-size: 16px; font-weight: 700; opacity: .7; }
+
+.rw-fin-boutons { display: flex; gap: 24px; flex-wrap: wrap; justify-content: center; }
+
+/* Portrait (820 px de large) : l'ours au-dessus des étoiles */
+@media (max-aspect-ratio: 1/1) {
+  .rw-fin-milieu { flex-direction: column; gap: 28px; }
+  .rw-fin-ours { width: 280px; height: 280px; }
+  .rw-fin-score { font-size: 130px; }
+}
+/* Écran bas (paysage iPad) : on resserre */
+@media (max-height: 760px) {
+  .rw-fin { gap: 8px; padding-top: 16px; }
+  .rw-fin-titre { font-size: 46px; }
+  .rw-fin-score { font-size: 92px; }
+  .rw-fin-ours { width: 200px; height: 200px; }
+}
+
+/* ---------- Carte des sons ---------- */
+.carte {
+  box-sizing: border-box; min-height: 100%;
+  padding: 20px 24px calc(32px + env(safe-area-inset-bottom));
+  font-family: "Andika", system-ui, sans-serif; color: var(--encre, #3b2f4a);
+  max-width: 1180px; margin: 0 auto;
+}
+.carte-entete { display: flex; align-items: center; gap: 18px; margin-bottom: 18px; }
+.carte-ours { width: 96px; height: 96px; flex: none; }
+.carte-titres { display: flex; flex-direction: column; gap: 6px; }
+.carte-titre { margin: 0; font-size: 40px; line-height: 1.1; color: var(--profil, #5cc06a); }
+.carte-legende { margin: 0; display: flex; gap: 14px; flex-wrap: wrap; }
+.carte-leg {
+  display: inline-flex; align-items: center; gap: 2px;
+  padding: 4px 12px 4px 8px; border-radius: 999px; font-size: 20px;
+}
+.carte-leg svg { width: 18px; height: 18px; fill: currentColor; }
+.carte-leg b { margin-left: 6px; color: var(--encre, #3b2f4a); }
+.carte-leg.niveau-1 { background: #f8dcc1; color: #c07a3e; }
+.carte-leg.niveau-2 { background: #e3e9f0; color: #8595a8; }
+.carte-leg.niveau-3 { background: #fdeba8; color: #d9a21b; }
+
+.carte-corps { display: flex; flex-direction: column; gap: 22px; }
+.carte-bloc {
+  background: var(--carte, #fff); border-radius: 32px; padding: 16px 20px 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .06);
+}
+.carte-bloc-titre { margin: 0 0 10px 4px; font-size: 28px; }
+.carte-consonnes .carte-bloc-titre { color: #3f8fd8; }
+.carte-voyelles .carte-bloc-titre { color: #e0679a; }
+
+.carte-palier { display: flex; align-items: flex-start; gap: 14px; padding: 10px 0; }
+.carte-palier + .carte-palier { border-top: 3px dotted rgba(0, 0, 0, .09); }
+.carte-palier-num {
+  flex: none; width: 48px; height: 48px; margin-top: 14px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 24px; font-weight: 700; color: #fff; background: var(--profil, #5cc06a);
+}
+.carte-palier.ferme .carte-palier-num { background: #e6e3ea; color: #aaa4b4; }
+.carte-cadenas svg { display: block; width: 24px; height: 24px; }
+.carte-palier-sons { display: flex; flex-wrap: wrap; gap: 12px; }
+.carte-palier.ferme .carte-palier-sons { opacity: .8; }
+
+@media (max-width: 900px) {
+  .carte { padding-left: 16px; padding-right: 16px; }
+  .carte-palier-sons { gap: 10px; }
+  .rw-son { width: 74px; height: 74px; font-size: 28px; }
+  .rw-son.long3 { font-size: 25px; }
+  .rw-son.long4 { font-size: 20px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rw-fin *, .carte * { animation: none !important; }
+}

@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.aiff
+# Enregistrements vocaux : jamais committés sans accord explicite
+source/audio/voix/papa/
+source/audio/voix/maman/
+# Restent sur le Mac : documents de conception (prénoms des enfants) et PDF d'origine (Chat d'école)
+CLAUDE.md
+HANDOFF.md
+README.md
+Relecture syllabes.html
+Ressources/

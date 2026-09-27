@@ -1,0 +1,389 @@
+[
+ {
+  "id": "son-l",
+  "texte": "l",
+  "tts": "leu"
+ },
+ {
+  "id": "son-r",
+  "texte": "r",
+  "tts": "reu"
+ },
+ {
+  "id": "son-m",
+  "texte": "m",
+  "tts": "meu"
+ },
+ {
+  "id": "son-s",
+  "texte": "s",
+  "tts": "seu"
+ },
+ {
+  "id": "son-t",
+  "texte": "t",
+  "tts": "teu"
+ },
+ {
+  "id": "son-p",
+  "texte": "p",
+  "tts": "peu"
+ },
+ {
+  "id": "son-d",
+  "texte": "d",
+  "tts": "deu"
+ },
+ {
+  "id": "son-b",
+  "texte": "b",
+  "tts": "beu"
+ },
+ {
+  "id": "son-f",
+  "texte": "f",
+  "tts": "feu"
+ },
+ {
+  "id": "son-v",
+  "texte": "v",
+  "tts": "veu"
+ },
+ {
+  "id": "son-n",
+  "texte": "n",
+  "tts": "neu"
+ },
+ {
+  "id": "son-z",
+  "texte": "z",
+  "tts": "zeu"
+ },
+ {
+  "id": "son-c",
+  "texte": "c",
+  "tts": "keu"
+ },
+ {
+  "id": "son-j",
+  "texte": "j",
+  "tts": "jeu"
+ },
+ {
+  "id": "son-ch",
+  "texte": "ch",
+  "tts": "cheu"
+ },
+ {
+  "id": "son-ccedil",
+  "texte": "ç",
+  "tts": "seu"
+ },
+ {
+  "id": "son-ph",
+  "texte": "ph",
+  "tts": "feu"
+ },
+ {
+  "id": "son-g",
+  "texte": "g",
+  "tts": "geu"
+ },
+ {
+  "id": "son-gu",
+  "texte": "gu",
+  "tts": "gueu"
+ },
+ {
+  "id": "son-ge",
+  "texte": "ge",
+  "tts": "jeu"
+ },
+ {
+  "id": "son-br",
+  "texte": "br",
+  "tts": "breu"
+ },
+ {
+  "id": "son-cr",
+  "texte": "cr",
+  "tts": "creu"
+ },
+ {
+  "id": "son-dr",
+  "texte": "dr",
+  "tts": "dreu"
+ },
+ {
+  "id": "son-fr",
+  "texte": "fr",
+  "tts": "freu"
+ },
+ {
+  "id": "son-gr",
+  "texte": "gr",
+  "tts": "greu"
+ },
+ {
+  "id": "son-pr",
+  "texte": "pr",
+  "tts": "preu"
+ },
+ {
+  "id": "son-tr",
+  "texte": "tr",
+  "tts": "treu"
+ },
+ {
+  "id": "son-vr",
+  "texte": "vr",
+  "tts": "vreu"
+ },
+ {
+  "id": "son-bl",
+  "texte": "bl",
+  "tts": "bleu"
+ },
+ {
+  "id": "son-cl",
+  "texte": "cl",
+  "tts": "cleu"
+ },
+ {
+  "id": "son-fl",
+  "texte": "fl",
+  "tts": "fleu"
+ },
+ {
+  "id": "son-gl",
+  "texte": "gl",
+  "tts": "gleu"
+ },
+ {
+  "id": "son-pl",
+  "texte": "pl",
+  "tts": "pleu"
+ },
+ {
+  "id": "son-k",
+  "texte": "k",
+  "tts": "keu"
+ },
+ {
+  "id": "son-qu",
+  "texte": "qu",
+  "tts": "keu"
+ },
+ {
+  "id": "son-gn",
+  "texte": "gn",
+  "tts": "gneu"
+ },
+ {
+  "id": "son-w",
+  "texte": "w",
+  "tts": "oueu"
+ },
+ {
+  "id": "son-a",
+  "texte": "a"
+ },
+ {
+  "id": "son-i",
+  "texte": "i"
+ },
+ {
+  "id": "son-y",
+  "texte": "y",
+  "tts": "i"
+ },
+ {
+  "id": "son-u",
+  "texte": "u"
+ },
+ {
+  "id": "son-o",
+  "texte": "o"
+ },
+ {
+  "id": "son-e",
+  "texte": "e",
+  "tts": "eu"
+ },
+ {
+  "id": "son-eacute",
+  "texte": "é"
+ },
+ {
+  "id": "son-er",
+  "texte": "er",
+  "tts": "é"
+ },
+ {
+  "id": "son-ez",
+  "texte": "ez",
+  "tts": "é"
+ },
+ {
+  "id": "son-ou",
+  "texte": "ou"
+ },
+ {
+  "id": "son-egrave",
+  "texte": "è"
+ },
+ {
+  "id": "son-ecirc",
+  "texte": "ê"
+ },
+ {
+  "id": "son-oi",
+  "texte": "oi"
+ },
+ {
+  "id": "son-au",
+  "texte": "au",
+  "tts": "o"
+ },
+ {
+  "id": "son-eau",
+  "texte": "eau",
+  "tts": "o"
+ },
+ {
+  "id": "son-an",
+  "texte": "an"
+ },
+ {
+  "id": "son-en",
+  "texte": "en"
+ },
+ {
+  "id": "son-ai",
+  "texte": "ai",
+  "tts": "è"
+ },
+ {
+  "id": "son-ei",
+  "texte": "ei",
+  "tts": "è"
+ },
+ {
+  "id": "son-et",
+  "texte": "et",
+  "tts": "é"
+ },
+ {
+  "id": "son-on",
+  "texte": "on"
+ },
+ {
+  "id": "son-in",
+  "texte": "in"
+ },
+ {
+  "id": "son-ain",
+  "texte": "ain"
+ },
+ {
+  "id": "son-ein",
+  "texte": "ein"
+ },
+ {
+  "id": "son-oin",
+  "texte": "oin"
+ },
+ {
+  "id": "son-eu",
+  "texte": "eu"
+ },
+ {
+  "id": "son-oeu",
+  "texte": "oeu",
+  "tts": "eu"
+ },
+ {
+  "id": "son-ian",
+  "texte": "ian"
+ },
+ {
+  "id": "son-ion",
+  "texte": "ion"
+ },
+ {
+  "id": "son-ien",
+  "texte": "ien"
+ },
+ {
+  "id": "son-ieu",
+  "texte": "ieu"
+ },
+ {
+  "id": "son-elle",
+  "texte": "elle"
+ },
+ {
+  "id": "son-enne",
+  "texte": "enne"
+ },
+ {
+  "id": "son-erre",
+  "texte": "erre"
+ },
+ {
+  "id": "son-esse",
+  "texte": "esse"
+ },
+ {
+  "id": "son-ette",
+  "texte": "ette"
+ },
+ {
+  "id": "son-ill",
+  "texte": "ill"
+ },
+ {
+  "id": "son-ail",
+  "texte": "ail"
+ },
+ {
+  "id": "son-eil",
+  "texte": "eil"
+ },
+ {
+  "id": "son-euil",
+  "texte": "euil"
+ },
+ {
+  "id": "son-ouil",
+  "texte": "ouil"
+ },
+ {
+  "id": "phrase-bravo",
+  "texte": "Bravo !"
+ },
+ {
+  "id": "phrase-presque",
+  "texte": "Presque ! On réécoute ?"
+ },
+ {
+  "id": "phrase-super",
+  "texte": "Super manche !"
+ },
+ {
+  "id": "phrase-parfait",
+  "texte": "Dix sur dix, champion !"
+ },
+ {
+  "id": "phrase-ecoute",
+  "texte": "Écoute bien."
+ },
+ {
+  "id": "phrase-quelle-tuile",
+  "texte": "Quelle tuile fait ce son ?"
+ },
+ {
+  "id": "phrase-a-toi",
+  "texte": "À toi de lire !"
+ }
+]

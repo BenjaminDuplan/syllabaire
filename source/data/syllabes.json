@@ -1,0 +1,7901 @@
+[
+ {
+  "id": "l-a",
+  "consonne": "l",
+  "voyelle": "a",
+  "texte": "la",
+  "palier": 1
+ },
+ {
+  "id": "l-i",
+  "consonne": "l",
+  "voyelle": "i",
+  "texte": "li",
+  "palier": 1
+ },
+ {
+  "id": "l-y",
+  "consonne": "l",
+  "voyelle": "y",
+  "texte": "ly",
+  "palier": 2,
+  "tts": "li"
+ },
+ {
+  "id": "l-u",
+  "consonne": "l",
+  "voyelle": "u",
+  "texte": "lu",
+  "palier": 1
+ },
+ {
+  "id": "l-o",
+  "consonne": "l",
+  "voyelle": "o",
+  "texte": "lo",
+  "palier": 1
+ },
+ {
+  "id": "l-e",
+  "consonne": "l",
+  "voyelle": "e",
+  "texte": "le",
+  "palier": 1,
+  "tts": "leu"
+ },
+ {
+  "id": "l-eacute",
+  "consonne": "l",
+  "voyelle": "eacute",
+  "texte": "lé",
+  "palier": 1
+ },
+ {
+  "id": "l-er",
+  "consonne": "l",
+  "voyelle": "er",
+  "texte": "ler",
+  "palier": 4
+ },
+ {
+  "id": "l-ez",
+  "consonne": "l",
+  "voyelle": "ez",
+  "texte": "lez",
+  "palier": 4
+ },
+ {
+  "id": "l-ou",
+  "consonne": "l",
+  "voyelle": "ou",
+  "texte": "lou",
+  "palier": 2
+ },
+ {
+  "id": "l-egrave",
+  "consonne": "l",
+  "voyelle": "egrave",
+  "texte": "lè",
+  "palier": 2
+ },
+ {
+  "id": "l-ecirc",
+  "consonne": "l",
+  "voyelle": "ecirc",
+  "texte": "lê",
+  "palier": 2,
+  "tts": "lè"
+ },
+ {
+  "id": "l-oi",
+  "consonne": "l",
+  "voyelle": "oi",
+  "texte": "loi",
+  "palier": 3
+ },
+ {
+  "id": "l-au",
+  "consonne": "l",
+  "voyelle": "au",
+  "texte": "lau",
+  "palier": 3
+ },
+ {
+  "id": "l-eau",
+  "consonne": "l",
+  "voyelle": "eau",
+  "texte": "leau",
+  "palier": 3
+ },
+ {
+  "id": "l-an",
+  "consonne": "l",
+  "voyelle": "an",
+  "texte": "lan",
+  "palier": 3
+ },
+ {
+  "id": "l-en",
+  "consonne": "l",
+  "voyelle": "en",
+  "texte": "len",
+  "palier": 3,
+  "tts": "lent"
+ },
+ {
+  "id": "l-ai",
+  "consonne": "l",
+  "voyelle": "ai",
+  "texte": "lai",
+  "palier": 4
+ },
+ {
+  "id": "l-ei",
+  "consonne": "l",
+  "voyelle": "ei",
+  "texte": "lei",
+  "palier": 4
+ },
+ {
+  "id": "l-et",
+  "consonne": "l",
+  "voyelle": "et",
+  "texte": "let",
+  "palier": 4
+ },
+ {
+  "id": "l-on",
+  "consonne": "l",
+  "voyelle": "on",
+  "texte": "lon",
+  "palier": 4
+ },
+ {
+  "id": "l-in",
+  "consonne": "l",
+  "voyelle": "in",
+  "texte": "lin",
+  "palier": 4
+ },
+ {
+  "id": "l-ain",
+  "consonne": "l",
+  "voyelle": "ain",
+  "texte": "lain",
+  "palier": 5
+ },
+ {
+  "id": "l-ein",
+  "consonne": "l",
+  "voyelle": "ein",
+  "texte": "lein",
+  "palier": 5
+ },
+ {
+  "id": "l-oin",
+  "consonne": "l",
+  "voyelle": "oin",
+  "texte": "loin",
+  "palier": 5
+ },
+ {
+  "id": "l-eu",
+  "consonne": "l",
+  "voyelle": "eu",
+  "texte": "leu",
+  "palier": 5
+ },
+ {
+  "id": "l-ian",
+  "consonne": "l",
+  "voyelle": "ian",
+  "texte": "lian",
+  "palier": 6
+ },
+ {
+  "id": "l-ion",
+  "consonne": "l",
+  "voyelle": "ion",
+  "texte": "lion",
+  "palier": 6
+ },
+ {
+  "id": "l-ien",
+  "consonne": "l",
+  "voyelle": "ien",
+  "texte": "lien",
+  "palier": 6
+ },
+ {
+  "id": "l-ieu",
+  "consonne": "l",
+  "voyelle": "ieu",
+  "texte": "lieu",
+  "palier": 6
+ },
+ {
+  "id": "l-elle",
+  "consonne": "l",
+  "voyelle": "elle",
+  "texte": "lelle",
+  "palier": 6
+ },
+ {
+  "id": "l-enne",
+  "consonne": "l",
+  "voyelle": "enne",
+  "texte": "lenne",
+  "palier": 6
+ },
+ {
+  "id": "l-erre",
+  "consonne": "l",
+  "voyelle": "erre",
+  "texte": "lerre",
+  "palier": 6
+ },
+ {
+  "id": "l-esse",
+  "consonne": "l",
+  "voyelle": "esse",
+  "texte": "lesse",
+  "palier": 6
+ },
+ {
+  "id": "l-ette",
+  "consonne": "l",
+  "voyelle": "ette",
+  "texte": "lette",
+  "palier": 6
+ },
+ {
+  "id": "l-ill",
+  "consonne": "l",
+  "voyelle": "ill",
+  "texte": "lill",
+  "palier": 6
+ },
+ {
+  "id": "l-ail",
+  "consonne": "l",
+  "voyelle": "ail",
+  "texte": "lail",
+  "palier": 6
+ },
+ {
+  "id": "l-eil",
+  "consonne": "l",
+  "voyelle": "eil",
+  "texte": "leil",
+  "palier": 6
+ },
+ {
+  "id": "l-euil",
+  "consonne": "l",
+  "voyelle": "euil",
+  "texte": "leuil",
+  "palier": 6
+ },
+ {
+  "id": "l-ouil",
+  "consonne": "l",
+  "voyelle": "ouil",
+  "texte": "louil",
+  "palier": 6
+ },
+ {
+  "id": "r-a",
+  "consonne": "r",
+  "voyelle": "a",
+  "texte": "ra",
+  "palier": 1
+ },
+ {
+  "id": "r-i",
+  "consonne": "r",
+  "voyelle": "i",
+  "texte": "ri",
+  "palier": 1
+ },
+ {
+  "id": "r-y",
+  "consonne": "r",
+  "voyelle": "y",
+  "texte": "ry",
+  "palier": 2,
+  "tts": "ri"
+ },
+ {
+  "id": "r-u",
+  "consonne": "r",
+  "voyelle": "u",
+  "texte": "ru",
+  "palier": 1
+ },
+ {
+  "id": "r-o",
+  "consonne": "r",
+  "voyelle": "o",
+  "texte": "ro",
+  "palier": 1
+ },
+ {
+  "id": "r-e",
+  "consonne": "r",
+  "voyelle": "e",
+  "texte": "re",
+  "palier": 1,
+  "tts": "reu"
+ },
+ {
+  "id": "r-eacute",
+  "consonne": "r",
+  "voyelle": "eacute",
+  "texte": "ré",
+  "palier": 1
+ },
+ {
+  "id": "r-er",
+  "consonne": "r",
+  "voyelle": "er",
+  "texte": "rer",
+  "palier": 4,
+  "tts": "rerh"
+ },
+ {
+  "id": "r-ez",
+  "consonne": "r",
+  "voyelle": "ez",
+  "texte": "rez",
+  "palier": 4
+ },
+ {
+  "id": "r-ou",
+  "consonne": "r",
+  "voyelle": "ou",
+  "texte": "rou",
+  "palier": 2
+ },
+ {
+  "id": "r-egrave",
+  "consonne": "r",
+  "voyelle": "egrave",
+  "texte": "rè",
+  "palier": 2
+ },
+ {
+  "id": "r-ecirc",
+  "consonne": "r",
+  "voyelle": "ecirc",
+  "texte": "rê",
+  "palier": 2,
+  "tts": "rè"
+ },
+ {
+  "id": "r-oi",
+  "consonne": "r",
+  "voyelle": "oi",
+  "texte": "roi",
+  "palier": 3
+ },
+ {
+  "id": "r-au",
+  "consonne": "r",
+  "voyelle": "au",
+  "texte": "rau",
+  "palier": 3
+ },
+ {
+  "id": "r-eau",
+  "consonne": "r",
+  "voyelle": "eau",
+  "texte": "reau",
+  "palier": 3
+ },
+ {
+  "id": "r-an",
+  "consonne": "r",
+  "voyelle": "an",
+  "texte": "ran",
+  "palier": 3,
+  "tts": "rant"
+ },
+ {
+  "id": "r-en",
+  "consonne": "r",
+  "voyelle": "en",
+  "texte": "ren",
+  "palier": 3,
+  "tts": "rend"
+ },
+ {
+  "id": "r-ai",
+  "consonne": "r",
+  "voyelle": "ai",
+  "texte": "rai",
+  "palier": 4
+ },
+ {
+  "id": "r-ei",
+  "consonne": "r",
+  "voyelle": "ei",
+  "texte": "rei",
+  "palier": 4
+ },
+ {
+  "id": "r-et",
+  "consonne": "r",
+  "voyelle": "et",
+  "texte": "ret",
+  "palier": 4
+ },
+ {
+  "id": "r-on",
+  "consonne": "r",
+  "voyelle": "on",
+  "texte": "ron",
+  "palier": 4,
+  "tts": "ront"
+ },
+ {
+  "id": "r-in",
+  "consonne": "r",
+  "voyelle": "in",
+  "texte": "rin",
+  "palier": 4
+ },
+ {
+  "id": "r-ain",
+  "consonne": "r",
+  "voyelle": "ain",
+  "texte": "rain",
+  "palier": 5,
+  "tts": "raint"
+ },
+ {
+  "id": "r-ein",
+  "consonne": "r",
+  "voyelle": "ein",
+  "texte": "rein",
+  "palier": 5
+ },
+ {
+  "id": "r-oin",
+  "consonne": "r",
+  "voyelle": "oin",
+  "texte": "roin",
+  "palier": 5
+ },
+ {
+  "id": "r-eu",
+  "consonne": "r",
+  "voyelle": "eu",
+  "texte": "reu",
+  "palier": 5
+ },
+ {
+  "id": "r-ian",
+  "consonne": "r",
+  "voyelle": "ian",
+  "texte": "rian",
+  "palier": 6
+ },
+ {
+  "id": "r-ion",
+  "consonne": "r",
+  "voyelle": "ion",
+  "texte": "rion",
+  "palier": 6
+ },
+ {
+  "id": "r-ien",
+  "consonne": "r",
+  "voyelle": "ien",
+  "texte": "rien",
+  "palier": 6
+ },
+ {
+  "id": "r-ieu",
+  "consonne": "r",
+  "voyelle": "ieu",
+  "texte": "rieu",
+  "palier": 6
+ },
+ {
+  "id": "r-elle",
+  "consonne": "r",
+  "voyelle": "elle",
+  "texte": "relle",
+  "palier": 6
+ },
+ {
+  "id": "r-enne",
+  "consonne": "r",
+  "voyelle": "enne",
+  "texte": "renne",
+  "palier": 6
+ },
+ {
+  "id": "r-erre",
+  "consonne": "r",
+  "voyelle": "erre",
+  "texte": "rerre",
+  "palier": 6
+ },
+ {
+  "id": "r-esse",
+  "consonne": "r",
+  "voyelle": "esse",
+  "texte": "resse",
+  "palier": 6,
+  "tts": "resses"
+ },
+ {
+  "id": "r-ette",
+  "consonne": "r",
+  "voyelle": "ette",
+  "texte": "rette",
+  "palier": 6
+ },
+ {
+  "id": "r-ill",
+  "consonne": "r",
+  "voyelle": "ill",
+  "texte": "rill",
+  "palier": 6
+ },
+ {
+  "id": "r-ail",
+  "consonne": "r",
+  "voyelle": "ail",
+  "texte": "rail",
+  "palier": 6
+ },
+ {
+  "id": "r-eil",
+  "consonne": "r",
+  "voyelle": "eil",
+  "texte": "reil",
+  "palier": 6
+ },
+ {
+  "id": "r-euil",
+  "consonne": "r",
+  "voyelle": "euil",
+  "texte": "reuil",
+  "palier": 6
+ },
+ {
+  "id": "r-ouil",
+  "consonne": "r",
+  "voyelle": "ouil",
+  "texte": "rouil",
+  "palier": 6
+ },
+ {
+  "id": "m-a",
+  "consonne": "m",
+  "voyelle": "a",
+  "texte": "ma",
+  "palier": 1
+ },
+ {
+  "id": "m-i",
+  "consonne": "m",
+  "voyelle": "i",
+  "texte": "mi",
+  "palier": 1
+ },
+ {
+  "id": "m-y",
+  "consonne": "m",
+  "voyelle": "y",
+  "texte": "my",
+  "palier": 2,
+  "tts": "mi"
+ },
+ {
+  "id": "m-u",
+  "consonne": "m",
+  "voyelle": "u",
+  "texte": "mu",
+  "palier": 1
+ },
+ {
+  "id": "m-o",
+  "consonne": "m",
+  "voyelle": "o",
+  "texte": "mo",
+  "palier": 1
+ },
+ {
+  "id": "m-e",
+  "consonne": "m",
+  "voyelle": "e",
+  "texte": "me",
+  "palier": 1,
+  "tts": "meu"
+ },
+ {
+  "id": "m-eacute",
+  "consonne": "m",
+  "voyelle": "eacute",
+  "texte": "mé",
+  "palier": 1
+ },
+ {
+  "id": "m-er",
+  "consonne": "m",
+  "voyelle": "er",
+  "texte": "mer",
+  "palier": 4
+ },
+ {
+  "id": "m-ez",
+  "consonne": "m",
+  "voyelle": "ez",
+  "texte": "mez",
+  "palier": 4
+ },
+ {
+  "id": "m-ou",
+  "consonne": "m",
+  "voyelle": "ou",
+  "texte": "mou",
+  "palier": 2
+ },
+ {
+  "id": "m-egrave",
+  "consonne": "m",
+  "voyelle": "egrave",
+  "texte": "mè",
+  "palier": 2
+ },
+ {
+  "id": "m-ecirc",
+  "consonne": "m",
+  "voyelle": "ecirc",
+  "texte": "mê",
+  "palier": 2,
+  "tts": "mè"
+ },
+ {
+  "id": "m-oi",
+  "consonne": "m",
+  "voyelle": "oi",
+  "texte": "moi",
+  "palier": 3
+ },
+ {
+  "id": "m-au",
+  "consonne": "m",
+  "voyelle": "au",
+  "texte": "mau",
+  "palier": 3
+ },
+ {
+  "id": "m-eau",
+  "consonne": "m",
+  "voyelle": "eau",
+  "texte": "meau",
+  "palier": 3
+ },
+ {
+  "id": "m-an",
+  "consonne": "m",
+  "voyelle": "an",
+  "texte": "man",
+  "palier": 3,
+  "tts": "mant"
+ },
+ {
+  "id": "m-en",
+  "consonne": "m",
+  "voyelle": "en",
+  "texte": "men",
+  "palier": 3,
+  "tts": "ment"
+ },
+ {
+  "id": "m-ai",
+  "consonne": "m",
+  "voyelle": "ai",
+  "texte": "mai",
+  "palier": 4
+ },
+ {
+  "id": "m-ei",
+  "consonne": "m",
+  "voyelle": "ei",
+  "texte": "mei",
+  "palier": 4
+ },
+ {
+  "id": "m-et",
+  "consonne": "m",
+  "voyelle": "et",
+  "texte": "met",
+  "palier": 4
+ },
+ {
+  "id": "m-on",
+  "consonne": "m",
+  "voyelle": "on",
+  "texte": "mon",
+  "palier": 4
+ },
+ {
+  "id": "m-in",
+  "consonne": "m",
+  "voyelle": "in",
+  "texte": "min",
+  "palier": 4
+ },
+ {
+  "id": "m-ain",
+  "consonne": "m",
+  "voyelle": "ain",
+  "texte": "main",
+  "palier": 5
+ },
+ {
+  "id": "m-ein",
+  "consonne": "m",
+  "voyelle": "ein",
+  "texte": "mein",
+  "palier": 5,
+  "tts": "meint"
+ },
+ {
+  "id": "m-oin",
+  "consonne": "m",
+  "voyelle": "oin",
+  "texte": "moin",
+  "palier": 5
+ },
+ {
+  "id": "m-eu",
+  "consonne": "m",
+  "voyelle": "eu",
+  "texte": "meu",
+  "palier": 5
+ },
+ {
+  "id": "m-oeu",
+  "consonne": "m",
+  "voyelle": "oeu",
+  "texte": "moeu",
+  "palier": 5
+ },
+ {
+  "id": "m-ian",
+  "consonne": "m",
+  "voyelle": "ian",
+  "texte": "mian",
+  "palier": 6
+ },
+ {
+  "id": "m-ion",
+  "consonne": "m",
+  "voyelle": "ion",
+  "texte": "mion",
+  "palier": 6
+ },
+ {
+  "id": "m-ien",
+  "consonne": "m",
+  "voyelle": "ien",
+  "texte": "mien",
+  "palier": 6
+ },
+ {
+  "id": "m-ieu",
+  "consonne": "m",
+  "voyelle": "ieu",
+  "texte": "mieu",
+  "palier": 6
+ },
+ {
+  "id": "m-elle",
+  "consonne": "m",
+  "voyelle": "elle",
+  "texte": "melle",
+  "palier": 6
+ },
+ {
+  "id": "m-enne",
+  "consonne": "m",
+  "voyelle": "enne",
+  "texte": "menne",
+  "palier": 6
+ },
+ {
+  "id": "m-erre",
+  "consonne": "m",
+  "voyelle": "erre",
+  "texte": "merre",
+  "palier": 6
+ },
+ {
+  "id": "m-esse",
+  "consonne": "m",
+  "voyelle": "esse",
+  "texte": "messe",
+  "palier": 6
+ },
+ {
+  "id": "m-ette",
+  "consonne": "m",
+  "voyelle": "ette",
+  "texte": "mette",
+  "palier": 6
+ },
+ {
+  "id": "m-ill",
+  "consonne": "m",
+  "voyelle": "ill",
+  "texte": "mill",
+  "palier": 6
+ },
+ {
+  "id": "m-ail",
+  "consonne": "m",
+  "voyelle": "ail",
+  "texte": "mail",
+  "palier": 6
+ },
+ {
+  "id": "m-eil",
+  "consonne": "m",
+  "voyelle": "eil",
+  "texte": "meil",
+  "palier": 6
+ },
+ {
+  "id": "m-euil",
+  "consonne": "m",
+  "voyelle": "euil",
+  "texte": "meuil",
+  "palier": 6
+ },
+ {
+  "id": "m-ouil",
+  "consonne": "m",
+  "voyelle": "ouil",
+  "texte": "mouil",
+  "palier": 6
+ },
+ {
+  "id": "s-a",
+  "consonne": "s",
+  "voyelle": "a",
+  "texte": "sa",
+  "palier": 1
+ },
+ {
+  "id": "s-i",
+  "consonne": "s",
+  "voyelle": "i",
+  "texte": "si",
+  "palier": 1
+ },
+ {
+  "id": "s-y",
+  "consonne": "s",
+  "voyelle": "y",
+  "texte": "sy",
+  "palier": 2,
+  "tts": "si"
+ },
+ {
+  "id": "s-u",
+  "consonne": "s",
+  "voyelle": "u",
+  "texte": "su",
+  "palier": 1
+ },
+ {
+  "id": "s-o",
+  "consonne": "s",
+  "voyelle": "o",
+  "texte": "so",
+  "palier": 1
+ },
+ {
+  "id": "s-e",
+  "consonne": "s",
+  "voyelle": "e",
+  "texte": "se",
+  "palier": 1,
+  "tts": "seu"
+ },
+ {
+  "id": "s-eacute",
+  "consonne": "s",
+  "voyelle": "eacute",
+  "texte": "sé",
+  "palier": 1
+ },
+ {
+  "id": "s-er",
+  "consonne": "s",
+  "voyelle": "er",
+  "texte": "ser",
+  "palier": 4
+ },
+ {
+  "id": "s-ez",
+  "consonne": "s",
+  "voyelle": "ez",
+  "texte": "sez",
+  "palier": 4
+ },
+ {
+  "id": "s-ou",
+  "consonne": "s",
+  "voyelle": "ou",
+  "texte": "sou",
+  "palier": 2
+ },
+ {
+  "id": "s-egrave",
+  "consonne": "s",
+  "voyelle": "egrave",
+  "texte": "sè",
+  "palier": 2
+ },
+ {
+  "id": "s-ecirc",
+  "consonne": "s",
+  "voyelle": "ecirc",
+  "texte": "sê",
+  "palier": 2,
+  "tts": "sè"
+ },
+ {
+  "id": "s-oi",
+  "consonne": "s",
+  "voyelle": "oi",
+  "texte": "soi",
+  "palier": 3
+ },
+ {
+  "id": "s-au",
+  "consonne": "s",
+  "voyelle": "au",
+  "texte": "sau",
+  "palier": 3
+ },
+ {
+  "id": "s-eau",
+  "consonne": "s",
+  "voyelle": "eau",
+  "texte": "seau",
+  "palier": 3
+ },
+ {
+  "id": "s-an",
+  "consonne": "s",
+  "voyelle": "an",
+  "texte": "san",
+  "palier": 3,
+  "tts": "sans"
+ },
+ {
+  "id": "s-en",
+  "consonne": "s",
+  "voyelle": "en",
+  "texte": "sen",
+  "palier": 3
+ },
+ {
+  "id": "s-ai",
+  "consonne": "s",
+  "voyelle": "ai",
+  "texte": "sai",
+  "palier": 4
+ },
+ {
+  "id": "s-ei",
+  "consonne": "s",
+  "voyelle": "ei",
+  "texte": "sei",
+  "palier": 4
+ },
+ {
+  "id": "s-et",
+  "consonne": "s",
+  "voyelle": "et",
+  "texte": "set",
+  "palier": 4
+ },
+ {
+  "id": "s-on",
+  "consonne": "s",
+  "voyelle": "on",
+  "texte": "son",
+  "palier": 4
+ },
+ {
+  "id": "s-in",
+  "consonne": "s",
+  "voyelle": "in",
+  "texte": "sin",
+  "palier": 4,
+  "tts": "sint"
+ },
+ {
+  "id": "s-ain",
+  "consonne": "s",
+  "voyelle": "ain",
+  "texte": "sain",
+  "palier": 5
+ },
+ {
+  "id": "s-ein",
+  "consonne": "s",
+  "voyelle": "ein",
+  "texte": "sein",
+  "palier": 5
+ },
+ {
+  "id": "s-oin",
+  "consonne": "s",
+  "voyelle": "oin",
+  "texte": "soin",
+  "palier": 5
+ },
+ {
+  "id": "s-eu",
+  "consonne": "s",
+  "voyelle": "eu",
+  "texte": "seu",
+  "palier": 5
+ },
+ {
+  "id": "s-oeu",
+  "consonne": "s",
+  "voyelle": "oeu",
+  "texte": "soeu",
+  "palier": 5
+ },
+ {
+  "id": "s-ian",
+  "consonne": "s",
+  "voyelle": "ian",
+  "texte": "sian",
+  "palier": 6
+ },
+ {
+  "id": "s-ion",
+  "consonne": "s",
+  "voyelle": "ion",
+  "texte": "sion",
+  "palier": 6
+ },
+ {
+  "id": "s-ien",
+  "consonne": "s",
+  "voyelle": "ien",
+  "texte": "sien",
+  "palier": 6
+ },
+ {
+  "id": "s-ieu",
+  "consonne": "s",
+  "voyelle": "ieu",
+  "texte": "sieu",
+  "palier": 6
+ },
+ {
+  "id": "s-elle",
+  "consonne": "s",
+  "voyelle": "elle",
+  "texte": "selle",
+  "palier": 6
+ },
+ {
+  "id": "s-enne",
+  "consonne": "s",
+  "voyelle": "enne",
+  "texte": "senne",
+  "palier": 6
+ },
+ {
+  "id": "s-erre",
+  "consonne": "s",
+  "voyelle": "erre",
+  "texte": "serre",
+  "palier": 6
+ },
+ {
+  "id": "s-esse",
+  "consonne": "s",
+  "voyelle": "esse",
+  "texte": "sesse",
+  "palier": 6
+ },
+ {
+  "id": "s-ette",
+  "consonne": "s",
+  "voyelle": "ette",
+  "texte": "sette",
+  "palier": 6
+ },
+ {
+  "id": "s-ill",
+  "consonne": "s",
+  "voyelle": "ill",
+  "texte": "sill",
+  "palier": 6
+ },
+ {
+  "id": "s-ail",
+  "consonne": "s",
+  "voyelle": "ail",
+  "texte": "sail",
+  "palier": 6
+ },
+ {
+  "id": "s-eil",
+  "consonne": "s",
+  "voyelle": "eil",
+  "texte": "seil",
+  "palier": 6
+ },
+ {
+  "id": "s-euil",
+  "consonne": "s",
+  "voyelle": "euil",
+  "texte": "seuil",
+  "palier": 6
+ },
+ {
+  "id": "s-ouil",
+  "consonne": "s",
+  "voyelle": "ouil",
+  "texte": "souil",
+  "palier": 6
+ },
+ {
+  "id": "t-a",
+  "consonne": "t",
+  "voyelle": "a",
+  "texte": "ta",
+  "palier": 1
+ },
+ {
+  "id": "t-i",
+  "consonne": "t",
+  "voyelle": "i",
+  "texte": "ti",
+  "palier": 1
+ },
+ {
+  "id": "t-y",
+  "consonne": "t",
+  "voyelle": "y",
+  "texte": "ty",
+  "palier": 2,
+  "tts": "ti"
+ },
+ {
+  "id": "t-u",
+  "consonne": "t",
+  "voyelle": "u",
+  "texte": "tu",
+  "palier": 1
+ },
+ {
+  "id": "t-o",
+  "consonne": "t",
+  "voyelle": "o",
+  "texte": "to",
+  "palier": 1
+ },
+ {
+  "id": "t-e",
+  "consonne": "t",
+  "voyelle": "e",
+  "texte": "te",
+  "palier": 1,
+  "tts": "teu"
+ },
+ {
+  "id": "t-eacute",
+  "consonne": "t",
+  "voyelle": "eacute",
+  "texte": "té",
+  "palier": 1
+ },
+ {
+  "id": "t-er",
+  "consonne": "t",
+  "voyelle": "er",
+  "texte": "ter",
+  "palier": 4
+ },
+ {
+  "id": "t-ez",
+  "consonne": "t",
+  "voyelle": "ez",
+  "texte": "tez",
+  "palier": 4
+ },
+ {
+  "id": "t-ou",
+  "consonne": "t",
+  "voyelle": "ou",
+  "texte": "tou",
+  "palier": 2
+ },
+ {
+  "id": "t-egrave",
+  "consonne": "t",
+  "voyelle": "egrave",
+  "texte": "tè",
+  "palier": 2
+ },
+ {
+  "id": "t-ecirc",
+  "consonne": "t",
+  "voyelle": "ecirc",
+  "texte": "tê",
+  "palier": 2,
+  "tts": "tè"
+ },
+ {
+  "id": "t-oi",
+  "consonne": "t",
+  "voyelle": "oi",
+  "texte": "toi",
+  "palier": 3
+ },
+ {
+  "id": "t-au",
+  "consonne": "t",
+  "voyelle": "au",
+  "texte": "tau",
+  "palier": 3
+ },
+ {
+  "id": "t-eau",
+  "consonne": "t",
+  "voyelle": "eau",
+  "texte": "teau",
+  "palier": 3
+ },
+ {
+  "id": "t-an",
+  "consonne": "t",
+  "voyelle": "an",
+  "texte": "tan",
+  "palier": 3
+ },
+ {
+  "id": "t-en",
+  "consonne": "t",
+  "voyelle": "en",
+  "texte": "ten",
+  "palier": 3,
+  "tts": "tend"
+ },
+ {
+  "id": "t-ai",
+  "consonne": "t",
+  "voyelle": "ai",
+  "texte": "tai",
+  "palier": 4
+ },
+ {
+  "id": "t-ei",
+  "consonne": "t",
+  "voyelle": "ei",
+  "texte": "tei",
+  "palier": 4,
+  "tts": "teih"
+ },
+ {
+  "id": "t-et",
+  "consonne": "t",
+  "voyelle": "et",
+  "texte": "tet",
+  "palier": 4
+ },
+ {
+  "id": "t-on",
+  "consonne": "t",
+  "voyelle": "on",
+  "texte": "ton",
+  "palier": 4
+ },
+ {
+  "id": "t-in",
+  "consonne": "t",
+  "voyelle": "in",
+  "texte": "tin",
+  "palier": 4
+ },
+ {
+  "id": "t-ain",
+  "consonne": "t",
+  "voyelle": "ain",
+  "texte": "tain",
+  "palier": 5
+ },
+ {
+  "id": "t-ein",
+  "consonne": "t",
+  "voyelle": "ein",
+  "texte": "tein",
+  "palier": 5
+ },
+ {
+  "id": "t-oin",
+  "consonne": "t",
+  "voyelle": "oin",
+  "texte": "toin",
+  "palier": 5
+ },
+ {
+  "id": "t-eu",
+  "consonne": "t",
+  "voyelle": "eu",
+  "texte": "teu",
+  "palier": 5
+ },
+ {
+  "id": "t-ian",
+  "consonne": "t",
+  "voyelle": "ian",
+  "texte": "tian",
+  "palier": 6
+ },
+ {
+  "id": "t-ion",
+  "consonne": "t",
+  "voyelle": "ion",
+  "texte": "tion",
+  "palier": 6
+ },
+ {
+  "id": "t-ien",
+  "consonne": "t",
+  "voyelle": "ien",
+  "texte": "tien",
+  "palier": 6
+ },
+ {
+  "id": "t-ieu",
+  "consonne": "t",
+  "voyelle": "ieu",
+  "texte": "tieu",
+  "palier": 6
+ },
+ {
+  "id": "t-elle",
+  "consonne": "t",
+  "voyelle": "elle",
+  "texte": "telle",
+  "palier": 6
+ },
+ {
+  "id": "t-enne",
+  "consonne": "t",
+  "voyelle": "enne",
+  "texte": "tenne",
+  "palier": 6
+ },
+ {
+  "id": "t-erre",
+  "consonne": "t",
+  "voyelle": "erre",
+  "texte": "terre",
+  "palier": 6
+ },
+ {
+  "id": "t-esse",
+  "consonne": "t",
+  "voyelle": "esse",
+  "texte": "tesse",
+  "palier": 6
+ },
+ {
+  "id": "t-ette",
+  "consonne": "t",
+  "voyelle": "ette",
+  "texte": "tette",
+  "palier": 6
+ },
+ {
+  "id": "t-ill",
+  "consonne": "t",
+  "voyelle": "ill",
+  "texte": "till",
+  "palier": 6
+ },
+ {
+  "id": "t-ail",
+  "consonne": "t",
+  "voyelle": "ail",
+  "texte": "tail",
+  "palier": 6
+ },
+ {
+  "id": "t-eil",
+  "consonne": "t",
+  "voyelle": "eil",
+  "texte": "teil",
+  "palier": 6
+ },
+ {
+  "id": "t-euil",
+  "consonne": "t",
+  "voyelle": "euil",
+  "texte": "teuil",
+  "palier": 6
+ },
+ {
+  "id": "t-ouil",
+  "consonne": "t",
+  "voyelle": "ouil",
+  "texte": "touil",
+  "palier": 6
+ },
+ {
+  "id": "p-a",
+  "consonne": "p",
+  "voyelle": "a",
+  "texte": "pa",
+  "palier": 1
+ },
+ {
+  "id": "p-i",
+  "consonne": "p",
+  "voyelle": "i",
+  "texte": "pi",
+  "palier": 1
+ },
+ {
+  "id": "p-y",
+  "consonne": "p",
+  "voyelle": "y",
+  "texte": "py",
+  "palier": 2,
+  "tts": "pi"
+ },
+ {
+  "id": "p-u",
+  "consonne": "p",
+  "voyelle": "u",
+  "texte": "pu",
+  "palier": 1
+ },
+ {
+  "id": "p-o",
+  "consonne": "p",
+  "voyelle": "o",
+  "texte": "po",
+  "palier": 1
+ },
+ {
+  "id": "p-e",
+  "consonne": "p",
+  "voyelle": "e",
+  "texte": "pe",
+  "palier": 1,
+  "tts": "peu"
+ },
+ {
+  "id": "p-eacute",
+  "consonne": "p",
+  "voyelle": "eacute",
+  "texte": "pé",
+  "palier": 1
+ },
+ {
+  "id": "p-er",
+  "consonne": "p",
+  "voyelle": "er",
+  "texte": "per",
+  "palier": 4
+ },
+ {
+  "id": "p-ez",
+  "consonne": "p",
+  "voyelle": "ez",
+  "texte": "pez",
+  "palier": 4
+ },
+ {
+  "id": "p-ou",
+  "consonne": "p",
+  "voyelle": "ou",
+  "texte": "pou",
+  "palier": 2
+ },
+ {
+  "id": "p-egrave",
+  "consonne": "p",
+  "voyelle": "egrave",
+  "texte": "pè",
+  "palier": 2
+ },
+ {
+  "id": "p-ecirc",
+  "consonne": "p",
+  "voyelle": "ecirc",
+  "texte": "pê",
+  "palier": 2,
+  "tts": "pè"
+ },
+ {
+  "id": "p-oi",
+  "consonne": "p",
+  "voyelle": "oi",
+  "texte": "poi",
+  "palier": 3
+ },
+ {
+  "id": "p-au",
+  "consonne": "p",
+  "voyelle": "au",
+  "texte": "pau",
+  "palier": 3
+ },
+ {
+  "id": "p-eau",
+  "consonne": "p",
+  "voyelle": "eau",
+  "texte": "peau",
+  "palier": 3
+ },
+ {
+  "id": "p-an",
+  "consonne": "p",
+  "voyelle": "an",
+  "texte": "pan",
+  "palier": 3
+ },
+ {
+  "id": "p-en",
+  "consonne": "p",
+  "voyelle": "en",
+  "texte": "pen",
+  "palier": 3,
+  "tts": "pent"
+ },
+ {
+  "id": "p-ai",
+  "consonne": "p",
+  "voyelle": "ai",
+  "texte": "pai",
+  "palier": 4
+ },
+ {
+  "id": "p-ei",
+  "consonne": "p",
+  "voyelle": "ei",
+  "texte": "pei",
+  "palier": 4
+ },
+ {
+  "id": "p-et",
+  "consonne": "p",
+  "voyelle": "et",
+  "texte": "pet",
+  "palier": 4
+ },
+ {
+  "id": "p-on",
+  "consonne": "p",
+  "voyelle": "on",
+  "texte": "pon",
+  "palier": 4
+ },
+ {
+  "id": "p-in",
+  "consonne": "p",
+  "voyelle": "in",
+  "texte": "pin",
+  "palier": 4
+ },
+ {
+  "id": "p-ain",
+  "consonne": "p",
+  "voyelle": "ain",
+  "texte": "pain",
+  "palier": 5
+ },
+ {
+  "id": "p-ein",
+  "consonne": "p",
+  "voyelle": "ein",
+  "texte": "pein",
+  "palier": 5
+ },
+ {
+  "id": "p-oin",
+  "consonne": "p",
+  "voyelle": "oin",
+  "texte": "poin",
+  "palier": 5
+ },
+ {
+  "id": "p-eu",
+  "consonne": "p",
+  "voyelle": "eu",
+  "texte": "peu",
+  "palier": 5
+ },
+ {
+  "id": "p-ian",
+  "consonne": "p",
+  "voyelle": "ian",
+  "texte": "pian",
+  "palier": 6
+ },
+ {
+  "id": "p-ion",
+  "consonne": "p",
+  "voyelle": "ion",
+  "texte": "pion",
+  "palier": 6
+ },
+ {
+  "id": "p-ien",
+  "consonne": "p",
+  "voyelle": "ien",
+  "texte": "pien",
+  "palier": 6
+ },
+ {
+  "id": "p-ieu",
+  "consonne": "p",
+  "voyelle": "ieu",
+  "texte": "pieu",
+  "palier": 6
+ },
+ {
+  "id": "p-elle",
+  "consonne": "p",
+  "voyelle": "elle",
+  "texte": "pelle",
+  "palier": 6
+ },
+ {
+  "id": "p-enne",
+  "consonne": "p",
+  "voyelle": "enne",
+  "texte": "penne",
+  "palier": 6
+ },
+ {
+  "id": "p-erre",
+  "consonne": "p",
+  "voyelle": "erre",
+  "texte": "perre",
+  "palier": 6
+ },
+ {
+  "id": "p-esse",
+  "consonne": "p",
+  "voyelle": "esse",
+  "texte": "pesse",
+  "palier": 6
+ },
+ {
+  "id": "p-ette",
+  "consonne": "p",
+  "voyelle": "ette",
+  "texte": "pette",
+  "palier": 6
+ },
+ {
+  "id": "p-ill",
+  "consonne": "p",
+  "voyelle": "ill",
+  "texte": "pill",
+  "palier": 6
+ },
+ {
+  "id": "p-ail",
+  "consonne": "p",
+  "voyelle": "ail",
+  "texte": "pail",
+  "palier": 6
+ },
+ {
+  "id": "p-eil",
+  "consonne": "p",
+  "voyelle": "eil",
+  "texte": "peil",
+  "palier": 6
+ },
+ {
+  "id": "p-euil",
+  "consonne": "p",
+  "voyelle": "euil",
+  "texte": "peuil",
+  "palier": 6
+ },
+ {
+  "id": "p-ouil",
+  "consonne": "p",
+  "voyelle": "ouil",
+  "texte": "pouil",
+  "palier": 6
+ },
+ {
+  "id": "d-a",
+  "consonne": "d",
+  "voyelle": "a",
+  "texte": "da",
+  "palier": 2
+ },
+ {
+  "id": "d-i",
+  "consonne": "d",
+  "voyelle": "i",
+  "texte": "di",
+  "palier": 2
+ },
+ {
+  "id": "d-y",
+  "consonne": "d",
+  "voyelle": "y",
+  "texte": "dy",
+  "palier": 2,
+  "tts": "di"
+ },
+ {
+  "id": "d-u",
+  "consonne": "d",
+  "voyelle": "u",
+  "texte": "du",
+  "palier": 2
+ },
+ {
+  "id": "d-o",
+  "consonne": "d",
+  "voyelle": "o",
+  "texte": "do",
+  "palier": 2
+ },
+ {
+  "id": "d-e",
+  "consonne": "d",
+  "voyelle": "e",
+  "texte": "de",
+  "palier": 2,
+  "tts": "deu"
+ },
+ {
+  "id": "d-eacute",
+  "consonne": "d",
+  "voyelle": "eacute",
+  "texte": "dé",
+  "palier": 2
+ },
+ {
+  "id": "d-er",
+  "consonne": "d",
+  "voyelle": "er",
+  "texte": "der",
+  "palier": 4
+ },
+ {
+  "id": "d-ez",
+  "consonne": "d",
+  "voyelle": "ez",
+  "texte": "dez",
+  "palier": 4
+ },
+ {
+  "id": "d-ou",
+  "consonne": "d",
+  "voyelle": "ou",
+  "texte": "dou",
+  "palier": 2
+ },
+ {
+  "id": "d-egrave",
+  "consonne": "d",
+  "voyelle": "egrave",
+  "texte": "dè",
+  "palier": 2
+ },
+ {
+  "id": "d-ecirc",
+  "consonne": "d",
+  "voyelle": "ecirc",
+  "texte": "dê",
+  "palier": 2,
+  "tts": "dè"
+ },
+ {
+  "id": "d-oi",
+  "consonne": "d",
+  "voyelle": "oi",
+  "texte": "doi",
+  "palier": 3
+ },
+ {
+  "id": "d-au",
+  "consonne": "d",
+  "voyelle": "au",
+  "texte": "dau",
+  "palier": 3
+ },
+ {
+  "id": "d-eau",
+  "consonne": "d",
+  "voyelle": "eau",
+  "texte": "deau",
+  "palier": 3
+ },
+ {
+  "id": "d-an",
+  "consonne": "d",
+  "voyelle": "an",
+  "texte": "dan",
+  "palier": 3,
+  "tts": "dant"
+ },
+ {
+  "id": "d-en",
+  "consonne": "d",
+  "voyelle": "en",
+  "texte": "den",
+  "palier": 3,
+  "tts": "dent"
+ },
+ {
+  "id": "d-ai",
+  "consonne": "d",
+  "voyelle": "ai",
+  "texte": "dai",
+  "palier": 4
+ },
+ {
+  "id": "d-ei",
+  "consonne": "d",
+  "voyelle": "ei",
+  "texte": "dei",
+  "palier": 4
+ },
+ {
+  "id": "d-et",
+  "consonne": "d",
+  "voyelle": "et",
+  "texte": "det",
+  "palier": 4
+ },
+ {
+  "id": "d-on",
+  "consonne": "d",
+  "voyelle": "on",
+  "texte": "don",
+  "palier": 4
+ },
+ {
+  "id": "d-in",
+  "consonne": "d",
+  "voyelle": "in",
+  "texte": "din",
+  "palier": 4
+ },
+ {
+  "id": "d-ain",
+  "consonne": "d",
+  "voyelle": "ain",
+  "texte": "dain",
+  "palier": 5
+ },
+ {
+  "id": "d-ein",
+  "consonne": "d",
+  "voyelle": "ein",
+  "texte": "dein",
+  "palier": 5
+ },
+ {
+  "id": "d-oin",
+  "consonne": "d",
+  "voyelle": "oin",
+  "texte": "doin",
+  "palier": 5
+ },
+ {
+  "id": "d-eu",
+  "consonne": "d",
+  "voyelle": "eu",
+  "texte": "deu",
+  "palier": 5
+ },
+ {
+  "id": "d-ian",
+  "consonne": "d",
+  "voyelle": "ian",
+  "texte": "dian",
+  "palier": 6
+ },
+ {
+  "id": "d-ion",
+  "consonne": "d",
+  "voyelle": "ion",
+  "texte": "dion",
+  "palier": 6
+ },
+ {
+  "id": "d-ien",
+  "consonne": "d",
+  "voyelle": "ien",
+  "texte": "dien",
+  "palier": 6
+ },
+ {
+  "id": "d-ieu",
+  "consonne": "d",
+  "voyelle": "ieu",
+  "texte": "dieu",
+  "palier": 6,
+  "tts": "dieuh"
+ },
+ {
+  "id": "d-elle",
+  "consonne": "d",
+  "voyelle": "elle",
+  "texte": "delle",
+  "palier": 6
+ },
+ {
+  "id": "d-enne",
+  "consonne": "d",
+  "voyelle": "enne",
+  "texte": "denne",
+  "palier": 6
+ },
+ {
+  "id": "d-erre",
+  "consonne": "d",
+  "voyelle": "erre",
+  "texte": "derre",
+  "palier": 6
+ },
+ {
+  "id": "d-esse",
+  "consonne": "d",
+  "voyelle": "esse",
+  "texte": "desse",
+  "palier": 6
+ },
+ {
+  "id": "d-ette",
+  "consonne": "d",
+  "voyelle": "ette",
+  "texte": "dette",
+  "palier": 6
+ },
+ {
+  "id": "d-ill",
+  "consonne": "d",
+  "voyelle": "ill",
+  "texte": "dill",
+  "palier": 6
+ },
+ {
+  "id": "d-ail",
+  "consonne": "d",
+  "voyelle": "ail",
+  "texte": "dail",
+  "palier": 6
+ },
+ {
+  "id": "d-eil",
+  "consonne": "d",
+  "voyelle": "eil",
+  "texte": "deil",
+  "palier": 6
+ },
+ {
+  "id": "d-euil",
+  "consonne": "d",
+  "voyelle": "euil",
+  "texte": "deuil",
+  "palier": 6
+ },
+ {
+  "id": "d-ouil",
+  "consonne": "d",
+  "voyelle": "ouil",
+  "texte": "douil",
+  "palier": 6
+ },
+ {
+  "id": "b-a",
+  "consonne": "b",
+  "voyelle": "a",
+  "texte": "ba",
+  "palier": 2,
+  "tts": "bah"
+ },
+ {
+  "id": "b-i",
+  "consonne": "b",
+  "voyelle": "i",
+  "texte": "bi",
+  "palier": 2
+ },
+ {
+  "id": "b-y",
+  "consonne": "b",
+  "voyelle": "y",
+  "texte": "by",
+  "palier": 2,
+  "tts": "bi"
+ },
+ {
+  "id": "b-u",
+  "consonne": "b",
+  "voyelle": "u",
+  "texte": "bu",
+  "palier": 2
+ },
+ {
+  "id": "b-o",
+  "consonne": "b",
+  "voyelle": "o",
+  "texte": "bo",
+  "palier": 2
+ },
+ {
+  "id": "b-e",
+  "consonne": "b",
+  "voyelle": "e",
+  "texte": "be",
+  "palier": 2,
+  "tts": "beu"
+ },
+ {
+  "id": "b-eacute",
+  "consonne": "b",
+  "voyelle": "eacute",
+  "texte": "bé",
+  "palier": 2
+ },
+ {
+  "id": "b-er",
+  "consonne": "b",
+  "voyelle": "er",
+  "texte": "ber",
+  "palier": 4
+ },
+ {
+  "id": "b-ez",
+  "consonne": "b",
+  "voyelle": "ez",
+  "texte": "bez",
+  "palier": 4
+ },
+ {
+  "id": "b-ou",
+  "consonne": "b",
+  "voyelle": "ou",
+  "texte": "bou",
+  "palier": 2
+ },
+ {
+  "id": "b-egrave",
+  "consonne": "b",
+  "voyelle": "egrave",
+  "texte": "bè",
+  "palier": 2
+ },
+ {
+  "id": "b-ecirc",
+  "consonne": "b",
+  "voyelle": "ecirc",
+  "texte": "bê",
+  "palier": 2,
+  "tts": "bè"
+ },
+ {
+  "id": "b-oi",
+  "consonne": "b",
+  "voyelle": "oi",
+  "texte": "boi",
+  "palier": 3
+ },
+ {
+  "id": "b-au",
+  "consonne": "b",
+  "voyelle": "au",
+  "texte": "bau",
+  "palier": 3
+ },
+ {
+  "id": "b-eau",
+  "consonne": "b",
+  "voyelle": "eau",
+  "texte": "beau",
+  "palier": 3
+ },
+ {
+  "id": "b-an",
+  "consonne": "b",
+  "voyelle": "an",
+  "texte": "ban",
+  "palier": 3
+ },
+ {
+  "id": "b-en",
+  "consonne": "b",
+  "voyelle": "en",
+  "texte": "ben",
+  "palier": 3,
+  "tts": "bens"
+ },
+ {
+  "id": "b-ai",
+  "consonne": "b",
+  "voyelle": "ai",
+  "texte": "bai",
+  "palier": 4
+ },
+ {
+  "id": "b-ei",
+  "consonne": "b",
+  "voyelle": "ei",
+  "texte": "bei",
+  "palier": 4
+ },
+ {
+  "id": "b-et",
+  "consonne": "b",
+  "voyelle": "et",
+  "texte": "bet",
+  "palier": 4
+ },
+ {
+  "id": "b-on",
+  "consonne": "b",
+  "voyelle": "on",
+  "texte": "bon",
+  "palier": 4,
+  "tts": "bond"
+ },
+ {
+  "id": "b-in",
+  "consonne": "b",
+  "voyelle": "in",
+  "texte": "bin",
+  "palier": 4,
+  "tts": "bint"
+ },
+ {
+  "id": "b-ain",
+  "consonne": "b",
+  "voyelle": "ain",
+  "texte": "bain",
+  "palier": 5
+ },
+ {
+  "id": "b-ein",
+  "consonne": "b",
+  "voyelle": "ein",
+  "texte": "bein",
+  "palier": 5
+ },
+ {
+  "id": "b-oin",
+  "consonne": "b",
+  "voyelle": "oin",
+  "texte": "boin",
+  "palier": 5
+ },
+ {
+  "id": "b-eu",
+  "consonne": "b",
+  "voyelle": "eu",
+  "texte": "beu",
+  "palier": 5
+ },
+ {
+  "id": "b-oeu",
+  "consonne": "b",
+  "voyelle": "oeu",
+  "texte": "boeu",
+  "palier": 5
+ },
+ {
+  "id": "b-ian",
+  "consonne": "b",
+  "voyelle": "ian",
+  "texte": "bian",
+  "palier": 6
+ },
+ {
+  "id": "b-ion",
+  "consonne": "b",
+  "voyelle": "ion",
+  "texte": "bion",
+  "palier": 6
+ },
+ {
+  "id": "b-ien",
+  "consonne": "b",
+  "voyelle": "ien",
+  "texte": "bien",
+  "palier": 6
+ },
+ {
+  "id": "b-ieu",
+  "consonne": "b",
+  "voyelle": "ieu",
+  "texte": "bieu",
+  "palier": 6
+ },
+ {
+  "id": "b-elle",
+  "consonne": "b",
+  "voyelle": "elle",
+  "texte": "belle",
+  "palier": 6
+ },
+ {
+  "id": "b-enne",
+  "consonne": "b",
+  "voyelle": "enne",
+  "texte": "benne",
+  "palier": 6
+ },
+ {
+  "id": "b-erre",
+  "consonne": "b",
+  "voyelle": "erre",
+  "texte": "berre",
+  "palier": 6,
+  "tts": "berres"
+ },
+ {
+  "id": "b-esse",
+  "consonne": "b",
+  "voyelle": "esse",
+  "texte": "besse",
+  "palier": 6
+ },
+ {
+  "id": "b-ette",
+  "consonne": "b",
+  "voyelle": "ette",
+  "texte": "bette",
+  "palier": 6
+ },
+ {
+  "id": "b-ill",
+  "consonne": "b",
+  "voyelle": "ill",
+  "texte": "bill",
+  "palier": 6
+ },
+ {
+  "id": "b-ail",
+  "consonne": "b",
+  "voyelle": "ail",
+  "texte": "bail",
+  "palier": 6
+ },
+ {
+  "id": "b-eil",
+  "consonne": "b",
+  "voyelle": "eil",
+  "texte": "beil",
+  "palier": 6
+ },
+ {
+  "id": "b-euil",
+  "consonne": "b",
+  "voyelle": "euil",
+  "texte": "beuil",
+  "palier": 6
+ },
+ {
+  "id": "b-ouil",
+  "consonne": "b",
+  "voyelle": "ouil",
+  "texte": "bouil",
+  "palier": 6
+ },
+ {
+  "id": "f-a",
+  "consonne": "f",
+  "voyelle": "a",
+  "texte": "fa",
+  "palier": 2
+ },
+ {
+  "id": "f-i",
+  "consonne": "f",
+  "voyelle": "i",
+  "texte": "fi",
+  "palier": 2
+ },
+ {
+  "id": "f-y",
+  "consonne": "f",
+  "voyelle": "y",
+  "texte": "fy",
+  "palier": 2,
+  "tts": "fi"
+ },
+ {
+  "id": "f-u",
+  "consonne": "f",
+  "voyelle": "u",
+  "texte": "fu",
+  "palier": 2
+ },
+ {
+  "id": "f-o",
+  "consonne": "f",
+  "voyelle": "o",
+  "texte": "fo",
+  "palier": 2
+ },
+ {
+  "id": "f-e",
+  "consonne": "f",
+  "voyelle": "e",
+  "texte": "fe",
+  "palier": 2,
+  "tts": "feu"
+ },
+ {
+  "id": "f-eacute",
+  "consonne": "f",
+  "voyelle": "eacute",
+  "texte": "fé",
+  "palier": 2
+ },
+ {
+  "id": "f-er",
+  "consonne": "f",
+  "voyelle": "er",
+  "texte": "fer",
+  "palier": 4
+ },
+ {
+  "id": "f-ez",
+  "consonne": "f",
+  "voyelle": "ez",
+  "texte": "fez",
+  "palier": 4,
+  "tts": "fezh"
+ },
+ {
+  "id": "f-ou",
+  "consonne": "f",
+  "voyelle": "ou",
+  "texte": "fou",
+  "palier": 2
+ },
+ {
+  "id": "f-egrave",
+  "consonne": "f",
+  "voyelle": "egrave",
+  "texte": "fè",
+  "palier": 2
+ },
+ {
+  "id": "f-ecirc",
+  "consonne": "f",
+  "voyelle": "ecirc",
+  "texte": "fê",
+  "palier": 2,
+  "tts": "fè"
+ },
+ {
+  "id": "f-oi",
+  "consonne": "f",
+  "voyelle": "oi",
+  "texte": "foi",
+  "palier": 3
+ },
+ {
+  "id": "f-au",
+  "consonne": "f",
+  "voyelle": "au",
+  "texte": "fau",
+  "palier": 3
+ },
+ {
+  "id": "f-eau",
+  "consonne": "f",
+  "voyelle": "eau",
+  "texte": "feau",
+  "palier": 3
+ },
+ {
+  "id": "f-an",
+  "consonne": "f",
+  "voyelle": "an",
+  "texte": "fan",
+  "palier": 3,
+  "tts": "fant"
+ },
+ {
+  "id": "f-en",
+  "consonne": "f",
+  "voyelle": "en",
+  "texte": "fen",
+  "palier": 3
+ },
+ {
+  "id": "f-ai",
+  "consonne": "f",
+  "voyelle": "ai",
+  "texte": "fai",
+  "palier": 4
+ },
+ {
+  "id": "f-ei",
+  "consonne": "f",
+  "voyelle": "ei",
+  "texte": "fei",
+  "palier": 4
+ },
+ {
+  "id": "f-et",
+  "consonne": "f",
+  "voyelle": "et",
+  "texte": "fet",
+  "palier": 4
+ },
+ {
+  "id": "f-on",
+  "consonne": "f",
+  "voyelle": "on",
+  "texte": "fon",
+  "palier": 4
+ },
+ {
+  "id": "f-in",
+  "consonne": "f",
+  "voyelle": "in",
+  "texte": "fin",
+  "palier": 4
+ },
+ {
+  "id": "f-ain",
+  "consonne": "f",
+  "voyelle": "ain",
+  "texte": "fain",
+  "palier": 5
+ },
+ {
+  "id": "f-ein",
+  "consonne": "f",
+  "voyelle": "ein",
+  "texte": "fein",
+  "palier": 5,
+  "tts": "feint"
+ },
+ {
+  "id": "f-oin",
+  "consonne": "f",
+  "voyelle": "oin",
+  "texte": "foin",
+  "palier": 5
+ },
+ {
+  "id": "f-eu",
+  "consonne": "f",
+  "voyelle": "eu",
+  "texte": "feu",
+  "palier": 5
+ },
+ {
+  "id": "f-ian",
+  "consonne": "f",
+  "voyelle": "ian",
+  "texte": "fian",
+  "palier": 6,
+  "tts": "fiand"
+ },
+ {
+  "id": "f-ion",
+  "consonne": "f",
+  "voyelle": "ion",
+  "texte": "fion",
+  "palier": 6
+ },
+ {
+  "id": "f-ien",
+  "consonne": "f",
+  "voyelle": "ien",
+  "texte": "fien",
+  "palier": 6
+ },
+ {
+  "id": "f-ieu",
+  "consonne": "f",
+  "voyelle": "ieu",
+  "texte": "fieu",
+  "palier": 6
+ },
+ {
+  "id": "f-elle",
+  "consonne": "f",
+  "voyelle": "elle",
+  "texte": "felle",
+  "palier": 6
+ },
+ {
+  "id": "f-enne",
+  "consonne": "f",
+  "voyelle": "enne",
+  "texte": "fenne",
+  "palier": 6
+ },
+ {
+  "id": "f-erre",
+  "consonne": "f",
+  "voyelle": "erre",
+  "texte": "ferre",
+  "palier": 6
+ },
+ {
+  "id": "f-esse",
+  "consonne": "f",
+  "voyelle": "esse",
+  "texte": "fesse",
+  "palier": 6
+ },
+ {
+  "id": "f-ette",
+  "consonne": "f",
+  "voyelle": "ette",
+  "texte": "fette",
+  "palier": 6
+ },
+ {
+  "id": "f-ill",
+  "consonne": "f",
+  "voyelle": "ill",
+  "texte": "fill",
+  "palier": 6
+ },
+ {
+  "id": "f-ail",
+  "consonne": "f",
+  "voyelle": "ail",
+  "texte": "fail",
+  "palier": 6
+ },
+ {
+  "id": "f-eil",
+  "consonne": "f",
+  "voyelle": "eil",
+  "texte": "feil",
+  "palier": 6
+ },
+ {
+  "id": "f-euil",
+  "consonne": "f",
+  "voyelle": "euil",
+  "texte": "feuil",
+  "palier": 6
+ },
+ {
+  "id": "f-ouil",
+  "consonne": "f",
+  "voyelle": "ouil",
+  "texte": "fouil",
+  "palier": 6
+ },
+ {
+  "id": "v-a",
+  "consonne": "v",
+  "voyelle": "a",
+  "texte": "va",
+  "palier": 2
+ },
+ {
+  "id": "v-i",
+  "consonne": "v",
+  "voyelle": "i",
+  "texte": "vi",
+  "palier": 2,
+  "tts": "vih"
+ },
+ {
+  "id": "v-y",
+  "consonne": "v",
+  "voyelle": "y",
+  "texte": "vy",
+  "palier": 2,
+  "tts": "vih"
+ },
+ {
+  "id": "v-u",
+  "consonne": "v",
+  "voyelle": "u",
+  "texte": "vu",
+  "palier": 2
+ },
+ {
+  "id": "v-o",
+  "consonne": "v",
+  "voyelle": "o",
+  "texte": "vo",
+  "palier": 2,
+  "tts": "voh"
+ },
+ {
+  "id": "v-e",
+  "consonne": "v",
+  "voyelle": "e",
+  "texte": "ve",
+  "palier": 2,
+  "tts": "veu"
+ },
+ {
+  "id": "v-eacute",
+  "consonne": "v",
+  "voyelle": "eacute",
+  "texte": "vé",
+  "palier": 2
+ },
+ {
+  "id": "v-er",
+  "consonne": "v",
+  "voyelle": "er",
+  "texte": "ver",
+  "palier": 4
+ },
+ {
+  "id": "v-ez",
+  "consonne": "v",
+  "voyelle": "ez",
+  "texte": "vez",
+  "palier": 4
+ },
+ {
+  "id": "v-ou",
+  "consonne": "v",
+  "voyelle": "ou",
+  "texte": "vou",
+  "palier": 2
+ },
+ {
+  "id": "v-egrave",
+  "consonne": "v",
+  "voyelle": "egrave",
+  "texte": "vè",
+  "palier": 2
+ },
+ {
+  "id": "v-ecirc",
+  "consonne": "v",
+  "voyelle": "ecirc",
+  "texte": "vê",
+  "palier": 2,
+  "tts": "vè"
+ },
+ {
+  "id": "v-oi",
+  "consonne": "v",
+  "voyelle": "oi",
+  "texte": "voi",
+  "palier": 3
+ },
+ {
+  "id": "v-au",
+  "consonne": "v",
+  "voyelle": "au",
+  "texte": "vau",
+  "palier": 3
+ },
+ {
+  "id": "v-eau",
+  "consonne": "v",
+  "voyelle": "eau",
+  "texte": "veau",
+  "palier": 3
+ },
+ {
+  "id": "v-an",
+  "consonne": "v",
+  "voyelle": "an",
+  "texte": "van",
+  "palier": 3,
+  "tts": "vant"
+ },
+ {
+  "id": "v-en",
+  "consonne": "v",
+  "voyelle": "en",
+  "texte": "ven",
+  "palier": 3
+ },
+ {
+  "id": "v-ai",
+  "consonne": "v",
+  "voyelle": "ai",
+  "texte": "vai",
+  "palier": 4
+ },
+ {
+  "id": "v-ei",
+  "consonne": "v",
+  "voyelle": "ei",
+  "texte": "vei",
+  "palier": 4
+ },
+ {
+  "id": "v-et",
+  "consonne": "v",
+  "voyelle": "et",
+  "texte": "vet",
+  "palier": 4
+ },
+ {
+  "id": "v-on",
+  "consonne": "v",
+  "voyelle": "on",
+  "texte": "von",
+  "palier": 4
+ },
+ {
+  "id": "v-in",
+  "consonne": "v",
+  "voyelle": "in",
+  "texte": "vin",
+  "palier": 4
+ },
+ {
+  "id": "v-ain",
+  "consonne": "v",
+  "voyelle": "ain",
+  "texte": "vain",
+  "palier": 5
+ },
+ {
+  "id": "v-ein",
+  "consonne": "v",
+  "voyelle": "ein",
+  "texte": "vein",
+  "palier": 5
+ },
+ {
+  "id": "v-oin",
+  "consonne": "v",
+  "voyelle": "oin",
+  "texte": "voin",
+  "palier": 5
+ },
+ {
+  "id": "v-eu",
+  "consonne": "v",
+  "voyelle": "eu",
+  "texte": "veu",
+  "palier": 5
+ },
+ {
+  "id": "v-oeu",
+  "consonne": "v",
+  "voyelle": "oeu",
+  "texte": "voeu",
+  "palier": 5
+ },
+ {
+  "id": "v-ian",
+  "consonne": "v",
+  "voyelle": "ian",
+  "texte": "vian",
+  "palier": 6
+ },
+ {
+  "id": "v-ion",
+  "consonne": "v",
+  "voyelle": "ion",
+  "texte": "vion",
+  "palier": 6
+ },
+ {
+  "id": "v-ien",
+  "consonne": "v",
+  "voyelle": "ien",
+  "texte": "vien",
+  "palier": 6
+ },
+ {
+  "id": "v-ieu",
+  "consonne": "v",
+  "voyelle": "ieu",
+  "texte": "vieu",
+  "palier": 6
+ },
+ {
+  "id": "v-elle",
+  "consonne": "v",
+  "voyelle": "elle",
+  "texte": "velle",
+  "palier": 6
+ },
+ {
+  "id": "v-enne",
+  "consonne": "v",
+  "voyelle": "enne",
+  "texte": "venne",
+  "palier": 6
+ },
+ {
+  "id": "v-erre",
+  "consonne": "v",
+  "voyelle": "erre",
+  "texte": "verre",
+  "palier": 6
+ },
+ {
+  "id": "v-esse",
+  "consonne": "v",
+  "voyelle": "esse",
+  "texte": "vesse",
+  "palier": 6
+ },
+ {
+  "id": "v-ette",
+  "consonne": "v",
+  "voyelle": "ette",
+  "texte": "vette",
+  "palier": 6
+ },
+ {
+  "id": "v-ill",
+  "consonne": "v",
+  "voyelle": "ill",
+  "texte": "vill",
+  "palier": 6
+ },
+ {
+  "id": "v-ail",
+  "consonne": "v",
+  "voyelle": "ail",
+  "texte": "vail",
+  "palier": 6
+ },
+ {
+  "id": "v-eil",
+  "consonne": "v",
+  "voyelle": "eil",
+  "texte": "veil",
+  "palier": 6
+ },
+ {
+  "id": "v-euil",
+  "consonne": "v",
+  "voyelle": "euil",
+  "texte": "veuil",
+  "palier": 6
+ },
+ {
+  "id": "v-ouil",
+  "consonne": "v",
+  "voyelle": "ouil",
+  "texte": "vouil",
+  "palier": 6
+ },
+ {
+  "id": "n-a",
+  "consonne": "n",
+  "voyelle": "a",
+  "texte": "na",
+  "palier": 2
+ },
+ {
+  "id": "n-i",
+  "consonne": "n",
+  "voyelle": "i",
+  "texte": "ni",
+  "palier": 2
+ },
+ {
+  "id": "n-y",
+  "consonne": "n",
+  "voyelle": "y",
+  "texte": "ny",
+  "palier": 2,
+  "tts": "ni"
+ },
+ {
+  "id": "n-u",
+  "consonne": "n",
+  "voyelle": "u",
+  "texte": "nu",
+  "palier": 2
+ },
+ {
+  "id": "n-o",
+  "consonne": "n",
+  "voyelle": "o",
+  "texte": "no",
+  "palier": 2
+ },
+ {
+  "id": "n-e",
+  "consonne": "n",
+  "voyelle": "e",
+  "texte": "ne",
+  "palier": 2,
+  "tts": "neu"
+ },
+ {
+  "id": "n-eacute",
+  "consonne": "n",
+  "voyelle": "eacute",
+  "texte": "né",
+  "palier": 2
+ },
+ {
+  "id": "n-er",
+  "consonne": "n",
+  "voyelle": "er",
+  "texte": "ner",
+  "palier": 4
+ },
+ {
+  "id": "n-ez",
+  "consonne": "n",
+  "voyelle": "ez",
+  "texte": "nez",
+  "palier": 4
+ },
+ {
+  "id": "n-ou",
+  "consonne": "n",
+  "voyelle": "ou",
+  "texte": "nou",
+  "palier": 2
+ },
+ {
+  "id": "n-egrave",
+  "consonne": "n",
+  "voyelle": "egrave",
+  "texte": "nè",
+  "palier": 2
+ },
+ {
+  "id": "n-ecirc",
+  "consonne": "n",
+  "voyelle": "ecirc",
+  "texte": "nê",
+  "palier": 2,
+  "tts": "nè"
+ },
+ {
+  "id": "n-oi",
+  "consonne": "n",
+  "voyelle": "oi",
+  "texte": "noi",
+  "palier": 3
+ },
+ {
+  "id": "n-au",
+  "consonne": "n",
+  "voyelle": "au",
+  "texte": "nau",
+  "palier": 3
+ },
+ {
+  "id": "n-eau",
+  "consonne": "n",
+  "voyelle": "eau",
+  "texte": "neau",
+  "palier": 3
+ },
+ {
+  "id": "n-an",
+  "consonne": "n",
+  "voyelle": "an",
+  "texte": "nan",
+  "palier": 3
+ },
+ {
+  "id": "n-en",
+  "consonne": "n",
+  "voyelle": "en",
+  "texte": "nen",
+  "palier": 3
+ },
+ {
+  "id": "n-ai",
+  "consonne": "n",
+  "voyelle": "ai",
+  "texte": "nai",
+  "palier": 4
+ },
+ {
+  "id": "n-ei",
+  "consonne": "n",
+  "voyelle": "ei",
+  "texte": "nei",
+  "palier": 4
+ },
+ {
+  "id": "n-et",
+  "consonne": "n",
+  "voyelle": "et",
+  "texte": "net",
+  "palier": 4
+ },
+ {
+  "id": "n-on",
+  "consonne": "n",
+  "voyelle": "on",
+  "texte": "non",
+  "palier": 4,
+  "tts": "nont"
+ },
+ {
+  "id": "n-in",
+  "consonne": "n",
+  "voyelle": "in",
+  "texte": "nin",
+  "palier": 4
+ },
+ {
+  "id": "n-ain",
+  "consonne": "n",
+  "voyelle": "ain",
+  "texte": "nain",
+  "palier": 5
+ },
+ {
+  "id": "n-ein",
+  "consonne": "n",
+  "voyelle": "ein",
+  "texte": "nein",
+  "palier": 5,
+  "tts": "neint"
+ },
+ {
+  "id": "n-oin",
+  "consonne": "n",
+  "voyelle": "oin",
+  "texte": "noin",
+  "palier": 5
+ },
+ {
+  "id": "n-eu",
+  "consonne": "n",
+  "voyelle": "eu",
+  "texte": "neu",
+  "palier": 5
+ },
+ {
+  "id": "n-oeu",
+  "consonne": "n",
+  "voyelle": "oeu",
+  "texte": "noeu",
+  "palier": 5
+ },
+ {
+  "id": "n-ian",
+  "consonne": "n",
+  "voyelle": "ian",
+  "texte": "nian",
+  "palier": 6
+ },
+ {
+  "id": "n-ion",
+  "consonne": "n",
+  "voyelle": "ion",
+  "texte": "nion",
+  "palier": 6,
+  "tts": "niont"
+ },
+ {
+  "id": "n-ien",
+  "consonne": "n",
+  "voyelle": "ien",
+  "texte": "nien",
+  "palier": 6
+ },
+ {
+  "id": "n-ieu",
+  "consonne": "n",
+  "voyelle": "ieu",
+  "texte": "nieu",
+  "palier": 6
+ },
+ {
+  "id": "n-elle",
+  "consonne": "n",
+  "voyelle": "elle",
+  "texte": "nelle",
+  "palier": 6
+ },
+ {
+  "id": "n-enne",
+  "consonne": "n",
+  "voyelle": "enne",
+  "texte": "nenne",
+  "palier": 6
+ },
+ {
+  "id": "n-erre",
+  "consonne": "n",
+  "voyelle": "erre",
+  "texte": "nerre",
+  "palier": 6
+ },
+ {
+  "id": "n-esse",
+  "consonne": "n",
+  "voyelle": "esse",
+  "texte": "nesse",
+  "palier": 6
+ },
+ {
+  "id": "n-ette",
+  "consonne": "n",
+  "voyelle": "ette",
+  "texte": "nette",
+  "palier": 6
+ },
+ {
+  "id": "n-ill",
+  "consonne": "n",
+  "voyelle": "ill",
+  "texte": "nill",
+  "palier": 6
+ },
+ {
+  "id": "n-ail",
+  "consonne": "n",
+  "voyelle": "ail",
+  "texte": "nail",
+  "palier": 6
+ },
+ {
+  "id": "n-eil",
+  "consonne": "n",
+  "voyelle": "eil",
+  "texte": "neil",
+  "palier": 6
+ },
+ {
+  "id": "n-euil",
+  "consonne": "n",
+  "voyelle": "euil",
+  "texte": "neuil",
+  "palier": 6
+ },
+ {
+  "id": "n-ouil",
+  "consonne": "n",
+  "voyelle": "ouil",
+  "texte": "nouil",
+  "palier": 6
+ },
+ {
+  "id": "z-a",
+  "consonne": "z",
+  "voyelle": "a",
+  "texte": "za",
+  "palier": 2,
+  "tts": "zah"
+ },
+ {
+  "id": "z-i",
+  "consonne": "z",
+  "voyelle": "i",
+  "texte": "zi",
+  "palier": 2,
+  "tts": "zih"
+ },
+ {
+  "id": "z-u",
+  "consonne": "z",
+  "voyelle": "u",
+  "texte": "zu",
+  "palier": 2
+ },
+ {
+  "id": "z-o",
+  "consonne": "z",
+  "voyelle": "o",
+  "texte": "zo",
+  "palier": 2,
+  "tts": "zoh"
+ },
+ {
+  "id": "z-e",
+  "consonne": "z",
+  "voyelle": "e",
+  "texte": "ze",
+  "palier": 2,
+  "tts": "zeu"
+ },
+ {
+  "id": "z-eacute",
+  "consonne": "z",
+  "voyelle": "eacute",
+  "texte": "zé",
+  "palier": 2
+ },
+ {
+  "id": "z-er",
+  "consonne": "z",
+  "voyelle": "er",
+  "texte": "zer",
+  "palier": 4
+ },
+ {
+  "id": "z-ou",
+  "consonne": "z",
+  "voyelle": "ou",
+  "texte": "zou",
+  "palier": 2
+ },
+ {
+  "id": "z-egrave",
+  "consonne": "z",
+  "voyelle": "egrave",
+  "texte": "zè",
+  "palier": 2
+ },
+ {
+  "id": "z-an",
+  "consonne": "z",
+  "voyelle": "an",
+  "texte": "zan",
+  "palier": 3
+ },
+ {
+  "id": "z-et",
+  "consonne": "z",
+  "voyelle": "et",
+  "texte": "zet",
+  "palier": 4
+ },
+ {
+  "id": "z-on",
+  "consonne": "z",
+  "voyelle": "on",
+  "texte": "zon",
+  "palier": 4,
+  "tts": "zond"
+ },
+ {
+  "id": "z-in",
+  "consonne": "z",
+  "voyelle": "in",
+  "texte": "zin",
+  "palier": 4
+ },
+ {
+  "id": "z-oin",
+  "consonne": "z",
+  "voyelle": "oin",
+  "texte": "zoin",
+  "palier": 5
+ },
+ {
+  "id": "z-ian",
+  "consonne": "z",
+  "voyelle": "ian",
+  "texte": "zian",
+  "palier": 6
+ },
+ {
+  "id": "z-ion",
+  "consonne": "z",
+  "voyelle": "ion",
+  "texte": "zion",
+  "palier": 6,
+  "tts": "ziont"
+ },
+ {
+  "id": "z-ien",
+  "consonne": "z",
+  "voyelle": "ien",
+  "texte": "zien",
+  "palier": 6
+ },
+ {
+  "id": "c-a",
+  "consonne": "c",
+  "voyelle": "a",
+  "texte": "ca",
+  "palier": 3
+ },
+ {
+  "id": "c-i",
+  "consonne": "c",
+  "voyelle": "i",
+  "texte": "ci",
+  "palier": 3
+ },
+ {
+  "id": "c-u",
+  "consonne": "c",
+  "voyelle": "u",
+  "texte": "cu",
+  "palier": 3
+ },
+ {
+  "id": "c-o",
+  "consonne": "c",
+  "voyelle": "o",
+  "texte": "co",
+  "palier": 3
+ },
+ {
+  "id": "c-e",
+  "consonne": "c",
+  "voyelle": "e",
+  "texte": "ce",
+  "palier": 3,
+  "tts": "ceu"
+ },
+ {
+  "id": "c-eacute",
+  "consonne": "c",
+  "voyelle": "eacute",
+  "texte": "cé",
+  "palier": 3
+ },
+ {
+  "id": "c-er",
+  "consonne": "c",
+  "voyelle": "er",
+  "texte": "cer",
+  "palier": 4
+ },
+ {
+  "id": "c-ou",
+  "consonne": "c",
+  "voyelle": "ou",
+  "texte": "cou",
+  "palier": 3
+ },
+ {
+  "id": "c-egrave",
+  "consonne": "c",
+  "voyelle": "egrave",
+  "texte": "cè",
+  "palier": 3
+ },
+ {
+  "id": "c-ecirc",
+  "consonne": "c",
+  "voyelle": "ecirc",
+  "texte": "cê",
+  "palier": 3,
+  "tts": "cè"
+ },
+ {
+  "id": "c-oi",
+  "consonne": "c",
+  "voyelle": "oi",
+  "texte": "coi",
+  "palier": 3
+ },
+ {
+  "id": "c-au",
+  "consonne": "c",
+  "voyelle": "au",
+  "texte": "cau",
+  "palier": 3
+ },
+ {
+  "id": "c-eau",
+  "consonne": "c",
+  "voyelle": "eau",
+  "texte": "ceau",
+  "palier": 3
+ },
+ {
+  "id": "c-an",
+  "consonne": "c",
+  "voyelle": "an",
+  "texte": "can",
+  "palier": 3,
+  "tts": "cant"
+ },
+ {
+  "id": "c-en",
+  "consonne": "c",
+  "voyelle": "en",
+  "texte": "cen",
+  "palier": 3
+ },
+ {
+  "id": "c-ai",
+  "consonne": "c",
+  "voyelle": "ai",
+  "texte": "cai",
+  "palier": 4
+ },
+ {
+  "id": "c-ei",
+  "consonne": "c",
+  "voyelle": "ei",
+  "texte": "cei",
+  "palier": 4
+ },
+ {
+  "id": "c-et",
+  "consonne": "c",
+  "voyelle": "et",
+  "texte": "cet",
+  "palier": 4
+ },
+ {
+  "id": "c-on",
+  "consonne": "c",
+  "voyelle": "on",
+  "texte": "con",
+  "palier": 4,
+  "tts": "conc"
+ },
+ {
+  "id": "c-in",
+  "consonne": "c",
+  "voyelle": "in",
+  "texte": "cin",
+  "palier": 4
+ },
+ {
+  "id": "c-ain",
+  "consonne": "c",
+  "voyelle": "ain",
+  "texte": "cain",
+  "palier": 5
+ },
+ {
+  "id": "c-ein",
+  "consonne": "c",
+  "voyelle": "ein",
+  "texte": "cein",
+  "palier": 5
+ },
+ {
+  "id": "c-oin",
+  "consonne": "c",
+  "voyelle": "oin",
+  "texte": "coin",
+  "palier": 5
+ },
+ {
+  "id": "c-eu",
+  "consonne": "c",
+  "voyelle": "eu",
+  "texte": "ceu",
+  "palier": 5
+ },
+ {
+  "id": "c-oeu",
+  "consonne": "c",
+  "voyelle": "oeu",
+  "texte": "coeu",
+  "palier": 5
+ },
+ {
+  "id": "c-ian",
+  "consonne": "c",
+  "voyelle": "ian",
+  "texte": "cian",
+  "palier": 6
+ },
+ {
+  "id": "c-ion",
+  "consonne": "c",
+  "voyelle": "ion",
+  "texte": "cion",
+  "palier": 6
+ },
+ {
+  "id": "c-ien",
+  "consonne": "c",
+  "voyelle": "ien",
+  "texte": "cien",
+  "palier": 6
+ },
+ {
+  "id": "c-ieu",
+  "consonne": "c",
+  "voyelle": "ieu",
+  "texte": "cieu",
+  "palier": 6
+ },
+ {
+  "id": "c-elle",
+  "consonne": "c",
+  "voyelle": "elle",
+  "texte": "celle",
+  "palier": 6
+ },
+ {
+  "id": "c-esse",
+  "consonne": "c",
+  "voyelle": "esse",
+  "texte": "cesse",
+  "palier": 6
+ },
+ {
+  "id": "c-ette",
+  "consonne": "c",
+  "voyelle": "ette",
+  "texte": "cette",
+  "palier": 6
+ },
+ {
+  "id": "c-ail",
+  "consonne": "c",
+  "voyelle": "ail",
+  "texte": "cail",
+  "palier": 6
+ },
+ {
+  "id": "c-eil",
+  "consonne": "c",
+  "voyelle": "eil",
+  "texte": "ceil",
+  "palier": 6
+ },
+ {
+  "id": "c-euil",
+  "consonne": "c",
+  "voyelle": "euil",
+  "texte": "ceuil",
+  "palier": 6
+ },
+ {
+  "id": "j-a",
+  "consonne": "j",
+  "voyelle": "a",
+  "texte": "ja",
+  "palier": 3
+ },
+ {
+  "id": "j-i",
+  "consonne": "j",
+  "voyelle": "i",
+  "texte": "ji",
+  "palier": 3
+ },
+ {
+  "id": "j-u",
+  "consonne": "j",
+  "voyelle": "u",
+  "texte": "ju",
+  "palier": 3
+ },
+ {
+  "id": "j-o",
+  "consonne": "j",
+  "voyelle": "o",
+  "texte": "jo",
+  "palier": 3
+ },
+ {
+  "id": "j-e",
+  "consonne": "j",
+  "voyelle": "e",
+  "texte": "je",
+  "palier": 3,
+  "tts": "jeu"
+ },
+ {
+  "id": "j-eacute",
+  "consonne": "j",
+  "voyelle": "eacute",
+  "texte": "jé",
+  "palier": 3
+ },
+ {
+  "id": "j-er",
+  "consonne": "j",
+  "voyelle": "er",
+  "texte": "jer",
+  "palier": 4
+ },
+ {
+  "id": "j-ez",
+  "consonne": "j",
+  "voyelle": "ez",
+  "texte": "jez",
+  "palier": 4
+ },
+ {
+  "id": "j-ou",
+  "consonne": "j",
+  "voyelle": "ou",
+  "texte": "jou",
+  "palier": 3
+ },
+ {
+  "id": "j-egrave",
+  "consonne": "j",
+  "voyelle": "egrave",
+  "texte": "jè",
+  "palier": 3
+ },
+ {
+  "id": "j-oi",
+  "consonne": "j",
+  "voyelle": "oi",
+  "texte": "joi",
+  "palier": 3
+ },
+ {
+  "id": "j-au",
+  "consonne": "j",
+  "voyelle": "au",
+  "texte": "jau",
+  "palier": 3
+ },
+ {
+  "id": "j-an",
+  "consonne": "j",
+  "voyelle": "an",
+  "texte": "jan",
+  "palier": 3,
+  "tts": "jant"
+ },
+ {
+  "id": "j-en",
+  "consonne": "j",
+  "voyelle": "en",
+  "texte": "jen",
+  "palier": 3
+ },
+ {
+  "id": "j-ai",
+  "consonne": "j",
+  "voyelle": "ai",
+  "texte": "jai",
+  "palier": 4
+ },
+ {
+  "id": "j-et",
+  "consonne": "j",
+  "voyelle": "et",
+  "texte": "jet",
+  "palier": 4
+ },
+ {
+  "id": "j-on",
+  "consonne": "j",
+  "voyelle": "on",
+  "texte": "jon",
+  "palier": 4,
+  "tts": "jont"
+ },
+ {
+  "id": "j-in",
+  "consonne": "j",
+  "voyelle": "in",
+  "texte": "jin",
+  "palier": 4,
+  "tts": "jint"
+ },
+ {
+  "id": "j-oin",
+  "consonne": "j",
+  "voyelle": "oin",
+  "texte": "join",
+  "palier": 5,
+  "tts": "joint"
+ },
+ {
+  "id": "j-eu",
+  "consonne": "j",
+  "voyelle": "eu",
+  "texte": "jeu",
+  "palier": 5
+ },
+ {
+  "id": "j-ette",
+  "consonne": "j",
+  "voyelle": "ette",
+  "texte": "jette",
+  "palier": 6
+ },
+ {
+  "id": "ch-a",
+  "consonne": "ch",
+  "voyelle": "a",
+  "texte": "cha",
+  "palier": 3
+ },
+ {
+  "id": "ch-i",
+  "consonne": "ch",
+  "voyelle": "i",
+  "texte": "chi",
+  "palier": 3
+ },
+ {
+  "id": "ch-u",
+  "consonne": "ch",
+  "voyelle": "u",
+  "texte": "chu",
+  "palier": 3
+ },
+ {
+  "id": "ch-o",
+  "consonne": "ch",
+  "voyelle": "o",
+  "texte": "cho",
+  "palier": 3
+ },
+ {
+  "id": "ch-e",
+  "consonne": "ch",
+  "voyelle": "e",
+  "texte": "che",
+  "palier": 3,
+  "tts": "cheu"
+ },
+ {
+  "id": "ch-eacute",
+  "consonne": "ch",
+  "voyelle": "eacute",
+  "texte": "ché",
+  "palier": 3,
+  "tts": "chée"
+ },
+ {
+  "id": "ch-er",
+  "consonne": "ch",
+  "voyelle": "er",
+  "texte": "cher",
+  "palier": 4
+ },
+ {
+  "id": "ch-ez",
+  "consonne": "ch",
+  "voyelle": "ez",
+  "texte": "chez",
+  "palier": 4
+ },
+ {
+  "id": "ch-ou",
+  "consonne": "ch",
+  "voyelle": "ou",
+  "texte": "chou",
+  "palier": 3
+ },
+ {
+  "id": "ch-egrave",
+  "consonne": "ch",
+  "voyelle": "egrave",
+  "texte": "chè",
+  "palier": 3
+ },
+ {
+  "id": "ch-ecirc",
+  "consonne": "ch",
+  "voyelle": "ecirc",
+  "texte": "chê",
+  "palier": 3,
+  "tts": "chè"
+ },
+ {
+  "id": "ch-oi",
+  "consonne": "ch",
+  "voyelle": "oi",
+  "texte": "choi",
+  "palier": 3
+ },
+ {
+  "id": "ch-au",
+  "consonne": "ch",
+  "voyelle": "au",
+  "texte": "chau",
+  "palier": 3,
+  "tts": "chauh"
+ },
+ {
+  "id": "ch-an",
+  "consonne": "ch",
+  "voyelle": "an",
+  "texte": "chan",
+  "palier": 3,
+  "tts": "chant"
+ },
+ {
+  "id": "ch-en",
+  "consonne": "ch",
+  "voyelle": "en",
+  "texte": "chen",
+  "palier": 3,
+  "tts": "chent"
+ },
+ {
+  "id": "ch-ai",
+  "consonne": "ch",
+  "voyelle": "ai",
+  "texte": "chai",
+  "palier": 4
+ },
+ {
+  "id": "ch-et",
+  "consonne": "ch",
+  "voyelle": "et",
+  "texte": "chet",
+  "palier": 4
+ },
+ {
+  "id": "ch-on",
+  "consonne": "ch",
+  "voyelle": "on",
+  "texte": "chon",
+  "palier": 4
+ },
+ {
+  "id": "ch-in",
+  "consonne": "ch",
+  "voyelle": "in",
+  "texte": "chin",
+  "palier": 4
+ },
+ {
+  "id": "ch-eu",
+  "consonne": "ch",
+  "voyelle": "eu",
+  "texte": "cheu",
+  "palier": 5
+ },
+ {
+  "id": "ch-ien",
+  "consonne": "ch",
+  "voyelle": "ien",
+  "texte": "chien",
+  "palier": 6
+ },
+ {
+  "id": "ch-elle",
+  "consonne": "ch",
+  "voyelle": "elle",
+  "texte": "chelle",
+  "palier": 6
+ },
+ {
+  "id": "ch-esse",
+  "consonne": "ch",
+  "voyelle": "esse",
+  "texte": "chesse",
+  "palier": 6
+ },
+ {
+  "id": "ch-ette",
+  "consonne": "ch",
+  "voyelle": "ette",
+  "texte": "chette",
+  "palier": 6
+ },
+ {
+  "id": "h-a",
+  "consonne": "h",
+  "voyelle": "a",
+  "texte": "ha",
+  "palier": 3
+ },
+ {
+  "id": "h-i",
+  "consonne": "h",
+  "voyelle": "i",
+  "texte": "hi",
+  "palier": 3,
+  "tts": "hie"
+ },
+ {
+  "id": "h-u",
+  "consonne": "h",
+  "voyelle": "u",
+  "texte": "hu",
+  "palier": 3
+ },
+ {
+  "id": "h-o",
+  "consonne": "h",
+  "voyelle": "o",
+  "texte": "ho",
+  "palier": 3
+ },
+ {
+  "id": "h-e",
+  "consonne": "h",
+  "voyelle": "e",
+  "texte": "he",
+  "palier": 3,
+  "tts": "heu"
+ },
+ {
+  "id": "h-eacute",
+  "consonne": "h",
+  "voyelle": "eacute",
+  "texte": "hé",
+  "palier": 3,
+  "tts": "héh"
+ },
+ {
+  "id": "h-er",
+  "consonne": "h",
+  "voyelle": "er",
+  "texte": "her",
+  "palier": 4
+ },
+ {
+  "id": "h-ou",
+  "consonne": "h",
+  "voyelle": "ou",
+  "texte": "hou",
+  "palier": 3
+ },
+ {
+  "id": "h-egrave",
+  "consonne": "h",
+  "voyelle": "egrave",
+  "texte": "hè",
+  "palier": 3
+ },
+ {
+  "id": "h-ecirc",
+  "consonne": "h",
+  "voyelle": "ecirc",
+  "texte": "hê",
+  "palier": 3,
+  "tts": "hè"
+ },
+ {
+  "id": "h-au",
+  "consonne": "h",
+  "voyelle": "au",
+  "texte": "hau",
+  "palier": 3
+ },
+ {
+  "id": "h-an",
+  "consonne": "h",
+  "voyelle": "an",
+  "texte": "han",
+  "palier": 3
+ },
+ {
+  "id": "h-ai",
+  "consonne": "h",
+  "voyelle": "ai",
+  "texte": "hai",
+  "palier": 4
+ },
+ {
+  "id": "h-on",
+  "consonne": "h",
+  "voyelle": "on",
+  "texte": "hon",
+  "palier": 4
+ },
+ {
+  "id": "h-ein",
+  "consonne": "h",
+  "voyelle": "ein",
+  "texte": "hein",
+  "palier": 5
+ },
+ {
+  "id": "h-eu",
+  "consonne": "h",
+  "voyelle": "eu",
+  "texte": "heu",
+  "palier": 5
+ },
+ {
+  "id": "ccedil-a",
+  "consonne": "ccedil",
+  "voyelle": "a",
+  "texte": "ça",
+  "palier": 3
+ },
+ {
+  "id": "ccedil-on",
+  "consonne": "ccedil",
+  "voyelle": "on",
+  "texte": "çon",
+  "palier": 4
+ },
+ {
+  "id": "ph-a",
+  "consonne": "ph",
+  "voyelle": "a",
+  "texte": "pha",
+  "palier": 3
+ },
+ {
+  "id": "ph-i",
+  "consonne": "ph",
+  "voyelle": "i",
+  "texte": "phi",
+  "palier": 3
+ },
+ {
+  "id": "ph-y",
+  "consonne": "ph",
+  "voyelle": "y",
+  "texte": "phy",
+  "palier": 3,
+  "tts": "phi"
+ },
+ {
+  "id": "ph-u",
+  "consonne": "ph",
+  "voyelle": "u",
+  "texte": "phu",
+  "palier": 3
+ },
+ {
+  "id": "ph-o",
+  "consonne": "ph",
+  "voyelle": "o",
+  "texte": "pho",
+  "palier": 3
+ },
+ {
+  "id": "ph-e",
+  "consonne": "ph",
+  "voyelle": "e",
+  "texte": "phe",
+  "palier": 3,
+  "tts": "pheu"
+ },
+ {
+  "id": "ph-eacute",
+  "consonne": "ph",
+  "voyelle": "eacute",
+  "texte": "phé",
+  "palier": 3
+ },
+ {
+  "id": "ph-er",
+  "consonne": "ph",
+  "voyelle": "er",
+  "texte": "pher",
+  "palier": 4
+ },
+ {
+  "id": "ph-ou",
+  "consonne": "ph",
+  "voyelle": "ou",
+  "texte": "phou",
+  "palier": 3
+ },
+ {
+  "id": "ph-egrave",
+  "consonne": "ph",
+  "voyelle": "egrave",
+  "texte": "phè",
+  "palier": 3
+ },
+ {
+  "id": "ph-an",
+  "consonne": "ph",
+  "voyelle": "an",
+  "texte": "phan",
+  "palier": 3
+ },
+ {
+  "id": "ph-on",
+  "consonne": "ph",
+  "voyelle": "on",
+  "texte": "phon",
+  "palier": 4
+ },
+ {
+  "id": "g-a",
+  "consonne": "g",
+  "voyelle": "a",
+  "texte": "ga",
+  "palier": 3
+ },
+ {
+  "id": "g-i",
+  "consonne": "g",
+  "voyelle": "i",
+  "texte": "gi",
+  "palier": 3,
+  "tts": "gih"
+ },
+ {
+  "id": "g-y",
+  "consonne": "g",
+  "voyelle": "y",
+  "texte": "gy",
+  "palier": 3,
+  "tts": "gih"
+ },
+ {
+  "id": "g-u",
+  "consonne": "g",
+  "voyelle": "u",
+  "texte": "gu",
+  "palier": 3
+ },
+ {
+  "id": "g-o",
+  "consonne": "g",
+  "voyelle": "o",
+  "texte": "go",
+  "palier": 3
+ },
+ {
+  "id": "g-e",
+  "consonne": "g",
+  "voyelle": "e",
+  "texte": "ge",
+  "palier": 3,
+  "tts": "jeu"
+ },
+ {
+  "id": "g-eacute",
+  "consonne": "g",
+  "voyelle": "eacute",
+  "texte": "gé",
+  "palier": 3
+ },
+ {
+  "id": "g-er",
+  "consonne": "g",
+  "voyelle": "er",
+  "texte": "ger",
+  "palier": 4
+ },
+ {
+  "id": "g-ez",
+  "consonne": "g",
+  "voyelle": "ez",
+  "texte": "gez",
+  "palier": 4
+ },
+ {
+  "id": "g-ou",
+  "consonne": "g",
+  "voyelle": "ou",
+  "texte": "gou",
+  "palier": 3
+ },
+ {
+  "id": "g-egrave",
+  "consonne": "g",
+  "voyelle": "egrave",
+  "texte": "gè",
+  "palier": 3
+ },
+ {
+  "id": "g-ecirc",
+  "consonne": "g",
+  "voyelle": "ecirc",
+  "texte": "gê",
+  "palier": 3,
+  "tts": "gè"
+ },
+ {
+  "id": "g-oi",
+  "consonne": "g",
+  "voyelle": "oi",
+  "texte": "goi",
+  "palier": 3
+ },
+ {
+  "id": "g-au",
+  "consonne": "g",
+  "voyelle": "au",
+  "texte": "gau",
+  "palier": 3
+ },
+ {
+  "id": "g-eau",
+  "consonne": "g",
+  "voyelle": "eau",
+  "texte": "geau",
+  "palier": 3
+ },
+ {
+  "id": "g-an",
+  "consonne": "g",
+  "voyelle": "an",
+  "texte": "gan",
+  "palier": 3
+ },
+ {
+  "id": "g-en",
+  "consonne": "g",
+  "voyelle": "en",
+  "texte": "gen",
+  "palier": 3,
+  "tts": "gend"
+ },
+ {
+  "id": "g-ai",
+  "consonne": "g",
+  "voyelle": "ai",
+  "texte": "gai",
+  "palier": 4
+ },
+ {
+  "id": "g-ei",
+  "consonne": "g",
+  "voyelle": "ei",
+  "texte": "gei",
+  "palier": 4
+ },
+ {
+  "id": "g-et",
+  "consonne": "g",
+  "voyelle": "et",
+  "texte": "get",
+  "palier": 4
+ },
+ {
+  "id": "g-on",
+  "consonne": "g",
+  "voyelle": "on",
+  "texte": "gon",
+  "palier": 4
+ },
+ {
+  "id": "g-ain",
+  "consonne": "g",
+  "voyelle": "ain",
+  "texte": "gain",
+  "palier": 5
+ },
+ {
+  "id": "g-oin",
+  "consonne": "g",
+  "voyelle": "oin",
+  "texte": "goin",
+  "palier": 5
+ },
+ {
+  "id": "g-ion",
+  "consonne": "g",
+  "voyelle": "ion",
+  "texte": "gion",
+  "palier": 6
+ },
+ {
+  "id": "g-ien",
+  "consonne": "g",
+  "voyelle": "ien",
+  "texte": "gien",
+  "palier": 6
+ },
+ {
+  "id": "g-ail",
+  "consonne": "g",
+  "voyelle": "ail",
+  "texte": "gail",
+  "palier": 6
+ },
+ {
+  "id": "g-ouil",
+  "consonne": "g",
+  "voyelle": "ouil",
+  "texte": "gouil",
+  "palier": 6
+ },
+ {
+  "id": "gu-i",
+  "consonne": "gu",
+  "voyelle": "i",
+  "texte": "gui",
+  "palier": 3,
+  "tts": "ghi"
+ },
+ {
+  "id": "gu-y",
+  "consonne": "gu",
+  "voyelle": "y",
+  "texte": "guy",
+  "palier": 3,
+  "tts": "ghi"
+ },
+ {
+  "id": "gu-e",
+  "consonne": "gu",
+  "voyelle": "e",
+  "texte": "gue",
+  "palier": 3,
+  "tts": "gueu"
+ },
+ {
+  "id": "gu-eacute",
+  "consonne": "gu",
+  "voyelle": "eacute",
+  "texte": "gué",
+  "palier": 3
+ },
+ {
+  "id": "gu-er",
+  "consonne": "gu",
+  "voyelle": "er",
+  "texte": "guer",
+  "palier": 4
+ },
+ {
+  "id": "gu-ez",
+  "consonne": "gu",
+  "voyelle": "ez",
+  "texte": "guez",
+  "palier": 4
+ },
+ {
+  "id": "gu-egrave",
+  "consonne": "gu",
+  "voyelle": "egrave",
+  "texte": "guè",
+  "palier": 3
+ },
+ {
+  "id": "gu-ecirc",
+  "consonne": "gu",
+  "voyelle": "ecirc",
+  "texte": "guê",
+  "palier": 3,
+  "tts": "guè"
+ },
+ {
+  "id": "gu-en",
+  "consonne": "gu",
+  "voyelle": "en",
+  "texte": "guen",
+  "palier": 3,
+  "tts": "guent"
+ },
+ {
+  "id": "gu-ei",
+  "consonne": "gu",
+  "voyelle": "ei",
+  "texte": "guei",
+  "palier": 4
+ },
+ {
+  "id": "gu-et",
+  "consonne": "gu",
+  "voyelle": "et",
+  "texte": "guet",
+  "palier": 4
+ },
+ {
+  "id": "gu-in",
+  "consonne": "gu",
+  "voyelle": "in",
+  "texte": "guin",
+  "palier": 4
+ },
+ {
+  "id": "gu-eu",
+  "consonne": "gu",
+  "voyelle": "eu",
+  "texte": "gueu",
+  "palier": 5
+ },
+ {
+  "id": "gu-erre",
+  "consonne": "gu",
+  "voyelle": "erre",
+  "texte": "guerre",
+  "palier": 6
+ },
+ {
+  "id": "gu-ette",
+  "consonne": "gu",
+  "voyelle": "ette",
+  "texte": "guette",
+  "palier": 6
+ },
+ {
+  "id": "gu-ill",
+  "consonne": "gu",
+  "voyelle": "ill",
+  "texte": "guill",
+  "palier": 6
+ },
+ {
+  "id": "ge-a",
+  "consonne": "ge",
+  "voyelle": "a",
+  "texte": "gea",
+  "palier": 3,
+  "tts": "jah"
+ },
+ {
+  "id": "ge-u",
+  "consonne": "ge",
+  "voyelle": "u",
+  "texte": "geu",
+  "palier": 3,
+  "tts": "jeu"
+ },
+ {
+  "id": "ge-o",
+  "consonne": "ge",
+  "voyelle": "o",
+  "texte": "geo",
+  "palier": 3,
+  "tts": "jo"
+ },
+ {
+  "id": "ge-oi",
+  "consonne": "ge",
+  "voyelle": "oi",
+  "texte": "geoi",
+  "palier": 3
+ },
+ {
+  "id": "ge-an",
+  "consonne": "ge",
+  "voyelle": "an",
+  "texte": "gean",
+  "palier": 3
+ },
+ {
+  "id": "ge-ai",
+  "consonne": "ge",
+  "voyelle": "ai",
+  "texte": "geai",
+  "palier": 4
+ },
+ {
+  "id": "ge-on",
+  "consonne": "ge",
+  "voyelle": "on",
+  "texte": "geon",
+  "palier": 4
+ },
+ {
+  "id": "br-a",
+  "consonne": "br",
+  "voyelle": "a",
+  "texte": "bra",
+  "palier": 4
+ },
+ {
+  "id": "br-i",
+  "consonne": "br",
+  "voyelle": "i",
+  "texte": "bri",
+  "palier": 4
+ },
+ {
+  "id": "br-u",
+  "consonne": "br",
+  "voyelle": "u",
+  "texte": "bru",
+  "palier": 4
+ },
+ {
+  "id": "br-o",
+  "consonne": "br",
+  "voyelle": "o",
+  "texte": "bro",
+  "palier": 4
+ },
+ {
+  "id": "br-e",
+  "consonne": "br",
+  "voyelle": "e",
+  "texte": "bre",
+  "palier": 4,
+  "tts": "breu"
+ },
+ {
+  "id": "br-eacute",
+  "consonne": "br",
+  "voyelle": "eacute",
+  "texte": "bré",
+  "palier": 4
+ },
+ {
+  "id": "br-er",
+  "consonne": "br",
+  "voyelle": "er",
+  "texte": "brer",
+  "palier": 4
+ },
+ {
+  "id": "br-ez",
+  "consonne": "br",
+  "voyelle": "ez",
+  "texte": "brez",
+  "palier": 4
+ },
+ {
+  "id": "br-ou",
+  "consonne": "br",
+  "voyelle": "ou",
+  "texte": "brou",
+  "palier": 4
+ },
+ {
+  "id": "br-egrave",
+  "consonne": "br",
+  "voyelle": "egrave",
+  "texte": "brè",
+  "palier": 4
+ },
+ {
+  "id": "br-ecirc",
+  "consonne": "br",
+  "voyelle": "ecirc",
+  "texte": "brê",
+  "palier": 4,
+  "tts": "brè"
+ },
+ {
+  "id": "br-oi",
+  "consonne": "br",
+  "voyelle": "oi",
+  "texte": "broi",
+  "palier": 4
+ },
+ {
+  "id": "br-au",
+  "consonne": "br",
+  "voyelle": "au",
+  "texte": "brau",
+  "palier": 4
+ },
+ {
+  "id": "br-eau",
+  "consonne": "br",
+  "voyelle": "eau",
+  "texte": "breau",
+  "palier": 4
+ },
+ {
+  "id": "br-an",
+  "consonne": "br",
+  "voyelle": "an",
+  "texte": "bran",
+  "palier": 4,
+  "tts": "brans"
+ },
+ {
+  "id": "br-en",
+  "consonne": "br",
+  "voyelle": "en",
+  "texte": "bren",
+  "palier": 4,
+  "tts": "brend"
+ },
+ {
+  "id": "br-ai",
+  "consonne": "br",
+  "voyelle": "ai",
+  "texte": "brai",
+  "palier": 4
+ },
+ {
+  "id": "br-ei",
+  "consonne": "br",
+  "voyelle": "ei",
+  "texte": "brei",
+  "palier": 4
+ },
+ {
+  "id": "br-et",
+  "consonne": "br",
+  "voyelle": "et",
+  "texte": "bret",
+  "palier": 4
+ },
+ {
+  "id": "br-on",
+  "consonne": "br",
+  "voyelle": "on",
+  "texte": "bron",
+  "palier": 4,
+  "tts": "bront"
+ },
+ {
+  "id": "br-in",
+  "consonne": "br",
+  "voyelle": "in",
+  "texte": "brin",
+  "palier": 4
+ },
+ {
+  "id": "br-ain",
+  "consonne": "br",
+  "voyelle": "ain",
+  "texte": "brain",
+  "palier": 5,
+  "tts": "braint"
+ },
+ {
+  "id": "br-ein",
+  "consonne": "br",
+  "voyelle": "ein",
+  "texte": "brein",
+  "palier": 5
+ },
+ {
+  "id": "br-oin",
+  "consonne": "br",
+  "voyelle": "oin",
+  "texte": "broin",
+  "palier": 5,
+  "tts": "broint"
+ },
+ {
+  "id": "br-eu",
+  "consonne": "br",
+  "voyelle": "eu",
+  "texte": "breu",
+  "palier": 5
+ },
+ {
+  "id": "br-elle",
+  "consonne": "br",
+  "voyelle": "elle",
+  "texte": "brelle",
+  "palier": 6
+ },
+ {
+  "id": "br-enne",
+  "consonne": "br",
+  "voyelle": "enne",
+  "texte": "brenne",
+  "palier": 6
+ },
+ {
+  "id": "br-erre",
+  "consonne": "br",
+  "voyelle": "erre",
+  "texte": "brerre",
+  "palier": 6
+ },
+ {
+  "id": "br-esse",
+  "consonne": "br",
+  "voyelle": "esse",
+  "texte": "bresse",
+  "palier": 6
+ },
+ {
+  "id": "br-ette",
+  "consonne": "br",
+  "voyelle": "ette",
+  "texte": "brette",
+  "palier": 6
+ },
+ {
+  "id": "br-ill",
+  "consonne": "br",
+  "voyelle": "ill",
+  "texte": "brill",
+  "palier": 6
+ },
+ {
+  "id": "br-ail",
+  "consonne": "br",
+  "voyelle": "ail",
+  "texte": "brail",
+  "palier": 6
+ },
+ {
+  "id": "br-eil",
+  "consonne": "br",
+  "voyelle": "eil",
+  "texte": "breil",
+  "palier": 6
+ },
+ {
+  "id": "br-euil",
+  "consonne": "br",
+  "voyelle": "euil",
+  "texte": "breuil",
+  "palier": 6
+ },
+ {
+  "id": "br-ouil",
+  "consonne": "br",
+  "voyelle": "ouil",
+  "texte": "brouil",
+  "palier": 6
+ },
+ {
+  "id": "cr-a",
+  "consonne": "cr",
+  "voyelle": "a",
+  "texte": "cra",
+  "palier": 4,
+  "tts": "crah"
+ },
+ {
+  "id": "cr-i",
+  "consonne": "cr",
+  "voyelle": "i",
+  "texte": "cri",
+  "palier": 4
+ },
+ {
+  "id": "cr-u",
+  "consonne": "cr",
+  "voyelle": "u",
+  "texte": "cru",
+  "palier": 4
+ },
+ {
+  "id": "cr-o",
+  "consonne": "cr",
+  "voyelle": "o",
+  "texte": "cro",
+  "palier": 4
+ },
+ {
+  "id": "cr-e",
+  "consonne": "cr",
+  "voyelle": "e",
+  "texte": "cre",
+  "palier": 4,
+  "tts": "creu"
+ },
+ {
+  "id": "cr-eacute",
+  "consonne": "cr",
+  "voyelle": "eacute",
+  "texte": "cré",
+  "palier": 4
+ },
+ {
+  "id": "cr-er",
+  "consonne": "cr",
+  "voyelle": "er",
+  "texte": "crer",
+  "palier": 4
+ },
+ {
+  "id": "cr-ez",
+  "consonne": "cr",
+  "voyelle": "ez",
+  "texte": "crez",
+  "palier": 4
+ },
+ {
+  "id": "cr-ou",
+  "consonne": "cr",
+  "voyelle": "ou",
+  "texte": "crou",
+  "palier": 4
+ },
+ {
+  "id": "cr-egrave",
+  "consonne": "cr",
+  "voyelle": "egrave",
+  "texte": "crè",
+  "palier": 4
+ },
+ {
+  "id": "cr-ecirc",
+  "consonne": "cr",
+  "voyelle": "ecirc",
+  "texte": "crê",
+  "palier": 4,
+  "tts": "crè"
+ },
+ {
+  "id": "cr-oi",
+  "consonne": "cr",
+  "voyelle": "oi",
+  "texte": "croi",
+  "palier": 4
+ },
+ {
+  "id": "cr-au",
+  "consonne": "cr",
+  "voyelle": "au",
+  "texte": "crau",
+  "palier": 4,
+  "tts": "cro"
+ },
+ {
+  "id": "cr-eau",
+  "consonne": "cr",
+  "voyelle": "eau",
+  "texte": "creau",
+  "palier": 4
+ },
+ {
+  "id": "cr-an",
+  "consonne": "cr",
+  "voyelle": "an",
+  "texte": "cran",
+  "palier": 4
+ },
+ {
+  "id": "cr-en",
+  "consonne": "cr",
+  "voyelle": "en",
+  "texte": "cren",
+  "palier": 4,
+  "tts": "crent"
+ },
+ {
+  "id": "cr-ai",
+  "consonne": "cr",
+  "voyelle": "ai",
+  "texte": "crai",
+  "palier": 4
+ },
+ {
+  "id": "cr-ei",
+  "consonne": "cr",
+  "voyelle": "ei",
+  "texte": "crei",
+  "palier": 4
+ },
+ {
+  "id": "cr-et",
+  "consonne": "cr",
+  "voyelle": "et",
+  "texte": "cret",
+  "palier": 4
+ },
+ {
+  "id": "cr-on",
+  "consonne": "cr",
+  "voyelle": "on",
+  "texte": "cron",
+  "palier": 4
+ },
+ {
+  "id": "cr-in",
+  "consonne": "cr",
+  "voyelle": "in",
+  "texte": "crin",
+  "palier": 4
+ },
+ {
+  "id": "cr-ain",
+  "consonne": "cr",
+  "voyelle": "ain",
+  "texte": "crain",
+  "palier": 5,
+  "tts": "craint"
+ },
+ {
+  "id": "cr-ein",
+  "consonne": "cr",
+  "voyelle": "ein",
+  "texte": "crein",
+  "palier": 5
+ },
+ {
+  "id": "cr-oin",
+  "consonne": "cr",
+  "voyelle": "oin",
+  "texte": "croin",
+  "palier": 5
+ },
+ {
+  "id": "cr-eu",
+  "consonne": "cr",
+  "voyelle": "eu",
+  "texte": "creu",
+  "palier": 5
+ },
+ {
+  "id": "cr-elle",
+  "consonne": "cr",
+  "voyelle": "elle",
+  "texte": "crelle",
+  "palier": 6
+ },
+ {
+  "id": "cr-enne",
+  "consonne": "cr",
+  "voyelle": "enne",
+  "texte": "crenne",
+  "palier": 6
+ },
+ {
+  "id": "cr-erre",
+  "consonne": "cr",
+  "voyelle": "erre",
+  "texte": "crerre",
+  "palier": 6
+ },
+ {
+  "id": "cr-esse",
+  "consonne": "cr",
+  "voyelle": "esse",
+  "texte": "cresse",
+  "palier": 6
+ },
+ {
+  "id": "cr-ette",
+  "consonne": "cr",
+  "voyelle": "ette",
+  "texte": "crette",
+  "palier": 6
+ },
+ {
+  "id": "cr-ill",
+  "consonne": "cr",
+  "voyelle": "ill",
+  "texte": "crill",
+  "palier": 6
+ },
+ {
+  "id": "cr-ail",
+  "consonne": "cr",
+  "voyelle": "ail",
+  "texte": "crail",
+  "palier": 6
+ },
+ {
+  "id": "cr-eil",
+  "consonne": "cr",
+  "voyelle": "eil",
+  "texte": "creil",
+  "palier": 6
+ },
+ {
+  "id": "cr-euil",
+  "consonne": "cr",
+  "voyelle": "euil",
+  "texte": "creuil",
+  "palier": 6
+ },
+ {
+  "id": "cr-ouil",
+  "consonne": "cr",
+  "voyelle": "ouil",
+  "texte": "crouil",
+  "palier": 6
+ },
+ {
+  "id": "dr-a",
+  "consonne": "dr",
+  "voyelle": "a",
+  "texte": "dra",
+  "palier": 4
+ },
+ {
+  "id": "dr-i",
+  "consonne": "dr",
+  "voyelle": "i",
+  "texte": "dri",
+  "palier": 4,
+  "tts": "drih"
+ },
+ {
+  "id": "dr-u",
+  "consonne": "dr",
+  "voyelle": "u",
+  "texte": "dru",
+  "palier": 4
+ },
+ {
+  "id": "dr-o",
+  "consonne": "dr",
+  "voyelle": "o",
+  "texte": "dro",
+  "palier": 4
+ },
+ {
+  "id": "dr-e",
+  "consonne": "dr",
+  "voyelle": "e",
+  "texte": "dre",
+  "palier": 4,
+  "tts": "dreu"
+ },
+ {
+  "id": "dr-eacute",
+  "consonne": "dr",
+  "voyelle": "eacute",
+  "texte": "dré",
+  "palier": 4
+ },
+ {
+  "id": "dr-er",
+  "consonne": "dr",
+  "voyelle": "er",
+  "texte": "drer",
+  "palier": 4
+ },
+ {
+  "id": "dr-ez",
+  "consonne": "dr",
+  "voyelle": "ez",
+  "texte": "drez",
+  "palier": 4
+ },
+ {
+  "id": "dr-ou",
+  "consonne": "dr",
+  "voyelle": "ou",
+  "texte": "drou",
+  "palier": 4
+ },
+ {
+  "id": "dr-egrave",
+  "consonne": "dr",
+  "voyelle": "egrave",
+  "texte": "drè",
+  "palier": 4
+ },
+ {
+  "id": "dr-ecirc",
+  "consonne": "dr",
+  "voyelle": "ecirc",
+  "texte": "drê",
+  "palier": 4,
+  "tts": "drè"
+ },
+ {
+  "id": "dr-oi",
+  "consonne": "dr",
+  "voyelle": "oi",
+  "texte": "droi",
+  "palier": 4
+ },
+ {
+  "id": "dr-au",
+  "consonne": "dr",
+  "voyelle": "au",
+  "texte": "drau",
+  "palier": 4
+ },
+ {
+  "id": "dr-eau",
+  "consonne": "dr",
+  "voyelle": "eau",
+  "texte": "dreau",
+  "palier": 4
+ },
+ {
+  "id": "dr-an",
+  "consonne": "dr",
+  "voyelle": "an",
+  "texte": "dran",
+  "palier": 4
+ },
+ {
+  "id": "dr-en",
+  "consonne": "dr",
+  "voyelle": "en",
+  "texte": "dren",
+  "palier": 4
+ },
+ {
+  "id": "dr-ai",
+  "consonne": "dr",
+  "voyelle": "ai",
+  "texte": "drai",
+  "palier": 4
+ },
+ {
+  "id": "dr-ei",
+  "consonne": "dr",
+  "voyelle": "ei",
+  "texte": "drei",
+  "palier": 4
+ },
+ {
+  "id": "dr-et",
+  "consonne": "dr",
+  "voyelle": "et",
+  "texte": "dret",
+  "palier": 4
+ },
+ {
+  "id": "dr-on",
+  "consonne": "dr",
+  "voyelle": "on",
+  "texte": "dron",
+  "palier": 4
+ },
+ {
+  "id": "dr-in",
+  "consonne": "dr",
+  "voyelle": "in",
+  "texte": "drin",
+  "palier": 4
+ },
+ {
+  "id": "dr-ain",
+  "consonne": "dr",
+  "voyelle": "ain",
+  "texte": "drain",
+  "palier": 5
+ },
+ {
+  "id": "dr-ein",
+  "consonne": "dr",
+  "voyelle": "ein",
+  "texte": "drein",
+  "palier": 5
+ },
+ {
+  "id": "dr-oin",
+  "consonne": "dr",
+  "voyelle": "oin",
+  "texte": "droin",
+  "palier": 5,
+  "tts": "droint"
+ },
+ {
+  "id": "dr-eu",
+  "consonne": "dr",
+  "voyelle": "eu",
+  "texte": "dreu",
+  "palier": 5
+ },
+ {
+  "id": "dr-elle",
+  "consonne": "dr",
+  "voyelle": "elle",
+  "texte": "drelle",
+  "palier": 6
+ },
+ {
+  "id": "dr-enne",
+  "consonne": "dr",
+  "voyelle": "enne",
+  "texte": "drenne",
+  "palier": 6
+ },
+ {
+  "id": "dr-erre",
+  "consonne": "dr",
+  "voyelle": "erre",
+  "texte": "drerre",
+  "palier": 6
+ },
+ {
+  "id": "dr-esse",
+  "consonne": "dr",
+  "voyelle": "esse",
+  "texte": "dresse",
+  "palier": 6
+ },
+ {
+  "id": "dr-ette",
+  "consonne": "dr",
+  "voyelle": "ette",
+  "texte": "drette",
+  "palier": 6
+ },
+ {
+  "id": "dr-ill",
+  "consonne": "dr",
+  "voyelle": "ill",
+  "texte": "drill",
+  "palier": 6
+ },
+ {
+  "id": "dr-ail",
+  "consonne": "dr",
+  "voyelle": "ail",
+  "texte": "drail",
+  "palier": 6
+ },
+ {
+  "id": "dr-eil",
+  "consonne": "dr",
+  "voyelle": "eil",
+  "texte": "dreil",
+  "palier": 6
+ },
+ {
+  "id": "dr-euil",
+  "consonne": "dr",
+  "voyelle": "euil",
+  "texte": "dreuil",
+  "palier": 6
+ },
+ {
+  "id": "dr-ouil",
+  "consonne": "dr",
+  "voyelle": "ouil",
+  "texte": "drouil",
+  "palier": 6
+ },
+ {
+  "id": "fr-a",
+  "consonne": "fr",
+  "voyelle": "a",
+  "texte": "fra",
+  "palier": 4
+ },
+ {
+  "id": "fr-i",
+  "consonne": "fr",
+  "voyelle": "i",
+  "texte": "fri",
+  "palier": 4
+ },
+ {
+  "id": "fr-u",
+  "consonne": "fr",
+  "voyelle": "u",
+  "texte": "fru",
+  "palier": 4
+ },
+ {
+  "id": "fr-o",
+  "consonne": "fr",
+  "voyelle": "o",
+  "texte": "fro",
+  "palier": 4
+ },
+ {
+  "id": "fr-e",
+  "consonne": "fr",
+  "voyelle": "e",
+  "texte": "fre",
+  "palier": 4,
+  "tts": "freu"
+ },
+ {
+  "id": "fr-eacute",
+  "consonne": "fr",
+  "voyelle": "eacute",
+  "texte": "fré",
+  "palier": 4
+ },
+ {
+  "id": "fr-er",
+  "consonne": "fr",
+  "voyelle": "er",
+  "texte": "frer",
+  "palier": 4
+ },
+ {
+  "id": "fr-ez",
+  "consonne": "fr",
+  "voyelle": "ez",
+  "texte": "frez",
+  "palier": 4
+ },
+ {
+  "id": "fr-ou",
+  "consonne": "fr",
+  "voyelle": "ou",
+  "texte": "frou",
+  "palier": 4
+ },
+ {
+  "id": "fr-egrave",
+  "consonne": "fr",
+  "voyelle": "egrave",
+  "texte": "frè",
+  "palier": 4
+ },
+ {
+  "id": "fr-ecirc",
+  "consonne": "fr",
+  "voyelle": "ecirc",
+  "texte": "frê",
+  "palier": 4,
+  "tts": "frè"
+ },
+ {
+  "id": "fr-oi",
+  "consonne": "fr",
+  "voyelle": "oi",
+  "texte": "froi",
+  "palier": 4
+ },
+ {
+  "id": "fr-au",
+  "consonne": "fr",
+  "voyelle": "au",
+  "texte": "frau",
+  "palier": 4
+ },
+ {
+  "id": "fr-eau",
+  "consonne": "fr",
+  "voyelle": "eau",
+  "texte": "freau",
+  "palier": 4
+ },
+ {
+  "id": "fr-an",
+  "consonne": "fr",
+  "voyelle": "an",
+  "texte": "fran",
+  "palier": 4,
+  "tts": "frand"
+ },
+ {
+  "id": "fr-en",
+  "consonne": "fr",
+  "voyelle": "en",
+  "texte": "fren",
+  "palier": 4
+ },
+ {
+  "id": "fr-ai",
+  "consonne": "fr",
+  "voyelle": "ai",
+  "texte": "frai",
+  "palier": 4
+ },
+ {
+  "id": "fr-ei",
+  "consonne": "fr",
+  "voyelle": "ei",
+  "texte": "frei",
+  "palier": 4,
+  "tts": "frè"
+ },
+ {
+  "id": "fr-et",
+  "consonne": "fr",
+  "voyelle": "et",
+  "texte": "fret",
+  "palier": 4
+ },
+ {
+  "id": "fr-on",
+  "consonne": "fr",
+  "voyelle": "on",
+  "texte": "fron",
+  "palier": 4
+ },
+ {
+  "id": "fr-in",
+  "consonne": "fr",
+  "voyelle": "in",
+  "texte": "frin",
+  "palier": 4
+ },
+ {
+  "id": "fr-ain",
+  "consonne": "fr",
+  "voyelle": "ain",
+  "texte": "frain",
+  "palier": 5
+ },
+ {
+  "id": "fr-ein",
+  "consonne": "fr",
+  "voyelle": "ein",
+  "texte": "frein",
+  "palier": 5
+ },
+ {
+  "id": "fr-oin",
+  "consonne": "fr",
+  "voyelle": "oin",
+  "texte": "froin",
+  "palier": 5
+ },
+ {
+  "id": "fr-eu",
+  "consonne": "fr",
+  "voyelle": "eu",
+  "texte": "freu",
+  "palier": 5
+ },
+ {
+  "id": "fr-elle",
+  "consonne": "fr",
+  "voyelle": "elle",
+  "texte": "frelle",
+  "palier": 6
+ },
+ {
+  "id": "fr-enne",
+  "consonne": "fr",
+  "voyelle": "enne",
+  "texte": "frenne",
+  "palier": 6
+ },
+ {
+  "id": "fr-erre",
+  "consonne": "fr",
+  "voyelle": "erre",
+  "texte": "frerre",
+  "palier": 6
+ },
+ {
+  "id": "fr-esse",
+  "consonne": "fr",
+  "voyelle": "esse",
+  "texte": "fresse",
+  "palier": 6,
+  "tts": "fresses"
+ },
+ {
+  "id": "fr-ette",
+  "consonne": "fr",
+  "voyelle": "ette",
+  "texte": "frette",
+  "palier": 6
+ },
+ {
+  "id": "fr-ill",
+  "consonne": "fr",
+  "voyelle": "ill",
+  "texte": "frill",
+  "palier": 6
+ },
+ {
+  "id": "fr-ail",
+  "consonne": "fr",
+  "voyelle": "ail",
+  "texte": "frail",
+  "palier": 6
+ },
+ {
+  "id": "fr-eil",
+  "consonne": "fr",
+  "voyelle": "eil",
+  "texte": "freil",
+  "palier": 6
+ },
+ {
+  "id": "fr-euil",
+  "consonne": "fr",
+  "voyelle": "euil",
+  "texte": "freuil",
+  "palier": 6
+ },
+ {
+  "id": "fr-ouil",
+  "consonne": "fr",
+  "voyelle": "ouil",
+  "texte": "frouil",
+  "palier": 6
+ },
+ {
+  "id": "gr-a",
+  "consonne": "gr",
+  "voyelle": "a",
+  "texte": "gra",
+  "palier": 4
+ },
+ {
+  "id": "gr-i",
+  "consonne": "gr",
+  "voyelle": "i",
+  "texte": "gri",
+  "palier": 4
+ },
+ {
+  "id": "gr-u",
+  "consonne": "gr",
+  "voyelle": "u",
+  "texte": "gru",
+  "palier": 4
+ },
+ {
+  "id": "gr-o",
+  "consonne": "gr",
+  "voyelle": "o",
+  "texte": "gro",
+  "palier": 4
+ },
+ {
+  "id": "gr-e",
+  "consonne": "gr",
+  "voyelle": "e",
+  "texte": "gre",
+  "palier": 4,
+  "tts": "greu"
+ },
+ {
+  "id": "gr-eacute",
+  "consonne": "gr",
+  "voyelle": "eacute",
+  "texte": "gré",
+  "palier": 4
+ },
+ {
+  "id": "gr-er",
+  "consonne": "gr",
+  "voyelle": "er",
+  "texte": "grer",
+  "palier": 4
+ },
+ {
+  "id": "gr-ez",
+  "consonne": "gr",
+  "voyelle": "ez",
+  "texte": "grez",
+  "palier": 4
+ },
+ {
+  "id": "gr-ou",
+  "consonne": "gr",
+  "voyelle": "ou",
+  "texte": "grou",
+  "palier": 4
+ },
+ {
+  "id": "gr-egrave",
+  "consonne": "gr",
+  "voyelle": "egrave",
+  "texte": "grè",
+  "palier": 4
+ },
+ {
+  "id": "gr-ecirc",
+  "consonne": "gr",
+  "voyelle": "ecirc",
+  "texte": "grê",
+  "palier": 4,
+  "tts": "grè"
+ },
+ {
+  "id": "gr-oi",
+  "consonne": "gr",
+  "voyelle": "oi",
+  "texte": "groi",
+  "palier": 4
+ },
+ {
+  "id": "gr-au",
+  "consonne": "gr",
+  "voyelle": "au",
+  "texte": "grau",
+  "palier": 4
+ },
+ {
+  "id": "gr-eau",
+  "consonne": "gr",
+  "voyelle": "eau",
+  "texte": "greau",
+  "palier": 4
+ },
+ {
+  "id": "gr-an",
+  "consonne": "gr",
+  "voyelle": "an",
+  "texte": "gran",
+  "palier": 4,
+  "tts": "grand"
+ },
+ {
+  "id": "gr-en",
+  "consonne": "gr",
+  "voyelle": "en",
+  "texte": "gren",
+  "palier": 4
+ },
+ {
+  "id": "gr-ai",
+  "consonne": "gr",
+  "voyelle": "ai",
+  "texte": "grai",
+  "palier": 4
+ },
+ {
+  "id": "gr-ei",
+  "consonne": "gr",
+  "voyelle": "ei",
+  "texte": "grei",
+  "palier": 4
+ },
+ {
+  "id": "gr-et",
+  "consonne": "gr",
+  "voyelle": "et",
+  "texte": "gret",
+  "palier": 4
+ },
+ {
+  "id": "gr-on",
+  "consonne": "gr",
+  "voyelle": "on",
+  "texte": "gron",
+  "palier": 4
+ },
+ {
+  "id": "gr-in",
+  "consonne": "gr",
+  "voyelle": "in",
+  "texte": "grin",
+  "palier": 4
+ },
+ {
+  "id": "gr-ain",
+  "consonne": "gr",
+  "voyelle": "ain",
+  "texte": "grain",
+  "palier": 5
+ },
+ {
+  "id": "gr-ein",
+  "consonne": "gr",
+  "voyelle": "ein",
+  "texte": "grein",
+  "palier": 5
+ },
+ {
+  "id": "gr-oin",
+  "consonne": "gr",
+  "voyelle": "oin",
+  "texte": "groin",
+  "palier": 5,
+  "tts": "groins"
+ },
+ {
+  "id": "gr-eu",
+  "consonne": "gr",
+  "voyelle": "eu",
+  "texte": "greu",
+  "palier": 5
+ },
+ {
+  "id": "gr-elle",
+  "consonne": "gr",
+  "voyelle": "elle",
+  "texte": "grelle",
+  "palier": 6
+ },
+ {
+  "id": "gr-enne",
+  "consonne": "gr",
+  "voyelle": "enne",
+  "texte": "grenne",
+  "palier": 6
+ },
+ {
+  "id": "gr-erre",
+  "consonne": "gr",
+  "voyelle": "erre",
+  "texte": "grerre",
+  "palier": 6
+ },
+ {
+  "id": "gr-esse",
+  "consonne": "gr",
+  "voyelle": "esse",
+  "texte": "gresse",
+  "palier": 6
+ },
+ {
+  "id": "gr-ette",
+  "consonne": "gr",
+  "voyelle": "ette",
+  "texte": "grette",
+  "palier": 6
+ },
+ {
+  "id": "gr-ill",
+  "consonne": "gr",
+  "voyelle": "ill",
+  "texte": "grill",
+  "palier": 6
+ },
+ {
+  "id": "gr-ail",
+  "consonne": "gr",
+  "voyelle": "ail",
+  "texte": "grail",
+  "palier": 6
+ },
+ {
+  "id": "gr-eil",
+  "consonne": "gr",
+  "voyelle": "eil",
+  "texte": "greil",
+  "palier": 6
+ },
+ {
+  "id": "gr-euil",
+  "consonne": "gr",
+  "voyelle": "euil",
+  "texte": "greuil",
+  "palier": 6
+ },
+ {
+  "id": "gr-ouil",
+  "consonne": "gr",
+  "voyelle": "ouil",
+  "texte": "grouil",
+  "palier": 6
+ },
+ {
+  "id": "pr-a",
+  "consonne": "pr",
+  "voyelle": "a",
+  "texte": "pra",
+  "palier": 4
+ },
+ {
+  "id": "pr-i",
+  "consonne": "pr",
+  "voyelle": "i",
+  "texte": "pri",
+  "palier": 4,
+  "tts": "prih"
+ },
+ {
+  "id": "pr-u",
+  "consonne": "pr",
+  "voyelle": "u",
+  "texte": "pru",
+  "palier": 4
+ },
+ {
+  "id": "pr-o",
+  "consonne": "pr",
+  "voyelle": "o",
+  "texte": "pro",
+  "palier": 4
+ },
+ {
+  "id": "pr-e",
+  "consonne": "pr",
+  "voyelle": "e",
+  "texte": "pre",
+  "palier": 4,
+  "tts": "preu"
+ },
+ {
+  "id": "pr-eacute",
+  "consonne": "pr",
+  "voyelle": "eacute",
+  "texte": "pré",
+  "palier": 4
+ },
+ {
+  "id": "pr-er",
+  "consonne": "pr",
+  "voyelle": "er",
+  "texte": "prer",
+  "palier": 4
+ },
+ {
+  "id": "pr-ez",
+  "consonne": "pr",
+  "voyelle": "ez",
+  "texte": "prez",
+  "palier": 4
+ },
+ {
+  "id": "pr-ou",
+  "consonne": "pr",
+  "voyelle": "ou",
+  "texte": "prou",
+  "palier": 4
+ },
+ {
+  "id": "pr-egrave",
+  "consonne": "pr",
+  "voyelle": "egrave",
+  "texte": "prè",
+  "palier": 4
+ },
+ {
+  "id": "pr-ecirc",
+  "consonne": "pr",
+  "voyelle": "ecirc",
+  "texte": "prê",
+  "palier": 4,
+  "tts": "prè"
+ },
+ {
+  "id": "pr-oi",
+  "consonne": "pr",
+  "voyelle": "oi",
+  "texte": "proi",
+  "palier": 4
+ },
+ {
+  "id": "pr-au",
+  "consonne": "pr",
+  "voyelle": "au",
+  "texte": "prau",
+  "palier": 4
+ },
+ {
+  "id": "pr-eau",
+  "consonne": "pr",
+  "voyelle": "eau",
+  "texte": "preau",
+  "palier": 4
+ },
+ {
+  "id": "pr-an",
+  "consonne": "pr",
+  "voyelle": "an",
+  "texte": "pran",
+  "palier": 4
+ },
+ {
+  "id": "pr-en",
+  "consonne": "pr",
+  "voyelle": "en",
+  "texte": "pren",
+  "palier": 4
+ },
+ {
+  "id": "pr-ai",
+  "consonne": "pr",
+  "voyelle": "ai",
+  "texte": "prai",
+  "palier": 4
+ },
+ {
+  "id": "pr-ei",
+  "consonne": "pr",
+  "voyelle": "ei",
+  "texte": "prei",
+  "palier": 4
+ },
+ {
+  "id": "pr-et",
+  "consonne": "pr",
+  "voyelle": "et",
+  "texte": "pret",
+  "palier": 4
+ },
+ {
+  "id": "pr-on",
+  "consonne": "pr",
+  "voyelle": "on",
+  "texte": "pron",
+  "palier": 4
+ },
+ {
+  "id": "pr-in",
+  "consonne": "pr",
+  "voyelle": "in",
+  "texte": "prin",
+  "palier": 4,
+  "tts": "prind"
+ },
+ {
+  "id": "pr-ain",
+  "consonne": "pr",
+  "voyelle": "ain",
+  "texte": "prain",
+  "palier": 5
+ },
+ {
+  "id": "pr-ein",
+  "consonne": "pr",
+  "voyelle": "ein",
+  "texte": "prein",
+  "palier": 5
+ },
+ {
+  "id": "pr-oin",
+  "consonne": "pr",
+  "voyelle": "oin",
+  "texte": "proin",
+  "palier": 5
+ },
+ {
+  "id": "pr-eu",
+  "consonne": "pr",
+  "voyelle": "eu",
+  "texte": "preu",
+  "palier": 5
+ },
+ {
+  "id": "pr-elle",
+  "consonne": "pr",
+  "voyelle": "elle",
+  "texte": "prelle",
+  "palier": 6
+ },
+ {
+  "id": "pr-enne",
+  "consonne": "pr",
+  "voyelle": "enne",
+  "texte": "prenne",
+  "palier": 6
+ },
+ {
+  "id": "pr-erre",
+  "consonne": "pr",
+  "voyelle": "erre",
+  "texte": "prerre",
+  "palier": 6
+ },
+ {
+  "id": "pr-esse",
+  "consonne": "pr",
+  "voyelle": "esse",
+  "texte": "presse",
+  "palier": 6
+ },
+ {
+  "id": "pr-ette",
+  "consonne": "pr",
+  "voyelle": "ette",
+  "texte": "prette",
+  "palier": 6
+ },
+ {
+  "id": "pr-ill",
+  "consonne": "pr",
+  "voyelle": "ill",
+  "texte": "prill",
+  "palier": 6
+ },
+ {
+  "id": "pr-ail",
+  "consonne": "pr",
+  "voyelle": "ail",
+  "texte": "prail",
+  "palier": 6
+ },
+ {
+  "id": "pr-eil",
+  "consonne": "pr",
+  "voyelle": "eil",
+  "texte": "preil",
+  "palier": 6
+ },
+ {
+  "id": "pr-euil",
+  "consonne": "pr",
+  "voyelle": "euil",
+  "texte": "preuil",
+  "palier": 6
+ },
+ {
+  "id": "pr-ouil",
+  "consonne": "pr",
+  "voyelle": "ouil",
+  "texte": "prouil",
+  "palier": 6
+ },
+ {
+  "id": "tr-a",
+  "consonne": "tr",
+  "voyelle": "a",
+  "texte": "tra",
+  "palier": 4,
+  "tts": "trah"
+ },
+ {
+  "id": "tr-i",
+  "consonne": "tr",
+  "voyelle": "i",
+  "texte": "tri",
+  "palier": 4
+ },
+ {
+  "id": "tr-u",
+  "consonne": "tr",
+  "voyelle": "u",
+  "texte": "tru",
+  "palier": 4
+ },
+ {
+  "id": "tr-o",
+  "consonne": "tr",
+  "voyelle": "o",
+  "texte": "tro",
+  "palier": 4
+ },
+ {
+  "id": "tr-e",
+  "consonne": "tr",
+  "voyelle": "e",
+  "texte": "tre",
+  "palier": 4,
+  "tts": "treu"
+ },
+ {
+  "id": "tr-eacute",
+  "consonne": "tr",
+  "voyelle": "eacute",
+  "texte": "tré",
+  "palier": 4
+ },
+ {
+  "id": "tr-er",
+  "consonne": "tr",
+  "voyelle": "er",
+  "texte": "trer",
+  "palier": 4,
+  "tts": "trerh"
+ },
+ {
+  "id": "tr-ez",
+  "consonne": "tr",
+  "voyelle": "ez",
+  "texte": "trez",
+  "palier": 4
+ },
+ {
+  "id": "tr-ou",
+  "consonne": "tr",
+  "voyelle": "ou",
+  "texte": "trou",
+  "palier": 4
+ },
+ {
+  "id": "tr-egrave",
+  "consonne": "tr",
+  "voyelle": "egrave",
+  "texte": "trè",
+  "palier": 4
+ },
+ {
+  "id": "tr-ecirc",
+  "consonne": "tr",
+  "voyelle": "ecirc",
+  "texte": "trê",
+  "palier": 4,
+  "tts": "trè"
+ },
+ {
+  "id": "tr-oi",
+  "consonne": "tr",
+  "voyelle": "oi",
+  "texte": "troi",
+  "palier": 4
+ },
+ {
+  "id": "tr-au",
+  "consonne": "tr",
+  "voyelle": "au",
+  "texte": "trau",
+  "palier": 4
+ },
+ {
+  "id": "tr-eau",
+  "consonne": "tr",
+  "voyelle": "eau",
+  "texte": "treau",
+  "palier": 4
+ },
+ {
+  "id": "tr-an",
+  "consonne": "tr",
+  "voyelle": "an",
+  "texte": "tran",
+  "palier": 4
+ },
+ {
+  "id": "tr-en",
+  "consonne": "tr",
+  "voyelle": "en",
+  "texte": "tren",
+  "palier": 4,
+  "tts": "trens"
+ },
+ {
+  "id": "tr-ai",
+  "consonne": "tr",
+  "voyelle": "ai",
+  "texte": "trai",
+  "palier": 4
+ },
+ {
+  "id": "tr-ei",
+  "consonne": "tr",
+  "voyelle": "ei",
+  "texte": "trei",
+  "palier": 4
+ },
+ {
+  "id": "tr-et",
+  "consonne": "tr",
+  "voyelle": "et",
+  "texte": "tret",
+  "palier": 4
+ },
+ {
+  "id": "tr-on",
+  "consonne": "tr",
+  "voyelle": "on",
+  "texte": "tron",
+  "palier": 4
+ },
+ {
+  "id": "tr-in",
+  "consonne": "tr",
+  "voyelle": "in",
+  "texte": "trin",
+  "palier": 4
+ },
+ {
+  "id": "tr-ain",
+  "consonne": "tr",
+  "voyelle": "ain",
+  "texte": "train",
+  "palier": 5
+ },
+ {
+  "id": "tr-ein",
+  "consonne": "tr",
+  "voyelle": "ein",
+  "texte": "trein",
+  "palier": 5
+ },
+ {
+  "id": "tr-oin",
+  "consonne": "tr",
+  "voyelle": "oin",
+  "texte": "troin",
+  "palier": 5
+ },
+ {
+  "id": "tr-eu",
+  "consonne": "tr",
+  "voyelle": "eu",
+  "texte": "treu",
+  "palier": 5
+ },
+ {
+  "id": "tr-elle",
+  "consonne": "tr",
+  "voyelle": "elle",
+  "texte": "trelle",
+  "palier": 6
+ },
+ {
+  "id": "tr-enne",
+  "consonne": "tr",
+  "voyelle": "enne",
+  "texte": "trenne",
+  "palier": 6
+ },
+ {
+  "id": "tr-erre",
+  "consonne": "tr",
+  "voyelle": "erre",
+  "texte": "trerre",
+  "palier": 6
+ },
+ {
+  "id": "tr-esse",
+  "consonne": "tr",
+  "voyelle": "esse",
+  "texte": "tresse",
+  "palier": 6
+ },
+ {
+  "id": "tr-ette",
+  "consonne": "tr",
+  "voyelle": "ette",
+  "texte": "trette",
+  "palier": 6
+ },
+ {
+  "id": "tr-ill",
+  "consonne": "tr",
+  "voyelle": "ill",
+  "texte": "trill",
+  "palier": 6
+ },
+ {
+  "id": "tr-ail",
+  "consonne": "tr",
+  "voyelle": "ail",
+  "texte": "trail",
+  "palier": 6
+ },
+ {
+  "id": "tr-eil",
+  "consonne": "tr",
+  "voyelle": "eil",
+  "texte": "treil",
+  "palier": 6
+ },
+ {
+  "id": "tr-euil",
+  "consonne": "tr",
+  "voyelle": "euil",
+  "texte": "treuil",
+  "palier": 6
+ },
+ {
+  "id": "tr-ouil",
+  "consonne": "tr",
+  "voyelle": "ouil",
+  "texte": "trouil",
+  "palier": 6
+ },
+ {
+  "id": "vr-a",
+  "consonne": "vr",
+  "voyelle": "a",
+  "texte": "vra",
+  "palier": 4
+ },
+ {
+  "id": "vr-i",
+  "consonne": "vr",
+  "voyelle": "i",
+  "texte": "vri",
+  "palier": 4
+ },
+ {
+  "id": "vr-u",
+  "consonne": "vr",
+  "voyelle": "u",
+  "texte": "vru",
+  "palier": 4
+ },
+ {
+  "id": "vr-o",
+  "consonne": "vr",
+  "voyelle": "o",
+  "texte": "vro",
+  "palier": 4
+ },
+ {
+  "id": "vr-e",
+  "consonne": "vr",
+  "voyelle": "e",
+  "texte": "vre",
+  "palier": 4,
+  "tts": "vreu"
+ },
+ {
+  "id": "vr-eacute",
+  "consonne": "vr",
+  "voyelle": "eacute",
+  "texte": "vré",
+  "palier": 4
+ },
+ {
+  "id": "vr-er",
+  "consonne": "vr",
+  "voyelle": "er",
+  "texte": "vrer",
+  "palier": 4
+ },
+ {
+  "id": "vr-ez",
+  "consonne": "vr",
+  "voyelle": "ez",
+  "texte": "vrez",
+  "palier": 4
+ },
+ {
+  "id": "vr-ou",
+  "consonne": "vr",
+  "voyelle": "ou",
+  "texte": "vrou",
+  "palier": 4
+ },
+ {
+  "id": "vr-egrave",
+  "consonne": "vr",
+  "voyelle": "egrave",
+  "texte": "vrè",
+  "palier": 4
+ },
+ {
+  "id": "vr-ecirc",
+  "consonne": "vr",
+  "voyelle": "ecirc",
+  "texte": "vrê",
+  "palier": 4,
+  "tts": "vrè"
+ },
+ {
+  "id": "vr-oi",
+  "consonne": "vr",
+  "voyelle": "oi",
+  "texte": "vroi",
+  "palier": 4,
+  "tts": "vroih"
+ },
+ {
+  "id": "vr-au",
+  "consonne": "vr",
+  "voyelle": "au",
+  "texte": "vrau",
+  "palier": 4
+ },
+ {
+  "id": "vr-eau",
+  "consonne": "vr",
+  "voyelle": "eau",
+  "texte": "vreau",
+  "palier": 4
+ },
+ {
+  "id": "vr-an",
+  "consonne": "vr",
+  "voyelle": "an",
+  "texte": "vran",
+  "palier": 4
+ },
+ {
+  "id": "vr-en",
+  "consonne": "vr",
+  "voyelle": "en",
+  "texte": "vren",
+  "palier": 4
+ },
+ {
+  "id": "vr-ai",
+  "consonne": "vr",
+  "voyelle": "ai",
+  "texte": "vrai",
+  "palier": 4
+ },
+ {
+  "id": "vr-ei",
+  "consonne": "vr",
+  "voyelle": "ei",
+  "texte": "vrei",
+  "palier": 4
+ },
+ {
+  "id": "vr-et",
+  "consonne": "vr",
+  "voyelle": "et",
+  "texte": "vret",
+  "palier": 4
+ },
+ {
+  "id": "vr-on",
+  "consonne": "vr",
+  "voyelle": "on",
+  "texte": "vron",
+  "palier": 4
+ },
+ {
+  "id": "vr-in",
+  "consonne": "vr",
+  "voyelle": "in",
+  "texte": "vrin",
+  "palier": 4
+ },
+ {
+  "id": "vr-ain",
+  "consonne": "vr",
+  "voyelle": "ain",
+  "texte": "vrain",
+  "palier": 5
+ },
+ {
+  "id": "vr-ein",
+  "consonne": "vr",
+  "voyelle": "ein",
+  "texte": "vrein",
+  "palier": 5
+ },
+ {
+  "id": "vr-oin",
+  "consonne": "vr",
+  "voyelle": "oin",
+  "texte": "vroin",
+  "palier": 5
+ },
+ {
+  "id": "vr-eu",
+  "consonne": "vr",
+  "voyelle": "eu",
+  "texte": "vreu",
+  "palier": 5
+ },
+ {
+  "id": "vr-elle",
+  "consonne": "vr",
+  "voyelle": "elle",
+  "texte": "vrelle",
+  "palier": 6
+ },
+ {
+  "id": "vr-enne",
+  "consonne": "vr",
+  "voyelle": "enne",
+  "texte": "vrenne",
+  "palier": 6
+ },
+ {
+  "id": "vr-erre",
+  "consonne": "vr",
+  "voyelle": "erre",
+  "texte": "vrerre",
+  "palier": 6
+ },
+ {
+  "id": "vr-esse",
+  "consonne": "vr",
+  "voyelle": "esse",
+  "texte": "vresse",
+  "palier": 6
+ },
+ {
+  "id": "vr-ette",
+  "consonne": "vr",
+  "voyelle": "ette",
+  "texte": "vrette",
+  "palier": 6
+ },
+ {
+  "id": "vr-ill",
+  "consonne": "vr",
+  "voyelle": "ill",
+  "texte": "vrill",
+  "palier": 6
+ },
+ {
+  "id": "vr-ail",
+  "consonne": "vr",
+  "voyelle": "ail",
+  "texte": "vrail",
+  "palier": 6
+ },
+ {
+  "id": "vr-eil",
+  "consonne": "vr",
+  "voyelle": "eil",
+  "texte": "vreil",
+  "palier": 6
+ },
+ {
+  "id": "vr-euil",
+  "consonne": "vr",
+  "voyelle": "euil",
+  "texte": "vreuil",
+  "palier": 6
+ },
+ {
+  "id": "vr-ouil",
+  "consonne": "vr",
+  "voyelle": "ouil",
+  "texte": "vrouil",
+  "palier": 6
+ },
+ {
+  "id": "bl-a",
+  "consonne": "bl",
+  "voyelle": "a",
+  "texte": "bla",
+  "palier": 5
+ },
+ {
+  "id": "bl-i",
+  "consonne": "bl",
+  "voyelle": "i",
+  "texte": "bli",
+  "palier": 5
+ },
+ {
+  "id": "bl-u",
+  "consonne": "bl",
+  "voyelle": "u",
+  "texte": "blu",
+  "palier": 5
+ },
+ {
+  "id": "bl-o",
+  "consonne": "bl",
+  "voyelle": "o",
+  "texte": "blo",
+  "palier": 5
+ },
+ {
+  "id": "bl-e",
+  "consonne": "bl",
+  "voyelle": "e",
+  "texte": "ble",
+  "palier": 5,
+  "tts": "bleu"
+ },
+ {
+  "id": "bl-eacute",
+  "consonne": "bl",
+  "voyelle": "eacute",
+  "texte": "blé",
+  "palier": 5
+ },
+ {
+  "id": "bl-er",
+  "consonne": "bl",
+  "voyelle": "er",
+  "texte": "bler",
+  "palier": 5
+ },
+ {
+  "id": "bl-ez",
+  "consonne": "bl",
+  "voyelle": "ez",
+  "texte": "blez",
+  "palier": 5
+ },
+ {
+  "id": "bl-ou",
+  "consonne": "bl",
+  "voyelle": "ou",
+  "texte": "blou",
+  "palier": 5
+ },
+ {
+  "id": "bl-egrave",
+  "consonne": "bl",
+  "voyelle": "egrave",
+  "texte": "blè",
+  "palier": 5
+ },
+ {
+  "id": "bl-ecirc",
+  "consonne": "bl",
+  "voyelle": "ecirc",
+  "texte": "blê",
+  "palier": 5,
+  "tts": "blè"
+ },
+ {
+  "id": "bl-oi",
+  "consonne": "bl",
+  "voyelle": "oi",
+  "texte": "bloi",
+  "palier": 5
+ },
+ {
+  "id": "bl-au",
+  "consonne": "bl",
+  "voyelle": "au",
+  "texte": "blau",
+  "palier": 5
+ },
+ {
+  "id": "bl-eau",
+  "consonne": "bl",
+  "voyelle": "eau",
+  "texte": "bleau",
+  "palier": 5
+ },
+ {
+  "id": "bl-an",
+  "consonne": "bl",
+  "voyelle": "an",
+  "texte": "blan",
+  "palier": 5
+ },
+ {
+  "id": "bl-en",
+  "consonne": "bl",
+  "voyelle": "en",
+  "texte": "blen",
+  "palier": 5
+ },
+ {
+  "id": "bl-ai",
+  "consonne": "bl",
+  "voyelle": "ai",
+  "texte": "blai",
+  "palier": 5
+ },
+ {
+  "id": "bl-ei",
+  "consonne": "bl",
+  "voyelle": "ei",
+  "texte": "blei",
+  "palier": 5
+ },
+ {
+  "id": "bl-et",
+  "consonne": "bl",
+  "voyelle": "et",
+  "texte": "blet",
+  "palier": 5
+ },
+ {
+  "id": "bl-on",
+  "consonne": "bl",
+  "voyelle": "on",
+  "texte": "blon",
+  "palier": 5
+ },
+ {
+  "id": "bl-in",
+  "consonne": "bl",
+  "voyelle": "in",
+  "texte": "blin",
+  "palier": 5
+ },
+ {
+  "id": "bl-ain",
+  "consonne": "bl",
+  "voyelle": "ain",
+  "texte": "blain",
+  "palier": 5
+ },
+ {
+  "id": "bl-ein",
+  "consonne": "bl",
+  "voyelle": "ein",
+  "texte": "blein",
+  "palier": 5
+ },
+ {
+  "id": "bl-oin",
+  "consonne": "bl",
+  "voyelle": "oin",
+  "texte": "bloin",
+  "palier": 5
+ },
+ {
+  "id": "bl-eu",
+  "consonne": "bl",
+  "voyelle": "eu",
+  "texte": "bleu",
+  "palier": 5
+ },
+ {
+  "id": "bl-elle",
+  "consonne": "bl",
+  "voyelle": "elle",
+  "texte": "blelle",
+  "palier": 6
+ },
+ {
+  "id": "bl-enne",
+  "consonne": "bl",
+  "voyelle": "enne",
+  "texte": "blenne",
+  "palier": 6
+ },
+ {
+  "id": "bl-erre",
+  "consonne": "bl",
+  "voyelle": "erre",
+  "texte": "blerre",
+  "palier": 6
+ },
+ {
+  "id": "bl-esse",
+  "consonne": "bl",
+  "voyelle": "esse",
+  "texte": "blesse",
+  "palier": 6
+ },
+ {
+  "id": "bl-ette",
+  "consonne": "bl",
+  "voyelle": "ette",
+  "texte": "blette",
+  "palier": 6
+ },
+ {
+  "id": "cl-a",
+  "consonne": "cl",
+  "voyelle": "a",
+  "texte": "cla",
+  "palier": 5
+ },
+ {
+  "id": "cl-i",
+  "consonne": "cl",
+  "voyelle": "i",
+  "texte": "cli",
+  "palier": 5
+ },
+ {
+  "id": "cl-u",
+  "consonne": "cl",
+  "voyelle": "u",
+  "texte": "clu",
+  "palier": 5,
+  "tts": "clue"
+ },
+ {
+  "id": "cl-o",
+  "consonne": "cl",
+  "voyelle": "o",
+  "texte": "clo",
+  "palier": 5
+ },
+ {
+  "id": "cl-e",
+  "consonne": "cl",
+  "voyelle": "e",
+  "texte": "cle",
+  "palier": 5,
+  "tts": "cleu"
+ },
+ {
+  "id": "cl-eacute",
+  "consonne": "cl",
+  "voyelle": "eacute",
+  "texte": "clé",
+  "palier": 5
+ },
+ {
+  "id": "cl-er",
+  "consonne": "cl",
+  "voyelle": "er",
+  "texte": "cler",
+  "palier": 5
+ },
+ {
+  "id": "cl-ez",
+  "consonne": "cl",
+  "voyelle": "ez",
+  "texte": "clez",
+  "palier": 5
+ },
+ {
+  "id": "cl-ou",
+  "consonne": "cl",
+  "voyelle": "ou",
+  "texte": "clou",
+  "palier": 5
+ },
+ {
+  "id": "cl-egrave",
+  "consonne": "cl",
+  "voyelle": "egrave",
+  "texte": "clè",
+  "palier": 5
+ },
+ {
+  "id": "cl-ecirc",
+  "consonne": "cl",
+  "voyelle": "ecirc",
+  "texte": "clê",
+  "palier": 5,
+  "tts": "clè"
+ },
+ {
+  "id": "cl-oi",
+  "consonne": "cl",
+  "voyelle": "oi",
+  "texte": "cloi",
+  "palier": 5
+ },
+ {
+  "id": "cl-au",
+  "consonne": "cl",
+  "voyelle": "au",
+  "texte": "clau",
+  "palier": 5
+ },
+ {
+  "id": "cl-eau",
+  "consonne": "cl",
+  "voyelle": "eau",
+  "texte": "cleau",
+  "palier": 5
+ },
+ {
+  "id": "cl-an",
+  "consonne": "cl",
+  "voyelle": "an",
+  "texte": "clan",
+  "palier": 5
+ },
+ {
+  "id": "cl-en",
+  "consonne": "cl",
+  "voyelle": "en",
+  "texte": "clen",
+  "palier": 5
+ },
+ {
+  "id": "cl-ai",
+  "consonne": "cl",
+  "voyelle": "ai",
+  "texte": "clai",
+  "palier": 5
+ },
+ {
+  "id": "cl-ei",
+  "consonne": "cl",
+  "voyelle": "ei",
+  "texte": "clei",
+  "palier": 5
+ },
+ {
+  "id": "cl-et",
+  "consonne": "cl",
+  "voyelle": "et",
+  "texte": "clet",
+  "palier": 5
+ },
+ {
+  "id": "cl-on",
+  "consonne": "cl",
+  "voyelle": "on",
+  "texte": "clon",
+  "palier": 5
+ },
+ {
+  "id": "cl-in",
+  "consonne": "cl",
+  "voyelle": "in",
+  "texte": "clin",
+  "palier": 5,
+  "tts": "clind"
+ },
+ {
+  "id": "cl-ain",
+  "consonne": "cl",
+  "voyelle": "ain",
+  "texte": "clain",
+  "palier": 5
+ },
+ {
+  "id": "cl-ein",
+  "consonne": "cl",
+  "voyelle": "ein",
+  "texte": "clein",
+  "palier": 5
+ },
+ {
+  "id": "cl-oin",
+  "consonne": "cl",
+  "voyelle": "oin",
+  "texte": "cloin",
+  "palier": 5
+ },
+ {
+  "id": "cl-eu",
+  "consonne": "cl",
+  "voyelle": "eu",
+  "texte": "cleu",
+  "palier": 5
+ },
+ {
+  "id": "cl-elle",
+  "consonne": "cl",
+  "voyelle": "elle",
+  "texte": "clelle",
+  "palier": 6
+ },
+ {
+  "id": "cl-enne",
+  "consonne": "cl",
+  "voyelle": "enne",
+  "texte": "clenne",
+  "palier": 6
+ },
+ {
+  "id": "cl-erre",
+  "consonne": "cl",
+  "voyelle": "erre",
+  "texte": "clerre",
+  "palier": 6
+ },
+ {
+  "id": "cl-esse",
+  "consonne": "cl",
+  "voyelle": "esse",
+  "texte": "clesse",
+  "palier": 6
+ },
+ {
+  "id": "cl-ette",
+  "consonne": "cl",
+  "voyelle": "ette",
+  "texte": "clette",
+  "palier": 6
+ },
+ {
+  "id": "fl-a",
+  "consonne": "fl",
+  "voyelle": "a",
+  "texte": "fla",
+  "palier": 5
+ },
+ {
+  "id": "fl-i",
+  "consonne": "fl",
+  "voyelle": "i",
+  "texte": "fli",
+  "palier": 5
+ },
+ {
+  "id": "fl-u",
+  "consonne": "fl",
+  "voyelle": "u",
+  "texte": "flu",
+  "palier": 5
+ },
+ {
+  "id": "fl-o",
+  "consonne": "fl",
+  "voyelle": "o",
+  "texte": "flo",
+  "palier": 5
+ },
+ {
+  "id": "fl-e",
+  "consonne": "fl",
+  "voyelle": "e",
+  "texte": "fle",
+  "palier": 5,
+  "tts": "fleu"
+ },
+ {
+  "id": "fl-eacute",
+  "consonne": "fl",
+  "voyelle": "eacute",
+  "texte": "flé",
+  "palier": 5
+ },
+ {
+  "id": "fl-er",
+  "consonne": "fl",
+  "voyelle": "er",
+  "texte": "fler",
+  "palier": 5
+ },
+ {
+  "id": "fl-ez",
+  "consonne": "fl",
+  "voyelle": "ez",
+  "texte": "flez",
+  "palier": 5
+ },
+ {
+  "id": "fl-ou",
+  "consonne": "fl",
+  "voyelle": "ou",
+  "texte": "flou",
+  "palier": 5
+ },
+ {
+  "id": "fl-egrave",
+  "consonne": "fl",
+  "voyelle": "egrave",
+  "texte": "flè",
+  "palier": 5
+ },
+ {
+  "id": "fl-ecirc",
+  "consonne": "fl",
+  "voyelle": "ecirc",
+  "texte": "flê",
+  "palier": 5,
+  "tts": "flè"
+ },
+ {
+  "id": "fl-oi",
+  "consonne": "fl",
+  "voyelle": "oi",
+  "texte": "floi",
+  "palier": 5
+ },
+ {
+  "id": "fl-au",
+  "consonne": "fl",
+  "voyelle": "au",
+  "texte": "flau",
+  "palier": 5
+ },
+ {
+  "id": "fl-eau",
+  "consonne": "fl",
+  "voyelle": "eau",
+  "texte": "fleau",
+  "palier": 5
+ },
+ {
+  "id": "fl-an",
+  "consonne": "fl",
+  "voyelle": "an",
+  "texte": "flan",
+  "palier": 5
+ },
+ {
+  "id": "fl-en",
+  "consonne": "fl",
+  "voyelle": "en",
+  "texte": "flen",
+  "palier": 5
+ },
+ {
+  "id": "fl-ai",
+  "consonne": "fl",
+  "voyelle": "ai",
+  "texte": "flai",
+  "palier": 5
+ },
+ {
+  "id": "fl-ei",
+  "consonne": "fl",
+  "voyelle": "ei",
+  "texte": "flei",
+  "palier": 5
+ },
+ {
+  "id": "fl-et",
+  "consonne": "fl",
+  "voyelle": "et",
+  "texte": "flet",
+  "palier": 5
+ },
+ {
+  "id": "fl-on",
+  "consonne": "fl",
+  "voyelle": "on",
+  "texte": "flon",
+  "palier": 5
+ },
+ {
+  "id": "fl-in",
+  "consonne": "fl",
+  "voyelle": "in",
+  "texte": "flin",
+  "palier": 5,
+  "tts": "flind"
+ },
+ {
+  "id": "fl-ain",
+  "consonne": "fl",
+  "voyelle": "ain",
+  "texte": "flain",
+  "palier": 5
+ },
+ {
+  "id": "fl-ein",
+  "consonne": "fl",
+  "voyelle": "ein",
+  "texte": "flein",
+  "palier": 5
+ },
+ {
+  "id": "fl-oin",
+  "consonne": "fl",
+  "voyelle": "oin",
+  "texte": "floin",
+  "palier": 5
+ },
+ {
+  "id": "fl-eu",
+  "consonne": "fl",
+  "voyelle": "eu",
+  "texte": "fleu",
+  "palier": 5
+ },
+ {
+  "id": "fl-elle",
+  "consonne": "fl",
+  "voyelle": "elle",
+  "texte": "flelle",
+  "palier": 6
+ },
+ {
+  "id": "fl-enne",
+  "consonne": "fl",
+  "voyelle": "enne",
+  "texte": "flenne",
+  "palier": 6
+ },
+ {
+  "id": "fl-erre",
+  "consonne": "fl",
+  "voyelle": "erre",
+  "texte": "flerre",
+  "palier": 6
+ },
+ {
+  "id": "fl-esse",
+  "consonne": "fl",
+  "voyelle": "esse",
+  "texte": "flesse",
+  "palier": 6
+ },
+ {
+  "id": "fl-ette",
+  "consonne": "fl",
+  "voyelle": "ette",
+  "texte": "flette",
+  "palier": 6
+ },
+ {
+  "id": "gl-a",
+  "consonne": "gl",
+  "voyelle": "a",
+  "texte": "gla",
+  "palier": 5
+ },
+ {
+  "id": "gl-i",
+  "consonne": "gl",
+  "voyelle": "i",
+  "texte": "gli",
+  "palier": 5
+ },
+ {
+  "id": "gl-u",
+  "consonne": "gl",
+  "voyelle": "u",
+  "texte": "glu",
+  "palier": 5
+ },
+ {
+  "id": "gl-o",
+  "consonne": "gl",
+  "voyelle": "o",
+  "texte": "glo",
+  "palier": 5
+ },
+ {
+  "id": "gl-e",
+  "consonne": "gl",
+  "voyelle": "e",
+  "texte": "gle",
+  "palier": 5,
+  "tts": "gleu"
+ },
+ {
+  "id": "gl-eacute",
+  "consonne": "gl",
+  "voyelle": "eacute",
+  "texte": "glé",
+  "palier": 5
+ },
+ {
+  "id": "gl-er",
+  "consonne": "gl",
+  "voyelle": "er",
+  "texte": "gler",
+  "palier": 5,
+  "tts": "glerh"
+ },
+ {
+  "id": "gl-ez",
+  "consonne": "gl",
+  "voyelle": "ez",
+  "texte": "glez",
+  "palier": 5
+ },
+ {
+  "id": "gl-ou",
+  "consonne": "gl",
+  "voyelle": "ou",
+  "texte": "glou",
+  "palier": 5
+ },
+ {
+  "id": "gl-egrave",
+  "consonne": "gl",
+  "voyelle": "egrave",
+  "texte": "glè",
+  "palier": 5
+ },
+ {
+  "id": "gl-ecirc",
+  "consonne": "gl",
+  "voyelle": "ecirc",
+  "texte": "glê",
+  "palier": 5,
+  "tts": "glè"
+ },
+ {
+  "id": "gl-oi",
+  "consonne": "gl",
+  "voyelle": "oi",
+  "texte": "gloi",
+  "palier": 5
+ },
+ {
+  "id": "gl-au",
+  "consonne": "gl",
+  "voyelle": "au",
+  "texte": "glau",
+  "palier": 5
+ },
+ {
+  "id": "gl-eau",
+  "consonne": "gl",
+  "voyelle": "eau",
+  "texte": "gleau",
+  "palier": 5
+ },
+ {
+  "id": "gl-an",
+  "consonne": "gl",
+  "voyelle": "an",
+  "texte": "glan",
+  "palier": 5,
+  "tts": "glant"
+ },
+ {
+  "id": "gl-en",
+  "consonne": "gl",
+  "voyelle": "en",
+  "texte": "glen",
+  "palier": 5,
+  "tts": "glend"
+ },
+ {
+  "id": "gl-ai",
+  "consonne": "gl",
+  "voyelle": "ai",
+  "texte": "glai",
+  "palier": 5
+ },
+ {
+  "id": "gl-ei",
+  "consonne": "gl",
+  "voyelle": "ei",
+  "texte": "glei",
+  "palier": 5
+ },
+ {
+  "id": "gl-et",
+  "consonne": "gl",
+  "voyelle": "et",
+  "texte": "glet",
+  "palier": 5
+ },
+ {
+  "id": "gl-on",
+  "consonne": "gl",
+  "voyelle": "on",
+  "texte": "glon",
+  "palier": 5
+ },
+ {
+  "id": "gl-in",
+  "consonne": "gl",
+  "voyelle": "in",
+  "texte": "glin",
+  "palier": 5
+ },
+ {
+  "id": "gl-ain",
+  "consonne": "gl",
+  "voyelle": "ain",
+  "texte": "glain",
+  "palier": 5
+ },
+ {
+  "id": "gl-ein",
+  "consonne": "gl",
+  "voyelle": "ein",
+  "texte": "glein",
+  "palier": 5
+ },
+ {
+  "id": "gl-oin",
+  "consonne": "gl",
+  "voyelle": "oin",
+  "texte": "gloin",
+  "palier": 5
+ },
+ {
+  "id": "gl-eu",
+  "consonne": "gl",
+  "voyelle": "eu",
+  "texte": "gleu",
+  "palier": 5
+ },
+ {
+  "id": "gl-elle",
+  "consonne": "gl",
+  "voyelle": "elle",
+  "texte": "glelle",
+  "palier": 6
+ },
+ {
+  "id": "gl-enne",
+  "consonne": "gl",
+  "voyelle": "enne",
+  "texte": "glenne",
+  "palier": 6
+ },
+ {
+  "id": "gl-erre",
+  "consonne": "gl",
+  "voyelle": "erre",
+  "texte": "glerre",
+  "palier": 6
+ },
+ {
+  "id": "gl-esse",
+  "consonne": "gl",
+  "voyelle": "esse",
+  "texte": "glesse",
+  "palier": 6
+ },
+ {
+  "id": "gl-ette",
+  "consonne": "gl",
+  "voyelle": "ette",
+  "texte": "glette",
+  "palier": 6
+ },
+ {
+  "id": "pl-a",
+  "consonne": "pl",
+  "voyelle": "a",
+  "texte": "pla",
+  "palier": 5
+ },
+ {
+  "id": "pl-i",
+  "consonne": "pl",
+  "voyelle": "i",
+  "texte": "pli",
+  "palier": 5
+ },
+ {
+  "id": "pl-u",
+  "consonne": "pl",
+  "voyelle": "u",
+  "texte": "plu",
+  "palier": 5
+ },
+ {
+  "id": "pl-o",
+  "consonne": "pl",
+  "voyelle": "o",
+  "texte": "plo",
+  "palier": 5
+ },
+ {
+  "id": "pl-e",
+  "consonne": "pl",
+  "voyelle": "e",
+  "texte": "ple",
+  "palier": 5,
+  "tts": "pleu"
+ },
+ {
+  "id": "pl-eacute",
+  "consonne": "pl",
+  "voyelle": "eacute",
+  "texte": "plé",
+  "palier": 5
+ },
+ {
+  "id": "pl-er",
+  "consonne": "pl",
+  "voyelle": "er",
+  "texte": "pler",
+  "palier": 5
+ },
+ {
+  "id": "pl-ez",
+  "consonne": "pl",
+  "voyelle": "ez",
+  "texte": "plez",
+  "palier": 5
+ },
+ {
+  "id": "pl-ou",
+  "consonne": "pl",
+  "voyelle": "ou",
+  "texte": "plou",
+  "palier": 5
+ },
+ {
+  "id": "pl-egrave",
+  "consonne": "pl",
+  "voyelle": "egrave",
+  "texte": "plè",
+  "palier": 5
+ },
+ {
+  "id": "pl-ecirc",
+  "consonne": "pl",
+  "voyelle": "ecirc",
+  "texte": "plê",
+  "palier": 5,
+  "tts": "plè"
+ },
+ {
+  "id": "pl-oi",
+  "consonne": "pl",
+  "voyelle": "oi",
+  "texte": "ploi",
+  "palier": 5
+ },
+ {
+  "id": "pl-au",
+  "consonne": "pl",
+  "voyelle": "au",
+  "texte": "plau",
+  "palier": 5
+ },
+ {
+  "id": "pl-eau",
+  "consonne": "pl",
+  "voyelle": "eau",
+  "texte": "pleau",
+  "palier": 5
+ },
+ {
+  "id": "pl-an",
+  "consonne": "pl",
+  "voyelle": "an",
+  "texte": "plan",
+  "palier": 5
+ },
+ {
+  "id": "pl-en",
+  "consonne": "pl",
+  "voyelle": "en",
+  "texte": "plen",
+  "palier": 5,
+  "tts": "plent"
+ },
+ {
+  "id": "pl-ai",
+  "consonne": "pl",
+  "voyelle": "ai",
+  "texte": "plai",
+  "palier": 5
+ },
+ {
+  "id": "pl-ei",
+  "consonne": "pl",
+  "voyelle": "ei",
+  "texte": "plei",
+  "palier": 5
+ },
+ {
+  "id": "pl-et",
+  "consonne": "pl",
+  "voyelle": "et",
+  "texte": "plet",
+  "palier": 5
+ },
+ {
+  "id": "pl-on",
+  "consonne": "pl",
+  "voyelle": "on",
+  "texte": "plon",
+  "palier": 5
+ },
+ {
+  "id": "pl-in",
+  "consonne": "pl",
+  "voyelle": "in",
+  "texte": "plin",
+  "palier": 5
+ },
+ {
+  "id": "pl-ain",
+  "consonne": "pl",
+  "voyelle": "ain",
+  "texte": "plain",
+  "palier": 5
+ },
+ {
+  "id": "pl-ein",
+  "consonne": "pl",
+  "voyelle": "ein",
+  "texte": "plein",
+  "palier": 5
+ },
+ {
+  "id": "pl-oin",
+  "consonne": "pl",
+  "voyelle": "oin",
+  "texte": "ploin",
+  "palier": 5
+ },
+ {
+  "id": "pl-eu",
+  "consonne": "pl",
+  "voyelle": "eu",
+  "texte": "pleu",
+  "palier": 5
+ },
+ {
+  "id": "pl-elle",
+  "consonne": "pl",
+  "voyelle": "elle",
+  "texte": "plelle",
+  "palier": 6
+ },
+ {
+  "id": "pl-enne",
+  "consonne": "pl",
+  "voyelle": "enne",
+  "texte": "plenne",
+  "palier": 6
+ },
+ {
+  "id": "pl-erre",
+  "consonne": "pl",
+  "voyelle": "erre",
+  "texte": "plerre",
+  "palier": 6
+ },
+ {
+  "id": "pl-esse",
+  "consonne": "pl",
+  "voyelle": "esse",
+  "texte": "plesse",
+  "palier": 6
+ },
+ {
+  "id": "pl-ette",
+  "consonne": "pl",
+  "voyelle": "ette",
+  "texte": "plette",
+  "palier": 6
+ },
+ {
+  "id": "k-a",
+  "consonne": "k",
+  "voyelle": "a",
+  "texte": "ka",
+  "palier": 5
+ },
+ {
+  "id": "k-i",
+  "consonne": "k",
+  "voyelle": "i",
+  "texte": "ki",
+  "palier": 5
+ },
+ {
+  "id": "k-u",
+  "consonne": "k",
+  "voyelle": "u",
+  "texte": "ku",
+  "palier": 5
+ },
+ {
+  "id": "k-o",
+  "consonne": "k",
+  "voyelle": "o",
+  "texte": "ko",
+  "palier": 5
+ },
+ {
+  "id": "k-e",
+  "consonne": "k",
+  "voyelle": "e",
+  "texte": "ke",
+  "palier": 5,
+  "tts": "keu"
+ },
+ {
+  "id": "k-eacute",
+  "consonne": "k",
+  "voyelle": "eacute",
+  "texte": "ké",
+  "palier": 5
+ },
+ {
+  "id": "k-ou",
+  "consonne": "k",
+  "voyelle": "ou",
+  "texte": "kou",
+  "palier": 5
+ },
+ {
+  "id": "k-egrave",
+  "consonne": "k",
+  "voyelle": "egrave",
+  "texte": "kè",
+  "palier": 5
+ },
+ {
+  "id": "k-an",
+  "consonne": "k",
+  "voyelle": "an",
+  "texte": "kan",
+  "palier": 5,
+  "tts": "kand"
+ },
+ {
+  "id": "k-on",
+  "consonne": "k",
+  "voyelle": "on",
+  "texte": "kon",
+  "palier": 5,
+  "tts": "kond"
+ },
+ {
+  "id": "qu-a",
+  "consonne": "qu",
+  "voyelle": "a",
+  "texte": "qua",
+  "palier": 5
+ },
+ {
+  "id": "qu-i",
+  "consonne": "qu",
+  "voyelle": "i",
+  "texte": "qui",
+  "palier": 5
+ },
+ {
+  "id": "qu-y",
+  "consonne": "qu",
+  "voyelle": "y",
+  "texte": "quy",
+  "palier": 5,
+  "tts": "qui"
+ },
+ {
+  "id": "qu-o",
+  "consonne": "qu",
+  "voyelle": "o",
+  "texte": "quo",
+  "palier": 5,
+  "tts": "quoh"
+ },
+ {
+  "id": "qu-e",
+  "consonne": "qu",
+  "voyelle": "e",
+  "texte": "que",
+  "palier": 5,
+  "tts": "keu"
+ },
+ {
+  "id": "qu-eacute",
+  "consonne": "qu",
+  "voyelle": "eacute",
+  "texte": "qué",
+  "palier": 5
+ },
+ {
+  "id": "qu-er",
+  "consonne": "qu",
+  "voyelle": "er",
+  "texte": "quer",
+  "palier": 5
+ },
+ {
+  "id": "qu-ez",
+  "consonne": "qu",
+  "voyelle": "ez",
+  "texte": "quez",
+  "palier": 5
+ },
+ {
+  "id": "qu-egrave",
+  "consonne": "qu",
+  "voyelle": "egrave",
+  "texte": "què",
+  "palier": 5
+ },
+ {
+  "id": "qu-ecirc",
+  "consonne": "qu",
+  "voyelle": "ecirc",
+  "texte": "quê",
+  "palier": 5,
+  "tts": "què"
+ },
+ {
+  "id": "qu-oi",
+  "consonne": "qu",
+  "voyelle": "oi",
+  "texte": "quoi",
+  "palier": 5
+ },
+ {
+  "id": "qu-an",
+  "consonne": "qu",
+  "voyelle": "an",
+  "texte": "quan",
+  "palier": 5
+ },
+ {
+  "id": "qu-en",
+  "consonne": "qu",
+  "voyelle": "en",
+  "texte": "quen",
+  "palier": 5
+ },
+ {
+  "id": "qu-ai",
+  "consonne": "qu",
+  "voyelle": "ai",
+  "texte": "quai",
+  "palier": 5
+ },
+ {
+  "id": "qu-et",
+  "consonne": "qu",
+  "voyelle": "et",
+  "texte": "quet",
+  "palier": 5
+ },
+ {
+  "id": "qu-in",
+  "consonne": "qu",
+  "voyelle": "in",
+  "texte": "quin",
+  "palier": 5
+ },
+ {
+  "id": "qu-eu",
+  "consonne": "qu",
+  "voyelle": "eu",
+  "texte": "queu",
+  "palier": 5
+ },
+ {
+  "id": "qu-elle",
+  "consonne": "qu",
+  "voyelle": "elle",
+  "texte": "quelle",
+  "palier": 6
+ },
+ {
+  "id": "qu-erre",
+  "consonne": "qu",
+  "voyelle": "erre",
+  "texte": "querre",
+  "palier": 6
+ },
+ {
+  "id": "qu-ette",
+  "consonne": "qu",
+  "voyelle": "ette",
+  "texte": "quette",
+  "palier": 6,
+  "tts": "quettes"
+ },
+ {
+  "id": "qu-ill",
+  "consonne": "qu",
+  "voyelle": "ill",
+  "texte": "quill",
+  "palier": 6
+ },
+ {
+  "id": "gn-a",
+  "consonne": "gn",
+  "voyelle": "a",
+  "texte": "gna",
+  "palier": 6
+ },
+ {
+  "id": "gn-i",
+  "consonne": "gn",
+  "voyelle": "i",
+  "texte": "gni",
+  "palier": 6
+ },
+ {
+  "id": "gn-u",
+  "consonne": "gn",
+  "voyelle": "u",
+  "texte": "gnu",
+  "palier": 6
+ },
+ {
+  "id": "gn-o",
+  "consonne": "gn",
+  "voyelle": "o",
+  "texte": "gno",
+  "palier": 6
+ },
+ {
+  "id": "gn-e",
+  "consonne": "gn",
+  "voyelle": "e",
+  "texte": "gne",
+  "palier": 6,
+  "tts": "gneu"
+ },
+ {
+  "id": "gn-eacute",
+  "consonne": "gn",
+  "voyelle": "eacute",
+  "texte": "gné",
+  "palier": 6
+ },
+ {
+  "id": "gn-er",
+  "consonne": "gn",
+  "voyelle": "er",
+  "texte": "gner",
+  "palier": 6
+ },
+ {
+  "id": "gn-ez",
+  "consonne": "gn",
+  "voyelle": "ez",
+  "texte": "gnez",
+  "palier": 6
+ },
+ {
+  "id": "gn-ou",
+  "consonne": "gn",
+  "voyelle": "ou",
+  "texte": "gnou",
+  "palier": 6
+ },
+ {
+  "id": "gn-egrave",
+  "consonne": "gn",
+  "voyelle": "egrave",
+  "texte": "gnè",
+  "palier": 6
+ },
+ {
+  "id": "gn-eau",
+  "consonne": "gn",
+  "voyelle": "eau",
+  "texte": "gneau",
+  "palier": 6
+ },
+ {
+  "id": "gn-an",
+  "consonne": "gn",
+  "voyelle": "an",
+  "texte": "gnan",
+  "palier": 6
+ },
+ {
+  "id": "gn-ai",
+  "consonne": "gn",
+  "voyelle": "ai",
+  "texte": "gnai",
+  "palier": 6
+ },
+ {
+  "id": "gn-et",
+  "consonne": "gn",
+  "voyelle": "et",
+  "texte": "gnet",
+  "palier": 6
+ },
+ {
+  "id": "gn-on",
+  "consonne": "gn",
+  "voyelle": "on",
+  "texte": "gnon",
+  "palier": 6
+ },
+ {
+  "id": "w-a",
+  "consonne": "w",
+  "voyelle": "a",
+  "texte": "wa",
+  "palier": 6
+ },
+ {
+  "id": "w-i",
+  "consonne": "w",
+  "voyelle": "i",
+  "texte": "wi",
+  "palier": 6
+ },
+ {
+  "id": "w-o",
+  "consonne": "w",
+  "voyelle": "o",
+  "texte": "wo",
+  "palier": 6
+ },
+ {
+  "id": "w-e",
+  "consonne": "w",
+  "voyelle": "e",
+  "texte": "we",
+  "palier": 6,
+  "tts": "weu"
+ },
+ {
+  "id": "w-eacute",
+  "consonne": "w",
+  "voyelle": "eacute",
+  "texte": "wé",
+  "palier": 6
+ },
+ {
+  "id": "w-ou",
+  "consonne": "w",
+  "voyelle": "ou",
+  "texte": "wou",
+  "palier": 6
+ }
+]

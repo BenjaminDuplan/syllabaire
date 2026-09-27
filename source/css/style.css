@@ -1,0 +1,421 @@
+/* Syllabaire — thème, tokens, tuile, boutons, écrans accueil / jeu (lot A).
+   Voir ARCHITECTURE.md §2. Les lots B, C, D réutilisent les tokens et .tuile. */
+
+:root {
+  /* Couleurs de base : fond crème chaleureux, encre bleu nuit, jamais de rouge vif. */
+  --fond: #FFF4E2;
+  --fond-2: #FFE8C7;
+  --encre: #2A2F45;
+  --encre-douce: #5D6380;
+  --carte: #FFFFFF;
+  --accent: #3F7CF4;
+  --ok: #26A65B;
+  --presque: #F5A04A;
+  --surligne: #FFE066;
+  --ombre: 0 0.35rem 0 rgba(42, 47, 69, 0.12), 0 0.8rem 1.8rem rgba(42, 47, 69, 0.10);
+
+  /* Palette des profils (valeur stockée = nom sans préfixe). */
+  --p-vert: #2FB164;
+  --p-rose: #EE5FA0;
+  --p-bleu: #3F86F4;
+  --p-jaune: #F2B31B;
+  --p-violet: #9467EE;
+  --p-orange: #FF8A3D;
+  --p-turquoise: #17AFA6;
+  --p-corail: #FF7866;
+
+  --police: "Andika", "Trebuchet MS", system-ui, sans-serif;
+  --police-cursive: "EcritureA", "Andika", cursive;
+  --rayon: 1.5rem;
+  --tactile: 4.5rem;            /* ≥ 64 px */
+  --marge: max(1rem, env(safe-area-inset-left));
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background: var(--fond);
+  color: var(--encre);
+  font-family: var(--police);
+  font-size: 18px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  overscroll-behavior: none;
+}
+
+body {
+  background:
+    radial-gradient(circle at 12% 8%, rgba(255, 214, 140, 0.45) 0 14rem, transparent 14rem),
+    radial-gradient(circle at 92% 95%, rgba(170, 215, 255, 0.35) 0 16rem, transparent 16rem),
+    var(--fond);
+  background-attachment: fixed;
+}
+
+button { font-family: inherit; color: inherit; touch-action: manipulation; }
+
+#ecran { min-height: 100vh; min-height: 100dvh; }
+
+/* Chaque écran est un <section class="ecran ecran-<nom>">. Aucune marge imposée :
+   les écrans des autres lots gèrent leur propre mise en page ; #ecran défile si besoin. */
+.ecran { min-height: 100vh; min-height: 100dvh; }
+.ecran-accueil, .ecran-jeu, .ecran-secours {
+  padding: max(1rem, env(safe-area-inset-top)) var(--marge) max(1rem, env(safe-area-inset-bottom));
+}
+
+#confettis {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 50;
+}
+
+/* ---------- écritures ---------- */
+
+.script { font-family: var(--police); font-weight: 400; }
+.cursif { font-family: var(--police-cursive); font-weight: 400; }
+
+.icone { width: 1.4em; height: 1.4em; flex: none; }
+
+/* ---------- boutons ---------- */
+
+.bouton-rond {
+  width: 6rem;
+  height: 6rem;
+  min-width: var(--tactile);
+  min-height: var(--tactile);
+  border-radius: 50%;
+  border: none;
+  background: var(--carte);
+  color: var(--encre);
+  box-shadow: var(--ombre);
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1rem;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, opacity 0.2s;
+}
+.bouton-rond .icone { width: 55%; height: 55%; }
+.bouton-rond:active:not(:disabled) { transform: translateY(0.2rem) scale(0.96); box-shadow: 0 0.1rem 0 rgba(42, 47, 69, 0.15); }
+.bouton-rond:disabled { opacity: 0.45; cursor: default; }
+.bouton-rond.petit { width: var(--tactile); height: var(--tactile); }
+.bouton-rond.petit .icone { width: 50%; height: 50%; }
+
+.bouton-texte {
+  min-height: var(--tactile);
+  padding: 0 1.6rem;
+  border-radius: 999px;
+  border: none;
+  background: var(--carte);
+  box-shadow: var(--ombre);
+  font-size: 1.3rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+.bouton-texte.grand { background: var(--accent); color: #fff; font-size: 1.6rem; }
+.bouton-texte:active { transform: translateY(0.15rem); }
+
+:focus-visible { outline: 0.25rem solid var(--accent); outline-offset: 0.2rem; }
+
+/* ---------- tuile (composant partagé) ---------- */
+
+/* .tuile ne fixe ni display ni dimensions : c'est le conteneur (écran) qui les donne,
+   pour qu'elle se place aussi bien dans un flex que dans une grille. */
+.tuile {
+  position: relative;
+  line-height: 1;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform: perspective(1600px) rotateY(0deg);
+  transition: transform 600ms cubic-bezier(0.45, 0.05, 0.3, 1);
+}
+.tuile.retournee { transform: perspective(1600px) rotateY(180deg); }
+
+.tuile-face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: var(--rayon);
+  background: var(--carte);
+  border: 0.45rem solid var(--couleur, var(--accent));
+  box-shadow: inset 0 -0.5rem 0 color-mix(in srgb, var(--couleur, var(--accent)) 18%, transparent), var(--ombre);
+  color: var(--encre);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  white-space: nowrap;
+}
+.tuile-face.arriere {
+  transform: rotateY(180deg);
+  background: color-mix(in srgb, var(--couleur, var(--accent)) 9%, var(--carte));
+}
+
+/* La face avant porte l'écriture de la tuile, l'arrière l'autre écriture. */
+.tuile.script .avant, .tuile.cursif .arriere { font-family: var(--police); }
+.tuile.cursif .avant, .tuile.script .arriere { font-family: var(--police-cursive); }
+/* Écriture A a un œil deux fois plus petit qu'Andika (hauteur d'x 0,26 em contre 0,50 em) :
+   on l'agrandit pour que les deux écritures aient la même taille perçue. Ses hampes montent
+   à 0,75 em et ses jambages descendent à 0,32 em : line-height 1,15 les garde entiers. */
+.tuile.cursif .avant .texte, .tuile.script .arriere .texte { font-size: 1.8em; line-height: 1.15; }
+.tuile.script .avant .texte, .tuile.cursif .arriere .texte { line-height: 1.3; }
+
+.tuile .texte { display: inline-block; padding: 0 0.15em; }
+.tuile .partie {
+  display: inline-block;
+  border-radius: 0.2em;
+  transition: background-color 0.25s, transform 0.25s;
+}
+.tuile .partie.surligne {
+  background: var(--surligne);
+  transform: scale(1.08);
+}
+.tuile-face.surligne-tout .texte { background: var(--surligne); border-radius: 0.2em; }
+
+.tuile.entree { animation: tuile-entree 380ms cubic-bezier(0.2, 0.9, 0.3, 1.25); }
+@keyframes tuile-entree {
+  from { opacity: 0; transform: perspective(1600px) translateY(1.5rem) scale(0.9); }
+  to   { opacity: 1; transform: perspective(1600px) rotateY(0deg); }
+}
+
+/* ---------- écran d'accueil ---------- */
+
+.ecran-accueil { display: flex; flex-direction: column; gap: 1.5rem; }
+
+.accueil-haut {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.titre {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  color: var(--encre);
+  letter-spacing: 0.02em;
+}
+.accueil-haut .bouton-cadenas { opacity: 0.6; box-shadow: none; background: rgba(255, 255, 255, 0.6); }
+
+.profils {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+  gap: clamp(1rem, 3vw, 2.5rem);
+  align-content: center;
+  max-width: 70rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.accueil-profil {
+  --couleur: var(--accent);
+  background: var(--carte);
+  border-radius: 2rem;
+  border: 0.45rem solid var(--couleur);
+  box-shadow: var(--ombre);
+  padding: 1.5rem 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+}
+.accueil-ours {
+  width: clamp(8rem, 22vmin, 13rem);
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accueil-ours svg { width: 100%; height: 100%; }
+.accueil-ours-secours {
+  width: 80%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--couleur);
+  box-shadow: inset 0 -0.6rem 0 rgba(0, 0, 0, 0.12);
+}
+.prenom { margin: 0; font-size: clamp(1.8rem, 4vw, 2.4rem); font-weight: 700; }
+
+.modes { display: flex; gap: 0.8rem; width: 100%; }
+.bouton-mode {
+  flex: 1;
+  min-height: 5.5rem;
+  border: none;
+  border-radius: 1.3rem;
+  background: var(--couleur);
+  color: #fff;
+  font-size: 1.45rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  cursor: pointer;
+  box-shadow: 0 0.35rem 0 color-mix(in srgb, var(--couleur) 70%, #000);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.bouton-mode .icone { width: 2rem; height: 2rem; }
+.bouton-mode:active { transform: translateY(0.25rem); box-shadow: 0 0.1rem 0 color-mix(in srgb, var(--couleur) 70%, #000); }
+.bouton-mode[data-mode="ecoute"] {
+  background: color-mix(in srgb, var(--couleur) 16%, var(--carte));
+  color: var(--encre);
+  text-shadow: none;
+  box-shadow: 0 0.35rem 0 color-mix(in srgb, var(--couleur) 35%, var(--carte));
+}
+
+.lien-carte {
+  min-height: 3rem;
+  padding: 0 1rem;
+  border: none;
+  background: none;
+  color: var(--encre-douce);
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
+.message-vide { text-align: center; font-size: 1.4rem; color: var(--encre-douce); line-height: 1.5; }
+
+/* ---------- écran de jeu « Je lis » ---------- */
+
+.ecran-jeu {
+  --couleur: var(--accent);
+  height: 100vh;
+  height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: clamp(0.6rem, 2vh, 1.5rem);
+  overflow: hidden;
+}
+
+.jeu-haut {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1rem;
+}
+.progression { display: flex; flex-direction: column; align-items: center; gap: 0.3rem; min-width: 0; }
+.pastilles { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.35rem; }
+.pastille {
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--couleur) 18%, var(--carte));
+  border: 0.15rem solid color-mix(in srgb, var(--couleur) 45%, var(--carte));
+}
+.pastille.faite { background: var(--couleur); border-color: var(--couleur); }
+.pastille.courante { transform: scale(1.3); border-color: var(--couleur); }
+.compte { font-size: 1.1rem; font-weight: 700; color: var(--encre-douce); }
+
+.score {
+  min-width: var(--tactile);
+  height: var(--tactile);
+  padding: 0 1.1rem;
+  border-radius: 999px;
+  background: var(--carte);
+  box-shadow: var(--ombre);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.score .icone { color: var(--p-jaune); width: 1.3em; height: 1.3em; }
+
+.jeu-scene {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+}
+.tuile-place {
+  width: min(100%, 64rem);
+  height: 100%;
+  max-height: 34rem;
+  min-height: min(40vh, 100%);
+  display: flex;
+  align-items: stretch;
+}
+.ecran-jeu .tuile {
+  width: 100%;
+  height: 100%;
+  min-height: 40vh;
+  font-size: clamp(5rem, min(28vw, 30vh), 18rem);
+}
+.ecran-jeu .tuile-face { border-width: 0.7rem; border-radius: 2.5rem; }
+
+.jeu-bas {
+  width: min(100%, 64rem);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 0.3rem;
+}
+.jeu-bas .megaphone { background: var(--accent); color: #fff; width: 7rem; height: 7rem; }
+.validation { display: flex; gap: clamp(1rem, 3vw, 2rem); }
+.jeu-bas .bravo, .jeu-bas .presque { width: 8rem; height: 8rem; color: #fff; }
+.jeu-bas .bravo { background: var(--ok); box-shadow: 0 0.4rem 0 color-mix(in srgb, var(--ok) 65%, #000), 0 0.8rem 1.6rem rgba(38, 166, 91, 0.3); }
+.jeu-bas .presque { background: var(--presque); box-shadow: 0 0.4rem 0 color-mix(in srgb, var(--presque) 65%, #000), 0 0.8rem 1.6rem rgba(245, 160, 74, 0.3); }
+.jeu-bas .bravo .icone, .jeu-bas .presque .icone { width: 45%; height: 45%; }
+.etiquette { font-size: 1.05rem; font-weight: 700; line-height: 1; }
+
+/* ---------- écrans de secours (autres lots pas encore prêts) ---------- */
+
+.ecran-secours {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.fin-score { font-size: 4rem; font-weight: 700; display: flex; align-items: center; gap: 0.5rem; margin: 0; }
+.fin-score .icone { color: var(--p-jaune); }
+.rang-boutons { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+
+/* ---------- adaptations ---------- */
+
+/* Portrait (iPad vertical) : tuile plus haute, boutons au large. */
+@media (orientation: portrait) {
+  .tuile-place { max-height: 44rem; }
+  .ecran-jeu .tuile { font-size: clamp(5rem, min(32vw, 24vh), 18rem); }
+}
+
+/* Paysage bas (iPad horizontal, Mac) : on gagne de la hauteur. */
+@media (orientation: landscape) and (max-height: 900px) {
+  .jeu-bas .megaphone { width: 6rem; height: 6rem; }
+  .jeu-bas .bravo, .jeu-bas .presque { width: 7rem; height: 7rem; }
+  .ecran-jeu .tuile { font-size: clamp(5rem, 30vh, 16rem); }
+}
+
+/* Petits écrans (téléphone, fenêtre étroite). */
+@media (max-width: 600px) {
+  html, body { font-size: 16px; }
+  .jeu-bas .megaphone { width: 5rem; height: 5rem; }
+  .jeu-bas .bravo, .jeu-bas .presque { width: 5.5rem; height: 5.5rem; }
+  .pastille { width: 0.8rem; height: 0.8rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tuile { transition-duration: 1ms; }
+  .tuile.entree { animation: none; }
+}

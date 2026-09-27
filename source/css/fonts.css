@@ -1,0 +1,27 @@
+/* Polices embarquées (hors ligne) — voir fonts/LICENCE-EcritureA.txt et fonts/OFL-Andika.txt */
+
+/* Écriture A — cursive scolaire officielle (MEN / Éduscol, 2013), CC BY-ND */
+@font-face {
+  font-family: "EcritureA";
+  src: url("../fonts/EcritureA.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Andika — police script lisible pour l'apprentissage de la lecture (SIL, OFL 1.1) */
+@font-face {
+  font-family: "Andika";
+  src: url("../fonts/Andika-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Andika";
+  src: url("../fonts/Andika-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
