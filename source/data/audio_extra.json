@@ -87,7 +87,7 @@
  {
   "id": "son-g",
   "texte": "g",
-  "tts": "geu"
+  "tts": "gueu"
  },
  {
   "id": "son-gu",
@@ -212,17 +212,18 @@
  },
  {
   "id": "son-eacute",
-  "texte": "é"
+  "texte": "é",
+  "tts": "hé"
  },
  {
   "id": "son-er",
   "texte": "er",
-  "tts": "é"
+  "tts": "hé"
  },
  {
   "id": "son-ez",
   "texte": "ez",
-  "tts": "é"
+  "tts": "hé"
  },
  {
   "id": "son-ou",
@@ -230,11 +231,13 @@
  },
  {
   "id": "son-egrave",
-  "texte": "è"
+  "texte": "è",
+  "tts": "hè"
  },
  {
   "id": "son-ecirc",
-  "texte": "ê"
+  "texte": "ê",
+  "tts": "hè"
  },
  {
   "id": "son-oi",
@@ -261,17 +264,17 @@
  {
   "id": "son-ai",
   "texte": "ai",
-  "tts": "è"
+  "tts": "hè"
  },
  {
   "id": "son-ei",
   "texte": "ei",
-  "tts": "è"
+  "tts": "hè"
  },
  {
   "id": "son-et",
   "texte": "et",
-  "tts": "é"
+  "tts": "hé"
  },
  {
   "id": "son-on",

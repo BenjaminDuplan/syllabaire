@@ -13,10 +13,14 @@ RACINE = Path(__file__).resolve().parents[2]
 DATA = RACINE / "source" / "data"
 SONS = json.loads((DATA / "sons.json").read_text(encoding="utf-8"))
 
-TTS_CONSONNE = {"c": "keu", "ç": "seu", "ge": "jeu", "gu": "gueu", "qu": "keu",
+# « g » seul = g dur (ga, go, gu) : « geu » serait lu « jeu ».
+TTS_CONSONNE = {"c": "keu", "ç": "seu", "g": "gueu", "ge": "jeu", "gu": "gueu", "qu": "keu",
                 "k": "keu", "ph": "feu", "w": "oueu", "h": None}
-TTS_VOYELLE = {"e": "eu", "eau": "o", "er": "é", "ez": "é", "et": "é", "y": "i",
-               "oeu": "eu", "ai": "è", "ei": "è", "au": "o"}
+# Une lettre accentuée seule est épelée par Audrey (« é » → « e accent aigu »,
+# 1,0 s ; « hé » → 0,39 s). Le h muet règle le cas ; « hê » reste épelé, on
+# prend « hè » (mesures du 28/09/2026).
+TTS_VOYELLE = {"e": "eu", "eau": "o", "é": "hé", "er": "hé", "ez": "hé", "et": "hé", "y": "i",
+               "oeu": "eu", "è": "hè", "ê": "hè", "ai": "hè", "ei": "hè", "au": "o"}
 PHRASES = {
     "bravo": "Bravo !",
     "presque": "Presque ! On réécoute ?",
