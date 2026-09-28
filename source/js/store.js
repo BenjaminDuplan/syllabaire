@@ -9,6 +9,7 @@ function reglagesParDefaut() {
     tuilesParManche: 10,
     sonsDesactives: [],
     paliersForces: [],
+    defis: 'auto',        // syllabes qui se ressemblent : 'auto' (dès l'argent) | 'toujours' | 'jamais'
   };
 }
 
@@ -32,6 +33,7 @@ function normaliser(e) {
   etat.reglages = Object.assign(reglagesParDefaut(), e.reglages || {});
   if (!Array.isArray(etat.reglages.sonsDesactives)) etat.reglages.sonsDesactives = [];
   if (!Array.isArray(etat.reglages.paliersForces)) etat.reglages.paliersForces = [];
+  if (!['auto', 'toujours', 'jamais'].includes(etat.reglages.defis)) etat.reglages.defis = 'auto';
   if (!etat.progres || typeof etat.progres !== 'object') etat.progres = {};
   if (etat.profilActif && !etat.profils.some(p => p.id === etat.profilActif)) etat.profilActif = null;
   return etat;

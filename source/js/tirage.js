@@ -5,6 +5,8 @@ import { Data } from './data.js';
 import { Srs } from './srs.js';
 
 const MAX_DUES = 3;
+const TUILES_PAR_DEFI = 5;        // au plus un défi pour 5 tuiles (2 dans une manche de 10)
+const NIVEAU_DEFI = 2;            // argent : les deux sons de la syllabe doivent y être (réglage « auto »)
 
 function autreEcriture(e) { return e === 'script' ? 'cursif' : 'script'; }
 
@@ -66,6 +68,38 @@ function voyelleDouce(voyelleId) {
   return /^[eéèêiy]/.test(a);
 }
 
+// ---------- défis : syllabes qui se ressemblent ----------
+
+// Niveau d'étoiles d'une syllabe = celui de son son le moins avancé.
+function niveauSyllabe(profilId, sy) {
+  return Math.min(Srs.niveauSon(profilId, sy.consonne), Srs.niveauSon(profilId, sy.voyelle));
+}
+
+// Une syllabe a droit à un défi selon le réglage parent : jamais / toujours /
+// auto (ses deux sons au moins argent, pour ne pas piéger un son qu'on découvre).
+function defiPermis(profilId, sy) {
+  const mode = Store.reglages().defis || 'auto';
+  if (mode === 'jamais') return false;
+  if (mode === 'toujours') return true;
+  return niveauSyllabe(profilId, sy) >= NIVEAU_DEFI;
+}
+
+// Syllabes « voisines » d'une syllabe, parmi `jouables` : d'abord les pièges
+// (un son commun, l'autre dans une paire de data/confusions.json : ba/da,
+// bon/bou), puis la série (même consonne, autre voyelle : ga/go/gu). Jamais
+// un homophone (clé phonétique identique), jamais la même graphie.
+function voisines(sy, jouables, clePhon) {
+  const cle = clePhon(sy.id);
+  const pieges = [], serie = [];
+  const vC = Data.voisins(sy.consonne), vV = Data.voisins(sy.voyelle);
+  for (const t of jouables) {
+    if (t.id === sy.id || t.texte === sy.texte || clePhon(t.id) === cle) continue;
+    if ((t.voyelle === sy.voyelle && vC.has(t.consonne)) || (t.consonne === sy.consonne && vV.has(t.voyelle))) pieges.push(t);
+    else if (t.consonne === sy.consonne) serie.push(t);
+  }
+  return [...melanger(pieges), ...melanger(serie)];
+}
+
 export const Tirage = {
   // Clé de prononciation approximative : deux syllabes de même clé sont homophones
   // (ki/qui, sa/ça, sé/sai/set, gé/jé). Règles : ARCHITECTURE.md §7.
@@ -108,7 +142,46 @@ export const Tirage = {
       dejaPris.add(choix.id);
       consonnePrec = choix.consonne;
     }
-    return choisies.map((s, i) => ({ syllabeId: s.id, ecriture: ecriturePour(i) }));
+    const tuiles = this.ajouterDefis(profilId, choisies, jouables, n);
+    return tuiles.map((t, i) => {
+      const item = { syllabeId: t.sy.id, ecriture: ecriturePour(i) };
+      if (t.defi) item.defi = true;
+      return item;
+    });
+  },
+
+  // Défis : juste après une syllabe bien connue, glisse une voisine qui lui
+  // ressemble (ba puis da, bon puis bou, ga puis go). Au plus un défi pour 5
+  // tuiles ; la manche garde sa longueur n (on retire des tuiles ordinaires en
+  // fin de manche). Renvoie [ { sy, defi } ] ; les syllabes dues ne bougent pas.
+  ajouterDefis(profilId, choisies, jouables, n) {
+    const tuiles = choisies.map(sy => ({ sy }));
+    const quota = Math.floor(n / TUILES_PAR_DEFI);
+    if (quota <= 0 || !Data.confusions.length) return tuiles;
+    const dues = new Set(Srs.dues(profilId));
+    const pris = new Set(choisies.map(s => s.id));
+    const clePhon = id => this.clePhonetique(id);
+    const candidats = melanger(tuiles.map((t, i) => i).filter(i => defiPermis(profilId, tuiles[i].sy)));
+    const ancres = [];
+    for (const i of candidats) {
+      if (ancres.length >= quota) break;
+      const v = voisines(tuiles[i].sy, jouables, clePhon).find(t => !pris.has(t.id));
+      if (!v) continue;
+      pris.add(v.id);
+      tuiles[i].ancre = true;
+      ancres.push({ i, v });
+    }
+    if (!ancres.length) return tuiles;
+    // Insertion de la fin vers le début pour garder les indices valides.
+    ancres.sort((a, b) => b.i - a.i);
+    for (const { i, v } of ancres) tuiles.splice(i + 1, 0, { sy: v, defi: true });
+    // Retour à n tuiles : on retire des tuiles ordinaires (ni due, ni ancre, ni défi), en partant de la fin.
+    for (let k = tuiles.length - 1; k >= 0 && tuiles.length > n; k--) {
+      const t = tuiles[k];
+      if (!t.defi && !t.ancre && !dues.has(t.sy.id)) tuiles.splice(k, 1);
+    }
+    while (tuiles.length > n) tuiles.pop();
+    return tuiles;
   },
 
   // k syllabes proches (même consonne ou même voyelle, sons actifs du profil actif),
@@ -126,6 +199,8 @@ export const Tirage = {
       if (cles.has(cle)) return;
       cles.add(cle); textes.add(s.texte); resultat.push(s.id);
     };
+    // Syllabe bien connue : les pièges d'abord (ba → da, bon → bou), puis les proches ordinaires.
+    if (cible && profilId && defiPermis(profilId, cible)) voisines(cible, jouables, id => this.clePhonetique(id)).forEach(essayer);
     melanger(jouables.filter(s => s.consonne === cible?.consonne || s.voyelle === cible?.voyelle)).forEach(essayer);
     // Complément si le vivier proche est trop maigre.
     if (resultat.length < k) melanger([...jouables]).forEach(essayer);

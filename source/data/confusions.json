@@ -1,0 +1,12 @@
+{
+  "_doc": "Paires de sons qui se confondent à la lecture (ids de sons.json). Servent aux défis du tirage et aux distracteurs de « J'écoute ». Liste à valider par un parent ; ni homophones (an/en, ain/ein, k/qu) ni paires sans intérêt.",
+  "consonnes": [
+    ["b", "d"], ["b", "p"], ["d", "t"], ["p", "qu"], ["m", "n"],
+    ["f", "v"], ["s", "z"], ["ch", "j"], ["c", "g"]
+  ],
+  "voyelles": [
+    ["ou", "on"], ["on", "an"], ["an", "in"], ["ou", "au"], ["ou", "eu"],
+    ["oi", "ai"], ["oi", "ou"], ["i", "u"], ["u", "ou"], ["eacute", "egrave"],
+    ["e", "eacute"], ["on", "oin"], ["ien", "ian"]
+  ]
+}

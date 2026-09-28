@@ -214,9 +214,23 @@ les moins vues, jamais deux fois la même consonne d'affilée, jamais deux
 fois la même syllabe. Écriture selon `reglages.ecriture` (alternée : pair
 script, impair cursif).
 
+**Défis (28/09/2026)** : après le tirage, `Tirage.ajouterDefis` glisse juste
+après une syllabe « bien connue » une voisine qui lui ressemble, marquée
+`{ defi: true }` (champ en plus, ignoré par les écrans). Voisines, par
+priorité : *pièges* (un son commun, l'autre dans une paire de
+`data/confusions.json` : ba/da, bon/bou) puis *série* (même consonne, autre
+voyelle : ga/go). Jamais un homophone ni la même graphie. Au plus un défi
+pour 5 tuiles ; la manche garde sa longueur `n` (on retire des tuiles
+ordinaires en fin de manche, jamais une due, une ancre ou un défi). La règle
+« pas deux fois la même consonne » est volontairement levée pour ces paires.
+« Bien connue » dépend de `reglages.defis` : `auto` (les deux sons de la
+syllabe au moins argent), `toujours`, `jamais`. `Data.voisins(sonId)` donne
+les sons confondables d'un son.
+
 ```js
 Tirage.distracteurs(syllabeId, k = 2)
 // → k ids de syllabes proches (même consonne ou même voyelle, sons actifs), pour le mode « J'écoute »
+//   quand le défi est permis pour la cible (voir ci-dessus), les voisines-pièges passent en premier (ba → da, pa)
 //   JAMAIS un homophone de la cible ni entre eux (ki/qui, sa/ça, sé/sai/set) : comparer avec Tirage.clePhonetique
 Tirage.clePhonetique(syllabeId)
 // → chaîne : clé de prononciation approximative. Règles : é è ê ai ei et er ez → "E" ; eau au o → "o" ;

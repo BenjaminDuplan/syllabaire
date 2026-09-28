@@ -214,6 +214,13 @@ function ongletReglages(zone) {
       segments('Tuiles par manche', [5, 10, 15, 20].map((n) => [n, String(n)]), Number(r.tuilesParManche),
         (v) => { reglages().tuilesParManche = v; sauver(); }),
     ),
+    el('section', { class: 'bloc' },
+      el('h3', { texte: 'Syllabes qui se ressemblent' }),
+      segments('Syllabes qui se ressemblent', [
+        ['auto', 'Dès l\'argent'], ['toujours', 'Toujours'], ['jamais', 'Jamais'],
+      ], r.defis || 'auto', (v) => { reglages().defis = v; sauver(); }),
+      el('p', { class: 'aide', texte: 'Glisse dans la manche une syllabe proche juste après une syllabe bien connue (ba puis da, bon puis bou, ga puis go), et les propose comme pièges dans « J\'écoute ». Dès l\'argent : seulement quand les deux sons ont au moins deux étoiles. Au plus 2 défis par manche de 10.' }),
+    ),
   );
 
   const blocVoix = el('section', { class: 'bloc' },
