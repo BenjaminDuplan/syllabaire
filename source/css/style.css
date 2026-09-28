@@ -248,7 +248,10 @@ button { font-family: inherit; color: inherit; touch-action: manipulation; }
 }
 .prenom { margin: 0; font-size: clamp(1.8rem, 4vw, 2.4rem); font-weight: 700; }
 
-.modes { display: flex; gap: 0.8rem; width: 100%; }
+/* Trois modes : « Je lis » et « J'écoute » côte à côte, « J'apprends » en pleine largeur
+   dessous quand la carte est étroite (iPad portrait) ; les trois sur une ligne sinon. */
+.accueil-profil { container: profil / inline-size; }
+.modes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.8rem; width: 100%; }
 .bouton-mode {
   flex: 1;
   min-height: 5.5rem;
@@ -274,6 +277,22 @@ button { font-family: inherit; color: inherit; touch-action: manipulation; }
   color: var(--encre);
   text-shadow: none;
   box-shadow: 0 0.35rem 0 color-mix(in srgb, var(--couleur) 35%, var(--carte));
+}
+.bouton-mode[data-mode="apprendre"] {
+  grid-column: 1 / -1;
+  flex-direction: row;
+  gap: 0.6rem;
+  min-height: var(--tactile);
+  background: var(--carte);
+  color: var(--encre);
+  text-shadow: none;
+  border: 0.2rem solid color-mix(in srgb, var(--couleur) 45%, var(--carte));
+  box-shadow: 0 0.35rem 0 color-mix(in srgb, var(--couleur) 30%, var(--carte));
+}
+.bouton-mode[data-mode="apprendre"] .icone { color: var(--couleur); }
+@container profil (min-width: 26rem) {
+  .modes { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .bouton-mode[data-mode="apprendre"] { grid-column: auto; flex-direction: column; gap: 0.2rem; min-height: 5.5rem; }
 }
 
 .lien-carte {

@@ -34,6 +34,7 @@ répète pas.
 | `js/parent.js` | écran parent : cadenas, réglages, sons actifs, profils, tableau de bord, export/import | C |
 | `js/recorder.js` | cabine d'enregistrement, IndexedDB, export zip | C |
 | `js/listen.js` | écran « J'écoute » (QCM audio à 3 tuiles) | D |
+| `js/apprendre.js`, `css/apprendre.css` | écran « J'apprends » (écoute libre des sons) | après lots |
 | `manifest.webmanifest`, `sw.js`, `icons/` | PWA | E (plus tard) |
 
 Chaque lot ne modifie **que ses fichiers**. Un besoin dans un fichier d'un
@@ -240,7 +241,7 @@ compteur. `Srs.resultat` est appelé à chaque tentative, reprise comprise.
 ## 8. Écrans et routeur (`js/app.js`) — lot A
 
 ```js
-App.aller(nom, params)   // "accueil" | "jeu" | "ecoute" | "fin" | "carte" | "parent"
+App.aller(nom, params)   // "accueil" | "jeu" | "ecoute" | "apprendre" | "fin" | "carte" | "parent"
 App.ecranActuel
 ```
 `index.html` contient `<main id="ecran"></main>` et `<canvas id="confettis"></canvas>`
@@ -249,11 +250,12 @@ appelle le `monter()` du module concerné, conserve la fonction de nettoyage.
 
 Correspondance : `accueil` → `App` lui-même ; `jeu` → `Game.monter` ;
 `ecoute` → `Listen.monter` ; `fin` → `Rewards.monterFin` ; `carte` →
-`Carte.monter` ; `parent` → `Parent.monter`.
+`Carte.monter` ; `apprendre` → `Apprendre.monter` ; `parent` → `Parent.monter`.
 
 Écran d'accueil (lot A) : une grande tuile par profil (prénom, couleur,
-ours au stade courant via `Ours.svg`), sous chaque profil deux boutons
-« Je lis » et « J'écoute », un bouton discret « carte des sons », un
+ours au stade courant via `Ours.svg`), sous chaque profil trois boutons
+« Je lis », « J'écoute » et « J'apprends » (les deux premiers côte à côte, le
+troisième en pleine largeur dessous quand la carte est étroite), un bouton discret « carte des sons », un
 cadenas en coin qui mène à `parent`. Premier tap = `Audio.debloquer()`.
 
 Écran de fin (lot B, `Rewards.monterFin(conteneur, { score, total, mode, profilId, gains })`) :
@@ -278,6 +280,15 @@ Ours.stade(points)               // 0..4 selon seuils 0, 30, 100, 250, 500
 Ours.svg(stade, couleur)         // string SVG inline (viewBox carré), écharpe de la couleur du profil
 Ours.animerCroissance(elementSvgContainer, deStade, aStade)
 Carte.monter(conteneur, { profilId })  // grille des 79 sons : gris/bronze/argent/or, paliers verrouillés grisés avec cadenas, tap sur un son = Audio.jouerSon
+```
+
+`Apprendre` (`js/apprendre.js`, `css/apprendre.css`, ajouté après les lots) :
+
+```js
+Apprendre.monter(conteneur, { profilId })
+// écran « J'apprends », hors quiz : les 79 sons en tuiles script + cursive, par palier (paliers fermés
+// atténués mais audibles) ; tap = Audio.jouerSon + panneau bas avec le son en grand, un mégaphone et
+// jusqu'à 6 syllabes d'exemple (partie du son surlignée, tap = Audio.jouerSyllabe). Pas de score.
 ```
 
 ---

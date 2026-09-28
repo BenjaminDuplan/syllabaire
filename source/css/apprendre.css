@@ -1,0 +1,207 @@
+/* Écran « J'apprends » : tous les sons, script + cursive, à écouter à volonté.
+   Voir js/apprendre.js. Réutilise les tokens de style.css, aucune couleur nouvelle. */
+
+.ecran-apprendre {
+  padding: max(1rem, env(safe-area-inset-top)) var(--marge) 0;
+}
+.apprendre {
+  --profil: var(--accent);
+  max-width: 74rem;
+  margin: 0 auto;
+}
+
+/* ---------- en-tête ---------- */
+.ap-entete { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
+.ap-titre { margin: 0; font-size: clamp(1.8rem, 4.5vw, 2.4rem); line-height: 1.1; color: var(--encre); }
+
+/* ---------- blocs et paliers (même découpage que la carte des sons) ---------- */
+.ap-corps {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
+}
+.ap-bloc {
+  background: color-mix(in srgb, var(--carte) 55%, transparent);
+  border-radius: 2rem;
+  padding: 0.9rem 1.1rem 1.1rem;
+}
+.ap-bloc-titre { margin: 0 0 0.5rem 0.2rem; font-size: 1.55rem; }
+.ap-consonnes .ap-bloc-titre { color: #3f8fd8; }
+.ap-voyelles .ap-bloc-titre { color: #e0679a; }
+
+.ap-palier { display: flex; align-items: flex-start; gap: 0.8rem; padding: 0.6rem 0; }
+.ap-palier + .ap-palier { border-top: 3px dotted rgba(42, 47, 69, 0.09); }
+.ap-palier-num {
+  flex: none;
+  width: 2.6rem; height: 2.6rem;
+  margin-top: 2.2rem;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.3rem; font-weight: 700;
+  color: #fff; background: var(--profil);
+}
+.ap-palier.ferme .ap-palier-num { background: #e6e3ea; color: #aaa4b4; }
+.ap-palier-sons {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
+  gap: 0.75rem;
+}
+
+/* ---------- tuile de son ---------- */
+.ap-son {
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  min-width: var(--tactile);
+  min-height: 7rem;
+  padding: 0.35rem 0.2rem 0.5rem;
+  border: 0.25rem solid transparent;
+  border-radius: var(--rayon);
+  background: var(--carte);
+  color: var(--encre);
+  box-shadow: var(--ombre);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 0;
+  overflow: hidden;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background-color 0.2s, border-color 0.2s, opacity 0.2s;
+}
+.ap-son:active { transform: translateY(0.2rem) scale(0.97); }
+.ap-son-script, .ap-son-cursif { display: block; white-space: nowrap; letter-spacing: -0.01em; }
+.ap-son-script { font-size: 2.4rem; line-height: 1.15; font-weight: 700; }
+/* Écriture A a un œil deux fois plus petit qu'Andika : même taille nominale = cursive
+   perçue plus petite, ce qui est voulu ici (le script reste la référence). */
+.ap-son-cursif { font-size: 2.3rem; line-height: 1.15; color: var(--encre-douce); }
+.ap-son.long3 .ap-son-script { font-size: 1.9rem; }
+.ap-son.long3 .ap-son-cursif { font-size: 1.9rem; }
+.ap-son.long4 .ap-son-script { font-size: 1.5rem; }
+.ap-son.long4 .ap-son-cursif { font-size: 1.55rem; }
+
+.ap-son.ferme { opacity: 0.5; box-shadow: 0 0.2rem 0 rgba(42, 47, 69, 0.08); }
+.ap-son.ferme.selection, .ap-son.ferme.actif { opacity: 0.85; }
+.ap-son-cadenas { position: absolute; top: 0.35rem; right: 0.4rem; color: #b8b2c2; }
+.ap-son-cadenas svg { display: block; width: 0.95rem; height: 0.95rem; }
+
+.ap-son.selection { border-color: var(--profil); }
+.ap-son.actif {
+  background: color-mix(in srgb, var(--surligne) 45%, var(--carte));
+  box-shadow: 0 0 0 0.3rem var(--surligne), var(--ombre);
+}
+
+/* ---------- panneau « zoom » en bas ---------- */
+.ap-zoom {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  z-index: 20;
+  max-height: 40vh; max-height: 40dvh;
+  overflow-y: auto;
+  background: var(--carte);
+  border-radius: 2rem 2rem 0 0;
+  box-shadow: 0 -0.4rem 1.6rem rgba(42, 47, 69, 0.16);
+  padding: 1rem max(1.2rem, env(safe-area-inset-right)) max(1rem, env(safe-area-inset-bottom)) max(1.2rem, env(safe-area-inset-left));
+  display: flex;
+  align-items: center;
+  gap: 1.2rem 1.6rem;
+  animation: ap-monte 240ms cubic-bezier(0.2, 0.9, 0.3, 1.1);
+}
+.ap-zoom[hidden] { display: none; }
+@keyframes ap-monte { from { transform: translateY(100%); } to { transform: translateY(0); } }
+
+.ap-fermer {
+  position: absolute; top: 0.5rem; right: max(0.6rem, env(safe-area-inset-right));
+  width: 3.2rem; height: 3.2rem;
+  border: none; border-radius: 50%;
+  background: var(--fond); color: var(--encre-douce);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; touch-action: manipulation;
+}
+.ap-fermer .icone { width: 1.5rem; height: 1.5rem; }
+
+.ap-zoom-son { flex: none; display: flex; align-items: center; gap: 1.2rem; }
+.ap-zoom-graphies {
+  display: flex; flex-direction: column; align-items: center;
+  min-width: 8rem;
+}
+.ap-zoom-script { font-size: 5rem; line-height: 1.1; font-weight: 700; white-space: nowrap; }
+.ap-zoom-cursif { font-size: 5rem; line-height: 1.15; color: var(--encre-douce); white-space: nowrap; }
+.ap-zoom-graphies.long3 .ap-zoom-script, .ap-zoom-graphies.long3 .ap-zoom-cursif { font-size: 4rem; }
+.ap-zoom-graphies.long4 .ap-zoom-script, .ap-zoom-graphies.long4 .ap-zoom-cursif { font-size: 3.2rem; }
+
+.ap-megaphone {
+  flex: none;
+  width: 5.5rem; height: 5.5rem;
+  min-width: var(--tactile); min-height: var(--tactile);
+  border: none; border-radius: 50%;
+  background: var(--profil); color: #fff;
+  box-shadow: 0 0.35rem 0 color-mix(in srgb, var(--profil) 70%, #000);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; touch-action: manipulation;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.ap-megaphone .icone { width: 55%; height: 55%; }
+.ap-megaphone:active { transform: translateY(0.25rem); box-shadow: 0 0.1rem 0 color-mix(in srgb, var(--profil) 70%, #000); }
+.ap-megaphone.actif { box-shadow: 0 0 0 0.35rem var(--surligne), 0 0.35rem 0 color-mix(in srgb, var(--profil) 70%, #000); }
+
+.ap-exemples {
+  flex: 1;
+  min-width: 0;
+  display: flex; flex-wrap: wrap; align-content: center;
+  gap: 0.7rem;
+  padding-right: 3rem;          /* laisse la place à la croix */
+}
+.ap-exemple {
+  -webkit-tap-highlight-color: transparent;
+  min-width: 5.5rem; min-height: var(--tactile);
+  padding: 0.2rem 1rem;
+  border: 0.2rem solid color-mix(in srgb, var(--encre) 10%, var(--carte));
+  border-radius: 999px;
+  background: var(--carte);
+  box-shadow: 0 0.25rem 0 rgba(42, 47, 69, 0.1);
+  font-size: 2.3rem; line-height: 1.1; color: var(--encre);
+  display: inline-flex; align-items: center; justify-content: center;
+  cursor: pointer; touch-action: manipulation;
+  transition: transform 0.12s ease, background-color 0.2s, box-shadow 0.2s;
+}
+.ap-exemple:active { transform: translateY(0.2rem); }
+.ap-exemple .partie { display: inline-block; padding: 0 0.04em; border-radius: 0.2em; }
+.ap-exemple .partie.surligne { background: var(--surligne); }
+.ap-exemple.actif {
+  background: color-mix(in srgb, var(--surligne) 40%, var(--carte));
+  box-shadow: 0 0 0 0.3rem var(--surligne);
+}
+
+/* Portrait / écran étroit : le son et le mégaphone en haut, les exemples dessous. */
+@media (max-width: 760px), (orientation: portrait) and (max-width: 900px) {
+  .ap-zoom { flex-direction: column; align-items: stretch; padding-top: 0.8rem; }
+  .ap-zoom-son { justify-content: center; padding-right: 3rem; padding-left: 3rem; }
+  .ap-zoom-graphies { flex-direction: row; align-items: baseline; gap: 1.2rem; }
+  .ap-zoom-script, .ap-zoom-cursif { font-size: 4rem; }
+  .ap-zoom-graphies.long3 .ap-zoom-script, .ap-zoom-graphies.long3 .ap-zoom-cursif { font-size: 3.2rem; }
+  .ap-zoom-graphies.long4 .ap-zoom-script, .ap-zoom-graphies.long4 .ap-zoom-cursif { font-size: 2.6rem; }
+  .ap-megaphone { width: 4.8rem; height: 4.8rem; }
+  .ap-exemples { justify-content: center; padding-right: 0; }
+  .ap-exemple { font-size: 2rem; }
+}
+
+/* iPad portrait (820 px) : six tuiles par rangée, pour que les paliers de six sons
+   (l r m s t p, a i u o e é) tiennent sur une ligne. */
+@media (max-width: 900px) {
+  .ap-palier-sons { grid-template-columns: repeat(auto-fill, minmax(5.4rem, 1fr)); gap: 0.6rem; }
+  .ap-son { min-height: 6.4rem; }
+  .ap-son-script { font-size: 2.2rem; }
+  .ap-son-cursif { font-size: 2.1rem; }
+}
+
+@media (max-width: 600px) {
+  .ap-palier-sons { grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr)); gap: 0.6rem; }
+  .ap-palier-num { width: 2.2rem; height: 2.2rem; font-size: 1.1rem; }
+  .ap-son { min-height: 6.2rem; }
+  .ap-son-script, .ap-son-cursif { font-size: 2rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ap-zoom { animation: none; }
+  .apprendre * { transition-duration: 1ms !important; }
+}

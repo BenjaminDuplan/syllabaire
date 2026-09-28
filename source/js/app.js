@@ -7,6 +7,7 @@ import { Game } from './game.js';
 import { Listen } from './listen.js';
 import { Rewards } from './rewards.js';
 import { Carte } from './carte.js';
+import { Apprendre } from './apprendre.js';
 import { Parent } from './parent.js';
 import { Ours } from './ours.js';
 
@@ -109,6 +110,7 @@ function monterAccueil(conteneur) {
           <div class="modes">
             <button class="bouton-mode" data-mode="jeu">${icone('livre')}<span>Je lis</span></button>
             <button class="bouton-mode" data-mode="ecoute">${icone('oreille')}<span>J'écoute</span></button>
+            <button class="bouton-mode" data-mode="apprendre">${icone('megaphone')}<span>J'apprends</span></button>
           </div>
           <button class="lien-carte" data-mode="carte">${icone('carte')} carte des sons</button>
         </article>`).join('') : `<p class="message-vide">Demande à un parent de créer ton profil (cadenas en haut).</p>`}
@@ -136,6 +138,7 @@ const ECRANS = {
   ecoute: (c, p) => Listen.monter(c, p),
   fin: (c, p) => Rewards.monterFin(c, p),
   carte: (c, p) => Carte.monter(c, p),
+  apprendre: (c, p) => Apprendre.monter(c, p),
   parent: (c, p) => Parent.monter(c, p),
 };
 
